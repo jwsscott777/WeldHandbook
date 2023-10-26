@@ -1,0 +1,55 @@
+//
+
+//
+//  Created by JWSScott777 on 10/8/23.
+//
+
+import SwiftUI
+import SwiftData
+
+@Model
+class TaskModel: Identifiable {
+    var id: UUID
+    var taskTitle: String
+    var creationDate: Date
+    var isCompleted: Bool
+    var tint: String
+
+    init(id: UUID = .init(), taskTitle: String, creationDate: Date = .init(), isCompleted: Bool = false, tint: String) {
+        self.id = id
+        self.taskTitle = taskTitle
+        self.creationDate = creationDate
+        self.isCompleted = isCompleted
+        self.tint = tint
+    }
+
+    var tintColor: Color {
+        switch tint {
+            case "TaskColor 1": return .taskColor1
+            case "TaskColor 2": return .taskColor2
+            case "TaskColor 3": return .taskColor3
+            case "TaskColor 4": return .taskColor4
+            case "TaskColor 5": return .taskColor5
+            default: return .black
+        }
+    }
+}
+
+
+
+extension Date {
+    static func updateHour(_ value: Int) -> Date {
+        let calendar = Calendar.current
+        return calendar.date(byAdding: .hour, value: value, to: .init()) ?? .init()
+    }
+}
+
+
+//var sampleTasks: [Task] = [
+//    .init(taskTitle: "Write Story", creationDate: .updateHour(-5), isCompleted: true, tint: .taskColor1),
+//    .init(taskTitle: "Take out beast", creationDate: .updateHour(-3),  tint: .taskColor2),
+//    .init(taskTitle: "Clean Truck", creationDate: .updateHour(-4), tint: .taskColor3),
+//    .init(taskTitle: "Install FireTV", creationDate: .updateHour(0), isCompleted: true, tint: .taskColor4),
+//    .init(taskTitle: "Make Dinner", creationDate: .updateHour(2), isCompleted: true, tint: .taskColor1),
+//    .init(taskTitle: "Get Coffee", creationDate: .updateHour(1), tint: .taskColor5)
+//]
