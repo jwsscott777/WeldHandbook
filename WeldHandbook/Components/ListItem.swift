@@ -19,6 +19,12 @@ struct ListItem: View {
                 .mask(Circle())
             Text(list.title)
                 .padding(5)
+            Spacer()
+            Image(list.image2)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 36, height: 36)
+                .mask(Circle())
         }.padding(.vertical)
     }
 }

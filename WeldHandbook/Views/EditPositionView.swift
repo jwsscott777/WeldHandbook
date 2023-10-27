@@ -12,8 +12,8 @@ struct EditPositionView: View {
     @State private var newGoalName = ""
     var body: some View {
         Form {
-            TextField("Name", text: $position.name)
-            TextField("Details", text: $position.details, axis: .vertical)
+            TextField("Name of weld position", text: $position.name)
+            TextField("Details, electrodes used, etc...", text: $position.details, axis: .vertical)
             DatePicker("Date", selection: $position.date)
 
             Section("Attempts") {
@@ -25,12 +25,12 @@ struct EditPositionView: View {
                 }
                 .pickerStyle(.segmented)
             }
-            Section("New Welding Positions") {
+            Section("Passed Welded Attempts") {
                 ForEach(position.goals) { goal in
                     Text(goal.name)
                 }
                 HStack {
-                    TextField("Add a new position in \(position.name)", text: $newGoalName)
+                    TextField("Add a passed attempt in \(position.name)", text: $newGoalName)
                     Button("Add", action: addGoal)
                 }
             }
