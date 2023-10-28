@@ -13,7 +13,7 @@ struct Item: Identifiable {
 }
 
 var items = [
-    Item(title: "SMAW Information", text: "A helpful quide for  the Shielded Metal Arc Welding Process", description: """
+    Item(title: "SMAW", text: "Quick Tips", description: """
 Setting Up and Using a SMAW (Shielded Metal Arc Welding) Machine: Quick Checklist
 
 1. Safety First:
@@ -70,13 +70,13 @@ Post-Welding Cleanup:
     * Inspect your weld for consistency, penetration, and potential defects.
     * Periodically check and maintain your SMAW machine to ensure its longevity and safe operation.
 
-""", image: "Background 3", gradient: LinearGradient(
+""", image: "SmallStick", gradient: LinearGradient(
             gradient: Gradient(stops: [
         .init(color: Color(#colorLiteral(red: 0.29981932044029236, green: 0.13958334922790527, blue: 0.8374999761581421, alpha: 1)), location: 0),
         .init(color: Color(#colorLiteral(red: 0.7541666626930237, green: 0.2042534351348877, blue: 0.583319902420044, alpha: 1)), location: 1)]),
             startPoint: UnitPoint(x: 0.5002249700310126, y: 3.0834283490377423e-7),
             endPoint: UnitPoint(x: -0.0016390833199537713, y: 0.977085239704672))),
-    Item(title: "GMAW Information", text: "A helpful quide for  the Gas Metal Arc Welding Process", description: """
+    Item(title: "GMAW", text: "Quick Tips", description: """
 Setting Up and Using a GMAW (Gas Metal Arc Welding) Machine:
 
 1. Safety First:
@@ -128,13 +128,13 @@ Setting Up and Using a GMAW (Gas Metal Arc Welding) Machine:
 10. Regular Maintenance:
     * Periodically check the GMAW machine, especially the contact tips, liners, and drive rolls for wear.
     * Tip: Regular maintenance can reduce downtime and ensure consistent weld quality.
-""", image: "Background 6", gradient: LinearGradient(
+""", image: "SmallMig", gradient: LinearGradient(
             gradient: Gradient(stops: [
         .init(color: Color(#colorLiteral(red: 0.25275975465774536, green: 0.10255205631256104, blue: 0.7458333373069763, alpha: 1)), location: 0),
         .init(color: Color(#colorLiteral(red: 0.18777775764465332, green: 0.678086519241333, blue: 0.8666666746139526, alpha: 1)), location: 1)]),
             startPoint: UnitPoint(x: 0.5002249700310126, y: 3.0834283490377423e-7),
             endPoint: UnitPoint(x: -0.0016390833199537713, y: 0.977085239704672))),
-    Item(title: "FCAW Information", text: "A helpful quide for  the Flux Core Arc Welding Process", description: """
+    Item(title: "FCAW", text: "Quick Tips", description: """
 Setting Up and Using a FCAW Welding Machine:
 
 1. Safety First:
@@ -187,13 +187,13 @@ General-Purpose Flux Core Wire (Self-Shielded):
     * Examine the weld for consistency, proper penetration, and potential defects like slag inclusions.
     * Clean the weld using a chipping hammer or wire brush.
     * Tip: FCAW often produces more spatter; using anti-spatter can help in cleanup.
-""", image: "Weld-Mill", gradient: LinearGradient(
+""", image: "SmallFlux", gradient: LinearGradient(
             gradient: Gradient(stops: [
         .init(color: Color(#colorLiteral(red: 0.3400427997112274, green: 0.060034722089767456, blue: 0.5541666746139526, alpha: 1)), location: 0),
         .init(color: Color(#colorLiteral(red: 0.9541666507720947, green: 0.3578125238418579, blue: 0.6255632638931274, alpha: 1)), location: 1)]),
             startPoint: UnitPoint(x: 0.5002249700310126, y: 3.0834283490377423e-7),
             endPoint: UnitPoint(x: -0.0016390833199537713, y: 0.977085239704672))),
-    Item(title: "GTAW Information", text: "A helpful quide for  the Gas Tungsten Arc Welding Process", description: """
+    Item(title: "GTAW", text: "Quick Tips", description: """
 Setting Up and Using a GTAW (TIG) Welding Machine
 
 1. Select the Right Machine:
@@ -241,9 +241,117 @@ Extra Tips:
     * For critical applications, refer to AWS D1.1 (or the relevant AWS code) for specific guidelines on GTAW welding and procedure qualification.
 
 Remember, every welding situation can be unique, so always consult AWS guidelines, machine manuals, and experienced welders when in doubt.
-""", image: "Weld17", gradient: LinearGradient(
+""", image: "SmallTig", gradient: LinearGradient(
             gradient: Gradient(stops: [
         .init(color: Color(#colorLiteral(red: 0.07058823108673096, green: 0.26666659116744995, blue: 0.5607843399047852, alpha: 1)), location: 0),
+        .init(color: Color(#colorLiteral(red: 0.3376389145851135, green: 0.9208333492279053, blue: 0.8508499264717102, alpha: 1)), location: 1)]),
+            startPoint: UnitPoint(x: 0.8472221674106832, y: -0.36111113989033466),
+            endPoint: UnitPoint(x: -0.4110787222278236, y: 1.8127854520696247))),
+    Item(title: "Filler Metals", text: "Quick Tips", description: """
+Setting Up and Using a GTAW (TIG) Welding Machine
+
+1. Select the Right Machine:
+    * Ensure the GTAW machine is suitable for the type of metal you intend to weld (AC for aluminum and magnesium, DC for most other metals).
+    * Check that the machine provides the required amperage for the thickness of the material.
+
+2. Preparation of Tungsten Electrode:
+    * Choose the appropriate tungsten type based on the metal (e.g., pure tungsten for aluminum, thoriated for steel).
+    * Grind the tungsten electrode to a point; the grind marks should run parallel to the length of the electrode for optimal arc stability.
+
+3. Filler Wire Selection (as per AWS guidelines):
+    * Choose a filler metal from the AWS A5.X series that matches the base metal and desired weld properties.
+    * Ensure the diameter of the filler rod is appropriate for the material thickness and joint type.
+
+4. Setup of Torch & Controls:
+    * Assemble the torch with the right collet, collet body, and nozzle size for the tungsten and welding application.
+    * Set the machine's controls:
+        * For polarity, use DCEN for most metals, and AC for aluminum and magnesium.
+        * Adjust balance control (on AC machines) to control the cleaning vs. penetration effect on aluminum.
+
+5. Gas Selection & Flow Rate:
+    * Use 100% argon for most metals. For some aluminum alloys, an argon-helium mix can be beneficial for increased heat input.
+    * Set the shielding gas flow rate; typically, 15-25 cfh (cubic feet per hour) is a good starting point.
+
+6. Amperage Setting:
+    * Adjust the machine’s amperage based on the material thickness and tungsten size.
+
+7. Remote Control Setting:
+    * If using a foot pedal, set the machine to "remote" control. This provides amperage control while welding.
+
+8. High-Frequency Setting:
+    * For easier arc starting without contaminating the tungsten, use a high-frequency start.
+    * Ensure the high-frequency is set to “start only” for most metals. When welding aluminum, set it to "continuous."
+
+9. Prepare the Workpiece:
+    * Clean the base metal thoroughly to remove any contaminants (e.g., oxides, oil, dirt).
+    * If welding aluminum, brush the surface with a stainless-steel wire brush to remove the aluminum oxide layer.
+
+10. Safety:
+    * Always wear the appropriate PPE (Personal Protective Equipment): a welding helmet with the right shade, welding gloves, and protective clothing.
+
+Extra Tips:
+    * Always practice on scrap metal to refine settings before welding on the final workpiece.
+    * When welding aluminum, preheat can be beneficial for thicker sections, helping to reduce the risk of cracking.
+    * For critical applications, refer to AWS D1.1 (or the relevant AWS code) for specific guidelines on GTAW welding and procedure qualification.
+
+Remember, every welding situation can be unique, so always consult AWS guidelines, machine manuals, and experienced welders when in doubt.
+""", image: "FillerMetals", gradient: LinearGradient(
+            gradient: Gradient(stops: [
+        .init(color: Color(#colorLiteral(red: 0.9969777843, green: 0.7088937798, blue: 1, alpha: 1)), location: 0),
+        .init(color: Color(#colorLiteral(red: 1, green: 0.4107720319, blue: 0.1538359534, alpha: 1)), location: 1)]),
+            startPoint: UnitPoint(x: 0.8472221674106832, y: -0.36111113989033466),
+            endPoint: UnitPoint(x: -0.4110787222278236, y: 1.8127854520696247))),
+    Item(title: "Inspection", text: "Quick Tips", description: """
+Setting Up and Using a GTAW (TIG) Welding Machine
+
+1. Select the Right Machine:
+    * Ensure the GTAW machine is suitable for the type of metal you intend to weld (AC for aluminum and magnesium, DC for most other metals).
+    * Check that the machine provides the required amperage for the thickness of the material.
+
+2. Preparation of Tungsten Electrode:
+    * Choose the appropriate tungsten type based on the metal (e.g., pure tungsten for aluminum, thoriated for steel).
+    * Grind the tungsten electrode to a point; the grind marks should run parallel to the length of the electrode for optimal arc stability.
+
+3. Filler Wire Selection (as per AWS guidelines):
+    * Choose a filler metal from the AWS A5.X series that matches the base metal and desired weld properties.
+    * Ensure the diameter of the filler rod is appropriate for the material thickness and joint type.
+
+4. Setup of Torch & Controls:
+    * Assemble the torch with the right collet, collet body, and nozzle size for the tungsten and welding application.
+    * Set the machine's controls:
+        * For polarity, use DCEN for most metals, and AC for aluminum and magnesium.
+        * Adjust balance control (on AC machines) to control the cleaning vs. penetration effect on aluminum.
+
+5. Gas Selection & Flow Rate:
+    * Use 100% argon for most metals. For some aluminum alloys, an argon-helium mix can be beneficial for increased heat input.
+    * Set the shielding gas flow rate; typically, 15-25 cfh (cubic feet per hour) is a good starting point.
+
+6. Amperage Setting:
+    * Adjust the machine’s amperage based on the material thickness and tungsten size.
+
+7. Remote Control Setting:
+    * If using a foot pedal, set the machine to "remote" control. This provides amperage control while welding.
+
+8. High-Frequency Setting:
+    * For easier arc starting without contaminating the tungsten, use a high-frequency start.
+    * Ensure the high-frequency is set to “start only” for most metals. When welding aluminum, set it to "continuous."
+
+9. Prepare the Workpiece:
+    * Clean the base metal thoroughly to remove any contaminants (e.g., oxides, oil, dirt).
+    * If welding aluminum, brush the surface with a stainless-steel wire brush to remove the aluminum oxide layer.
+
+10. Safety:
+    * Always wear the appropriate PPE (Personal Protective Equipment): a welding helmet with the right shade, welding gloves, and protective clothing.
+
+Extra Tips:
+    * Always practice on scrap metal to refine settings before welding on the final workpiece.
+    * When welding aluminum, preheat can be beneficial for thicker sections, helping to reduce the risk of cracking.
+    * For critical applications, refer to AWS D1.1 (or the relevant AWS code) for specific guidelines on GTAW welding and procedure qualification.
+
+Remember, every welding situation can be unique, so always consult AWS guidelines, machine manuals, and experienced welders when in doubt.
+""", image: "WeldInspection", gradient: LinearGradient(
+            gradient: Gradient(stops: [
+        .init(color: Color(#colorLiteral(red: 0.1600282772, green: 0.2040334853, blue: 1, alpha: 1)), location: 0),
         .init(color: Color(#colorLiteral(red: 0.3376389145851135, green: 0.9208333492279053, blue: 0.8508499264717102, alpha: 1)), location: 1)]),
             startPoint: UnitPoint(x: 0.8472221674106832, y: -0.36111113989033466),
             endPoint: UnitPoint(x: -0.4110787222278236, y: 1.8127854520696247)))
