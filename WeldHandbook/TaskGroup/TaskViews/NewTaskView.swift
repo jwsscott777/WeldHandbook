@@ -13,6 +13,7 @@ struct NewTaskView: View {
     @State private var taskTitle: String = ""
     @State private var taskDate: Date = .init()
     @State private var taskColor: String = "TaskColor 1"
+    let swipeActionTip: SwipeActionTip
     var body: some View {
         VStack(alignment: .leading, spacing: 15) {
             Button(action: {
@@ -84,6 +85,9 @@ struct NewTaskView: View {
                 } catch {
                     print(error.localizedDescription)
                 }
+                    Task {
+                await SwipeActionTip.pressActionEvent.donate()
+            }
             }, label: {
                 Text("Create Task")
                     .font(.title2)
@@ -102,6 +106,7 @@ struct NewTaskView: View {
 }
 
 #Preview {
-    NewTaskView()
+    NewTaskView(swipeActionTip: SwipeActionTip())
         .vSpacing(.bottom)
+
 }

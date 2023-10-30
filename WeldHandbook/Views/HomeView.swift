@@ -6,8 +6,9 @@
 //
 
 import SwiftUI
-
+import TipKit
 struct HomeView: View {
+    let welcomeTip = WelcomeTip()
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -17,17 +18,21 @@ struct HomeView: View {
                             NavigationLink(destination: DetailView(course: course)) {
                                 CardView(course: course)
                             }
-
                         }
                     }
                     .padding()
                 }
                 .navigationTitle("Welding Handbook")
-
-                Text("More Info")
-                    .font(.subheadline).bold()
+                Button(action: {}, label: {
+                    Text("More info Below")
+                })
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding()
+                    .buttonStyle(.plain)
+                    .popoverTip(welcomeTip)
+
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 160), spacing: 16)], spacing: 16) {
                     ForEach(items) { item in
                         NavigationLink(destination: SmallDetailView(item: item)) {
@@ -36,6 +41,14 @@ struct HomeView: View {
                     }
                 }
                 .padding()
+                NavigationLink(destination: AppInfoView()) {
+                    Button(action: {}, label: {
+                        Text("App Information")
+                    })
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding()
+                    .buttonStyle(.plain)
+                }
             }
         }
     }

@@ -7,13 +7,15 @@
 
 import SwiftUI
 import SwiftData
+import TipKit
 
 struct GoalView: View {
     @Environment(\.modelContext) var modelContext
     @State private var sortOrder = SortDescriptor(\Position.name)
     @State private var path = [Position]()
     @State private var searchText = ""
-
+    let createToDoTip = CreateToDoTip()
+   
     var body: some View {
         NavigationStack(path: $path) {
             PositionListingView(sort: sortOrder, searchString: searchText)
@@ -21,17 +23,28 @@ struct GoalView: View {
                 .navigationDestination(for: Position.self, destination: EditPositionView.init)
                 .searchable(text: $searchText)
                 .toolbar {
-                    Button("Add Position", systemImage: "plus", action: addPosition)
-                    Menu("Sort", systemImage: "arrow.up.arrow.down") {
-                        Picker("Sort", selection: $sortOrder) {
-                            Text("Name")
-                                .tag(SortDescriptor(\Position.name))
-                            Text("Priority")
-                                .tag(SortDescriptor(\Position.priority, order: .reverse))
-                            Text("Date")
-                                .tag(SortDescriptor(\Position.date))
+                    ToolbarItem(placement: .topBarTrailing) {
+                        Button(action: {
+                            addPosition()
+                        }, label: {
+                            Image(systemName: "plus")
+                        })
+                        .popoverTip(createToDoTip, arrowEdge: .top)
+                    }
+
+                    ToolbarItem {
+                 //       TipView(sortActionTip)
+                        Menu("Sort", systemImage: "arrow.up.arrow.down") {
+                            Picker("Sort", selection: $sortOrder) {
+                                Text("Name")
+                                    .tag(SortDescriptor(\Position.name))
+                                Text("Priority")
+                                    .tag(SortDescriptor(\Position.priority, order: .reverse))
+                                Text("Date")
+                                    .tag(SortDescriptor(\Position.date))
+                            }
+                            .pickerStyle(.inline)
                         }
-                        .pickerStyle(.inline)
                     }
                 }
         }

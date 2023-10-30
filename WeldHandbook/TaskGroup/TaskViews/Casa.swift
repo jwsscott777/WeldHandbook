@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import TipKit
 
 struct Casa: View {
     @State private var currentDate: Date = .init()
@@ -17,12 +18,14 @@ struct Casa: View {
     /// Animation Namespace
     @Namespace private var animation
     @State private var navigated = false
-
+    let swipeActionTip = SwipeActionTip()
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             HeaderView()
-
             ScrollView(.vertical) {
+                TipView(swipeActionTip)
+                    .tipBackground(.red.opacity(0.2))
+                    .tint(.red)
                 VStack {
                     TasksView(currentDate: $currentDate)
                 }
@@ -59,7 +62,7 @@ struct Casa: View {
             }
         })
         .sheet(isPresented: $createNewTask, content: {
-            NewTaskView()
+            NewTaskView(swipeActionTip: swipeActionTip)
                 .presentationDetents([.height(300)])
                 .interactiveDismissDisabled()
                 .presentationCornerRadius(30)

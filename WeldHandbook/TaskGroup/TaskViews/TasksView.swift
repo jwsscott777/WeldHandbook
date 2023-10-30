@@ -24,7 +24,6 @@ struct TasksView: View {
         ]
         self._tasks = Query(filter: predicate, sort: sortDescriptor, animation: .snappy)
     }
-
     var body: some View {
         VStack(alignment: .leading, spacing: 35) {
             ForEach(tasks) { task in

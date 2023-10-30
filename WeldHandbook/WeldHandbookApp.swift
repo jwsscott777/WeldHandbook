@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import TipKit
 
 @main
 struct WeldHandbookApp: App {
@@ -14,6 +15,11 @@ struct WeldHandbookApp: App {
             ContentView()
         }
         .modelContainer(for: [TaskModel.self, Position.self])
-
+    }
+    init() {
+      //  Tips.showAllTipsForTesting()
+      //  Tips.hideAllTipsForTesting()
+        try?  Tips.resetDatastore()
+        try? Tips.configure()
     }
 }

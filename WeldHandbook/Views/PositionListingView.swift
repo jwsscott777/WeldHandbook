@@ -6,11 +6,11 @@
 //
 import SwiftData
 import SwiftUI
+import TipKit
 
 struct PositionListingView: View {
     @Environment(\.modelContext) var modelContext
     @Query(sort: [SortDescriptor(\Position.priority, order: .reverse), SortDescriptor(\Position.name)]) var positions: [Position]
-    
     var body: some View {
         List {
             ForEach(positions) { position in

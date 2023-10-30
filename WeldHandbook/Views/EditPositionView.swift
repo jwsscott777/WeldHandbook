@@ -6,10 +6,13 @@
 //
 import SwiftData
 import SwiftUI
+import TipKit
 
 struct EditPositionView: View {
     @Bindable var position: Position
     @State private var newGoalName = ""
+    let addAttemptsTip = AddAttemptsTip()
+   
     var body: some View {
         Form {
             TextField("Name of weld position", text: $position.name)
@@ -31,7 +34,13 @@ struct EditPositionView: View {
                 }
                 HStack {
                     TextField("Add a passed attempt in \(position.name)", text: $newGoalName)
-                    Button("Add", action: addGoal)
+                    Button(action: {
+                        addGoal()
+                    }, label: {
+                        Text("Add")
+                    })
+                    .popoverTip(addAttemptsTip, arrowEdge: .bottom)
+                 //   Button("Add", action: addGoal)
                 }
             }
         }
