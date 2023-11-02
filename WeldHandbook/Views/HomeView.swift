@@ -11,7 +11,7 @@ struct HomeView: View {
     let welcomeTip = WelcomeTip()
     var body: some View {
         NavigationStack {
-            ScrollView {
+            ScrollView(showsIndicators: false) {
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 16) {
                         ForEach(courses) { course in

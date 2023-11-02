@@ -31,7 +31,7 @@ struct CardView: View {
         .padding(16)
         .frame(width: 252, height: 329)
         .background(course.color)
-        .cornerRadius(20.0)
+        .clipShape(RoundedRectangle(cornerRadius: 30))
     }
 }
 

@@ -28,7 +28,7 @@ struct SmallCardView: View {
         .padding(16)
         .frame(height: 222)
         .background(item.gradient)
-        .cornerRadius(30.0)
+        .clipShape(RoundedRectangle(cornerRadius: 30))
     }
 }
 

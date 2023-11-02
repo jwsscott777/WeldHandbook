@@ -24,6 +24,7 @@ struct ListView: View {
                     ListDetailView(list: selectedItem)
                 }
             }
+            .scrollIndicators(.hidden)
             .navigationTitle("Glossary of Terms")
         }
     }

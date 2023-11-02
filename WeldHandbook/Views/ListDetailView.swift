@@ -11,7 +11,7 @@ struct ListDetailView: View {
     var list: ListModel = lists[3]
     @Environment(\.dismiss) var dismiss
     var body: some View {
-        ScrollView {
+        ScrollView(showsIndicators: false) {
             VStack {
                 ZStack(alignment: .topTrailing) {
                     Image(list.image2)

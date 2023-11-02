@@ -10,12 +10,12 @@ import SwiftUI
 struct SmallDetailView: View {
     var item: Item = items[0]
     var body: some View {
-        ScrollView {
+        ScrollView(showsIndicators: false) {
             VStack(alignment: .leading, spacing: 8.0) {
                 Image(item.image)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .cornerRadius(30)
+                    .clipShape(RoundedRectangle(cornerRadius: 30))
                     .frame(height: 128)
                     .frame(maxWidth: .infinity)
                 Text(item.title)
