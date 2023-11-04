@@ -14,6 +14,9 @@ class Position {
     var details: String
     var date: Date
     var priority: Int
+    @Attribute(.externalStorage)
+    var image: Data?
+    //var images: [Data] = []
     @Relationship(deleteRule: .cascade) var goals = [Goal]()
 
     init(name: String = "", details: String = "", date: Date = .now, priority: Int = 2) {

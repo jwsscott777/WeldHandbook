@@ -11,6 +11,8 @@ import TipKit
 struct PositionListingView: View {
     @Environment(\.modelContext) var modelContext
     @Query(sort: [SortDescriptor(\Position.priority, order: .reverse), SortDescriptor(\Position.name)]) var positions: [Position]
+    
+    
     var body: some View {
         List {
             ForEach(positions) { position in
@@ -20,6 +22,15 @@ struct PositionListingView: View {
                             .font(.headline)
 
                         Text(position.date.formatted(date: .long, time: .shortened))
+
+                        /// Photo
+                        if let selectedPhotoData = position.image, let uiImage = UIImage(data: selectedPhotoData) {
+                            Image(uiImage: uiImage)
+                                .resizable()
+                                .scaledToFill()
+                                .frame(maxWidth: .infinity, maxHeight: 120)
+                                .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+                        }
                     }
                 }
             }

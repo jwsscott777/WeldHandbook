@@ -6,11 +6,20 @@
 //
 import SwiftData
 import SwiftUI
+import SwiftUIImageViewer
+import PhotosUI
 import TipKit
 
 struct EditPositionView: View {
     @Bindable var position: Position
     @State private var newGoalName = ""
+
+    /// Photo stuff
+    @State private var selectedPhoto: PhotosPickerItem?
+    // @State private var selectedPhotoData: Data?
+
+    @State private var isImageViewPresented = false
+
     let addAttemptsTip = AddAttemptsTip()
    
     var body: some View {
@@ -43,9 +52,56 @@ struct EditPositionView: View {
                  //   Button("Add", action: addGoal)
                 }
             }
+            /// Photo stuff
+            Section {
+                if let imageData = position.image, let uiImage = UIImage(data: imageData) {
+                    Image(uiImage: uiImage)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(maxWidth: .infinity, maxHeight: 300)
+                        .onTapGesture {
+                            isImageViewPresented = true
+                        }
+                        .fullScreenCover(isPresented: $isImageViewPresented, content: {
+                            SwiftUIImageViewer(image: Image(uiImage: uiImage))
+                                .overlay(alignment: .topTrailing) {
+                                    Button {
+                                                isImageViewPresented = false
+                                            } label: {
+                                                Image(systemName: "xmark")
+                                                    .font(.headline)
+                                            }
+                                            .buttonStyle(.bordered)
+                                            .clipShape(Circle())
+                                            .tint(.purple)
+                                            .padding()
+                                }
+                        })
+                }
+                PhotosPicker(selection: $selectedPhoto, matching: .images, photoLibrary: .shared()) {
+                    Label("Add Passed Image", systemImage: "photo")
+                }
+
+                if position.image != nil {
+                    Button(role: .destructive) {
+                        withAnimation {
+                            selectedPhoto = nil
+                            position.image = nil
+                        }
+                    } label: {
+                        Label("Remove Image", systemImage: "xmark")
+                            .foregroundStyle(.red)
+                    }
+                }
+            } /// Photo stuff
         }
         .navigationTitle("Edit Weld Position")
         .navigationBarTitleDisplayMode(.large)
+        .task(id: selectedPhoto) {
+            if let data = try? await selectedPhoto?.loadTransferable(type: Data.self) {
+                position.image = data
+            }
+        }
     }
 
     func addGoal() {
