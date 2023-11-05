@@ -16,7 +16,7 @@ struct AppInfoView: View {
                         }//: sec 4
                         .padding(.vertical, 3)
 
-                            Image(.weldLogo)
+                            Image(.weldLogo12 )
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                             .clipShape(RoundedRectangle(cornerRadius: 25.0))

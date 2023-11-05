@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+import TipKit
 
 struct ListView: View {
     @State private var selectedListItem: ListModel?
     @State private var show = false
     @State private var searchText = ""
+    let glossaryTip = GlossaryTip()
 
     private var filteredLists: [ListModel] {
         if searchText.isEmpty {
@@ -21,6 +23,7 @@ struct ListView: View {
     }
     var body: some View {
         NavigationStack {
+            TipView(glossaryTip, arrowEdge: .top)
             List(filteredLists) { item in
                ListItem(list: item)
                     .onTapGesture {
@@ -36,7 +39,6 @@ struct ListView: View {
             .scrollIndicators(.hidden)
             .navigationTitle("Glossary of Terms")
             .searchable(text: $searchText)
-
         }
     }
 }

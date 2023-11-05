@@ -91,9 +91,9 @@ Oxyfuel Welding: Process and Precautions
         subtitle: "Stick Welding",
         image: "Weld1",
         image2: "welder",
-        image3: "RedStick",
+        image3: "Stick18",
         image4: "StickFace",
-        image5: "inverter",
+        image5: "ElectrodeIllust1",
         color: Color(#colorLiteral(red: 0, green: 0.7283110023, blue: 1, alpha: 1)),
         description: """
 SMAW(Shielded Metal Arc Welding): Process Information
@@ -118,7 +118,7 @@ SMAW(Shielded Metal Arc Welding): Process Information
         image: "Weld7",
         image2: "Welding7-1792",
         image3: "wirefeeder",
-        image4: "Mig",
+        image4: "MigIllustration1",
         image5: "inverter",
         color: Color(#colorLiteral(red: 0.9467853904, green: 0.2021691203, blue: 0.3819385171, alpha: 1)),
         description: """
@@ -148,10 +148,10 @@ GMAW(Gas Metal Arc Welding): A brief Look
         title: "FCAW PROCESS",
         subtitle: "Flux Core Welding",
         image: "Weld5",
-        image2: "Background 7",
-        image3: "Background 7",
-        image4: "Background 7",
-        image5: "",
+        image2: "Electrodes7",
+        image3: "Electrodes7",
+        image4: "Electrodes7",
+        image5: "Electrodes7",
         color: Color(#colorLiteral(red: 0.9721538424, green: 0.2151708901, blue: 0.5066347718, alpha: 1)),
         description: """
 FCAW (Flux Core Arc Welding): A Comprehensive Overview
@@ -178,9 +178,9 @@ FCAW (Flux Core Arc Welding): A Comprehensive Overview
         title: "GTAW PROCESS",
         subtitle: "Tig Welding",
         image: "Weld17",
-        image2: "Background 7",
-        image3: "Background 7",
-        image4: "Background 7",
+        image2: "Synchro",
+        image3: "Welding3-6472",
+        image4: "T-Joint",
         image5: "",
         color: Color(#colorLiteral(red: 1, green: 0.3477956653, blue: 0.3974102139, alpha: 1)),
         description: """
@@ -234,10 +234,10 @@ GTAW Steel Filler Metal:
         title: "FILLER METALS",
         subtitle: "Electrodes and Filler Metal",
         image: "Weld8",
-        image2: "Background 7",
-        image3: "Background 7",
-        image4: "Background 7",
-        image5: "",
+        image2: "ElectrodeChart",
+        image3: "Electrodes9",
+        image4: "Electrode24",
+        image5: "Electrodes",
         color: Color(#colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)),
         description: """
 Filler Metals
@@ -286,10 +286,10 @@ Filler Metals
         title: "WELD INSPECTION",
         subtitle: "Visual Criteria",
         image: "Weld9",
-        image2: "Background 7",
-        image3: "Background 7",
-        image4: "Background 7",
-        image5: "",
+        image2: "T-Joint",
+        image3: "Toe",
+        image4: "ElectrodeChart",
+        image5: "Stick18",
         color: Color(#colorLiteral(red: 0.1446507573, green: 0.8378821015, blue: 0.9349924922, alpha: 1)),
         description: """
 Weld Inspection: AWS Guidelines and Best Practices

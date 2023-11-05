@@ -21,6 +21,6 @@ struct AddAttemptsTip: Tip {
     }
 
     var image: Image? {
-        Image(.weldLogo)
+        Image(.weldLogo12)
     }
 }

@@ -21,6 +21,6 @@ struct CreateToDoTip: Tip {
     }
 
     var image: Image? {
-        Image(.weldLogo)
+        Image(.weldLogo12)
     }
 }

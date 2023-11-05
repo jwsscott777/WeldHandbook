@@ -43,11 +43,12 @@ Setting Up and Using a SMAW (Shielded Metal Arc Welding) Machine: Quick Checklis
     """, description3: """
     5. Select the Right Electrode:
         * Choose the appropriate electrode based on the material you're welding and the welding position.
+        * The third digit of the electrode designation determines the position it is capable of welding in. For example: E6010 and E7018 both have the number '1' as their third digit so this indicates that these two electrodes can be used in 'All'(1F, 1G, 2F, 2G, 3F, 3G, 4F, 4G etc..) positions. An electrode such as E7024 has a '2' as it's third digit so it is limited to being used on 'Flat and Horizontal' welds (1F, 2F etc...) only.
         * Insert the electrode into the electrode holder.
 
     6. Set Current & Polarity:
         * Adjust the machine's current setting (amperage) as recommended for the electrode size and type.
-        * Set the correct polarity (either Direct Current Electrode Positive (DCEP) or Direct Current Electrode Negative (DCEN)) based on electrode specifications.
+        * Set the correct polarity (either Direct Current Electrode Positive (DCEP) or Direct Current Electrode Negative (DCEN)) based on electrode specifications. For example: DCEP means that the elctrode cable is connected to the positive terminal and DCEN means that the electrode is connected to the negative terminal. Don't forget it.
         * For example: E6010 1/8" diameter should be run at 90 amps at DCRP or DCEP.
         * For example: E7018 1/8" diameter should be run at 110 - 140 amps at DCRP or DCEP.
         * For example: E7024 1/8" diameter should be run at 140 - 160 amps at DCEN or DCSP.
@@ -67,11 +68,8 @@ Setting Up and Using a SMAW (Shielded Metal Arc Welding) Machine: Quick Checklis
         * After completing a weld bead, chip off the slag using a chipping hammer.
         * Brush the weld using a wire brush to reveal and inspect the weld bead.
 
-    10. Shut Down:
-        * Turn off the welding machine.
-        * Safely store the electrode holder and ground clamp.
-        * Disconnect the machine from the power source.
-        * Allow the machine and welded materials to cool before handling.
+    Extra Tips:
+        * You can either drag the rod in a straight line - 'Stringer bead" - or you can use a side to side motion - 'Weave bead' - to deposit your weld metal. However, its good to know what positions are better suited for which method you intend to use. For example: 'Stringer beads' can be used on 'All" positions, whereas 'Weave beads" cannot be used effectively on horizontal positions - 2F, 2G and 6G respectfully.
     """, image: "SmallStick", gradient: LinearGradient(
             gradient: Gradient(stops: [
         .init(color: Color(#colorLiteral(red: 0.29981932044029236, green: 0.13958334922790527, blue: 0.8374999761581421, alpha: 1)), location: 0),
@@ -100,11 +98,14 @@ Setting Up and Using a GMAW (Gas Metal Arc Welding) Machine:
         * Connect the welding machine to the correct power source.
         * Connect the gas cylinder and ensure that the regulator and gas hose are properly attached.
         * Tip: Use the right shielding gas mix for the material. For instance, use 75% Argon / 25% CO2 for mild steel.
+        * Use 100% Argon for Aluminum spool gun use or 'push-pull' systems.
+        * Verify that your machine is in DCRP - especially if you suspect someone may have used a self-shielding flux wire before you go to use it. Fortunately, mig machines are set up in DCRP by default so you may never encounter a reason to change your polarity.
 
     """, description3: """
     5. Choose and Load the Wire:
         * Select the appropriate wire diameter and type for your material and welding position.
         * Wire diameters are typical: .023", .030", .035", .045", and .062".
+        * Make sure the drive rolls match the wire diameter you intend to use.
         * For steel: Use ER70s-3 or ER70s-6 - unless material requires another type.
         * For Aluminum: Use ER4043 or ER5356 - unless material requires another type.
         * Feed the wire through the drive rolls and welding gun.
@@ -119,9 +120,11 @@ Setting Up and Using a GMAW (Gas Metal Arc Welding) Machine:
         * Tip: Ensure a consistent gas shield. Inadequate shielding can cause porosity.
     """, description4: """
     8. Weld:
-        * Keep the torch at a 10°-15° push angle.
+        * Keep the torch at a 10°-15° push angle. A drag angle can also be used on flat position welds for more penetration and deposition.
         * Maintain a consistent stick-out (distance from the tip to the workpiece).
         * Tip: Use the "short circuit" GMAW method for thinner materials to prevent burn-through.
+        * 'Short Circuit' is not recommended to be used on 'pre-qualified' code weldments because of the lack of fusion posibilities it presents on thicker metals.
+        * 'Spray' mode of transfer is an acceptable mode to use for greater arc energies for proper fusion. However, it is limited to flat and horizontal welds only.
 
     9. Post-Welding Procedures:
         * Check the weld for consistency and potential defects.
@@ -241,9 +244,9 @@ Setting Up and Using a GTAW (TIG) Welding Machine
         * Always wear the appropriate PPE (Personal Protective Equipment): a welding helmet with the right shade, welding gloves, and protective clothing.
 
     Extra Tips:
-        * Always practice on scrap metal to refine settings before welding on the final workpiece.
+        * Most SMAW machines can be converted to GTAW. Every GTAW machine usually has SMAW features by default.
         * When welding aluminum, preheat can be beneficial for thicker sections, helping to reduce the risk of cracking.
-        * For critical applications, refer to AWS D1.1 (or the relevant AWS code) for specific guidelines on GTAW welding and procedure qualification.
+
 
     Remember, every welding situation can be unique, so always consult AWS guidelines, machine manuals, and experienced welders when in doubt.
     """, image: "SmallTig", gradient: LinearGradient(
