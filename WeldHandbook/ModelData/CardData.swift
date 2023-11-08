@@ -133,7 +133,7 @@ Setting Up and Using a GMAW (Gas Metal Arc Welding) Machine:
 
     10. Regular Maintenance:
         * Periodically check the GMAW machine, especially the contact tips, liners, and drive rolls for wear.
-        * Tip: Regular maintenance can reduce downtime and ensure consistent weld quality.
+        * Tip: Regular maintenance can reduce downtime and ensure consistent weld quality. Buy a bag of contact tips, especially if you are using a spoolgun to weld aluminum.
     """, image: "SmallMig", gradient: LinearGradient(
             gradient: Gradient(stops: [
         .init(color: Color(#colorLiteral(red: 0.25275975465774536, green: 0.10255205631256104, blue: 0.7458333373069763, alpha: 1)), location: 0),
@@ -227,6 +227,7 @@ Setting Up and Using a GTAW (TIG) Welding Machine
 
     6. Amperage Setting:
         * Adjust the machine’s amperage based on the material thickness and tungsten size.
+        * For aluminum, setting the amperage double what you would for steel is a good idea because of aluminum's ability to rapidly dissipate heat more than most other metals.
 
     7. Remote Control Setting:
         * If using a foot pedal, set the machine to "remote" control. This provides amperage control while welding.
@@ -245,7 +246,7 @@ Setting Up and Using a GTAW (TIG) Welding Machine
 
     Extra Tips:
         * Most SMAW machines can be converted to GTAW. Every GTAW machine usually has SMAW features by default.
-        * When welding aluminum, preheat can be beneficial for thicker sections, helping to reduce the risk of cracking.
+        * When welding aluminum, preheat of at least 200 deg Fahrenheit can be beneficial for thicker sections, helping to reduce the risk of cracking.
 
 
     Remember, every welding situation can be unique, so always consult AWS guidelines, machine manuals, and experienced welders when in doubt.
@@ -266,6 +267,7 @@ Why do we need to correctly choose our filler metals?
 
     2. Mechanical Properties:
         * The filler metal determines the mechanical properties of the weld, such as tensile strength, ductility, and toughness. It is essential that the weld metal meets or exceeds the performance requirements of the base material to ensure the integrity of the welded structure.
+        * For example: E7018 has a minimum deposited tensile strength of 70,000 psi based on the first two digits '70' of its designation. ER70s-3 has a minimum deposited tensile strength of 70,000 psi as well, based on the '70' being in its designation. 11018 has a minimum tensile strength of 110,000 psi based upon the first three digits '110' of its designation etc...
 
     3. Corrosion Resistance:
         * In environments where corrosion is a concern, selecting a filler metal that provides the necessary corrosion resistance is vital to the longevity and durability of the weldment.
@@ -332,14 +334,28 @@ A welder or inspector following the American Welding Society (AWS) standards mus
 
 8. Mismatch (Hi-Lo):
     * A condition where two pieces being welded together are not properly aligned. It can cause uneven stress distribution in the finished weld.
-""", description4: """
+
 9. Weld Spatter:
     * Although usually cosmetic, excessive spatter can be indicative of underlying problems with welding parameters and may require additional cleaning.
 
 10. Arc Strikes:
     * These are localized areas of remelted metal outside the weld area, often caused by accidental contact with the welding arc. They can lead to weakened areas prone to cracking.
-
+""", description4: """
 Each discontinuity has a specific nature, cause, and potential remedy. A welder must be able to identify and evaluate these based on acceptance criteria defined by AWS standards to ensure the structural integrity and reliability of the weldment.
+
+Along with the AWS, other organizations have their own unique set of codes and standards. The following is a non-exhaustive list:
+    * AWS D1.1 - Structural steel welding code - SMAW, GMAW, FCAW, Submerged Arc Welding - Prequalified sections.
+    * AWS D1.2 - Structural aluminum welding code - GMAW and GTAW - no Prequalified sections.
+    # AWS D1.3 - Structural sheet steel code - Prequalified sections.
+    * AWS D1.4 - Structural reinforcing bars steel - no Prequalified sections.
+    * AWS D1.5 - Bridge Welding code - no Prequalified sections.
+    * AWS D1.6 - Structural Stainless steel  - no Prequalified sections.
+    * AWS D1.7 - Repairing of existing structures
+    * AWS D1.9 - Structural Titanium code - no Prequalified sections.
+    * AWS D17 - Aerospace
+    * API 1104 - Pipelines
+    * ASME Section IX - Welding and brazing
+    * ASME B31.3 - Process Piping
 """, image: "WeldInspection", gradient: LinearGradient(
             gradient: Gradient(stops: [
         .init(color: Color(#colorLiteral(red: 0.1600282772, green: 0.2040334853, blue: 1, alpha: 1)), location: 0),

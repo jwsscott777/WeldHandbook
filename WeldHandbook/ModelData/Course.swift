@@ -44,14 +44,14 @@ Understanding Welding: Processes and Techniques
         Oxyacetylene Welding: A classic method, it relies on the combined power of oxygen and acetylene gases to produce a high-heat flame suitable for a range of metals. Although the flame can be employed for brazing – where only the filler metal is melted, leaving the base metal solid – its primary usage in contemporary times is confined to cutting ferrous materials.
 """,
         description3: """
-        SMAW (Shielded Metal Arc Welding): A process where an electric arc is passed through a flux-coated electrode, which matches the base metal's type, resulting in the melting of both the electrode and the base metal. Praised for its versatility, SMAW finds applications from minor repairs to intensive pipe welding. A significant advantage lies in its resilience against windy outdoor conditions.
+        SMAW (Shielded Metal Arc Welding): A process where an electric arc is passed through a flux-coated electrode, which matches the base metal's type, resulting in the melting of both the electrode and the base metal. Praised for its versatility, SMAW finds applications from minor repairs to intensive pipe welding. A significant advantage lies in its resilience against windy outdoor conditions. It is a 'Constant Current' power source.
 
-        GTAW (Gas Tungsten Arc Welding): A technique where heat is generated between a tungsten electrode and the base metal. Unlike other processes, the filler metal is introduced separately to the molten puddle. Shielding typically involves 100% argon, though thicker aluminum demands an argon-helium mix for rapid puddle development. GTAW is especially favored for welding stainless steel and other specialty metals.
+        GTAW (Gas Tungsten Arc Welding): A technique where heat is generated between a tungsten electrode and the base metal. Unlike other processes, the filler metal is introduced separately to the molten puddle. Shielding typically involves 100% argon, though thicker aluminum demands an argon-helium mix for rapid puddle development. GTAW is especially favored for welding stainless steel and other specialty metals. It is a 'Constant Current' power source.
 """,
         description4: """
-        GMAW (Gas Metal Arc Welding): This method employs an electric arc between a continuously fed metal electrode wire and the base metal, providing both the heat and filler metal necessary for welding. The welding arc is enveloped by an argon-based shielding gas, occasionally mixed with CO2 and O2 for enhanced performance. GMAW's popularity spans both professionals and novices, owing to its straightforward setup. However, achieving code quality welding demands meticulous adjustments to voltage and wire speed, a feat only attainable with considerable experience.
+        GMAW (Gas Metal Arc Welding): This method employs an electric arc between a continuously fed metal electrode wire and the base metal, providing both the heat and filler metal necessary for welding. The welding arc is enveloped by an argon-based shielding gas, occasionally mixed with CO2 and O2 for enhanced performance. GMAW's popularity spans both professionals and novices, owing to its straightforward setup. However, achieving code quality welding demands meticulous adjustments to voltage and wire speed, a feat only attainable with considerable experience. It is a 'Constant Voltage' power source.
 
-        FCAW (Flux Cored Arc Welding): Sharing many similarities with GMAW, FCAW stands out due to its flux core, a design reminiscent of the SMAW process. This process comes in two variants. The first depends solely on the wire's internal flux for shielding the weld, while the second combines this with an external argon mix gas for superior weld quality, a method often termed 'Dual Shield' flux cored arc welding.
+        FCAW (Flux Cored Arc Welding): Sharing many similarities with GMAW, FCAW stands out due to its flux core, a design reminiscent of the SMAW process. This process comes in two variants. The first depends solely on the wire's internal flux for shielding the weld, while the second combines this with an external argon mix gas for superior weld quality, a method often termed 'Dual Shield' flux cored arc welding. It is a 'Constant Voltage' power source.
 """
     ),
     Course(
@@ -90,7 +90,7 @@ Oxyfuel Welding: Process and Precautions
         title: "SMAW PROCESS",
         subtitle: "Stick Welding",
         image: "Weld1",
-        image2: "welder",
+        image2: "Stick17",
         image3: "Stick18",
         image4: "StickFace",
         image5: "ElectrodeIllust1",
@@ -127,7 +127,7 @@ GMAW(Gas Metal Arc Welding): A brief Look
     GMAW (Gas Metal Arc Welding) is a standout among the welding processes and boasts significant popularity among both hobbyists and professionals. Its 'Constant Voltage' characteristic differentiates it from many other welding techniques. Ensuring Direct Current Reverse Polarity (DCRP) and abstaining from AC is imperative for achieving the desired weld quality in GMAW.
 """,
         description2: """
-    The shielding gas, primarily composed of 100% argon for aluminum and an argon-CO2 mix for mild steels, plays a crucial role. This blend ensures the stability and purity of the weld, preventing oxidation and other contamination.
+    The shielding gas, primarily composed of 100% argon for aluminum and an argon-CO2 mix for mild steels in the 'short circuit mode', plays a crucial role. This blend ensures the stability and purity of the weld, preventing oxidation and other contamination.
 
     The perceived ease of GMAW, often labeled 'MIG' welding, can be misleading. While many attest to its simplicity, achieving mastery in this method is far from straightforward. The prevalent misconception might arise from its beginner-friendly initiation phase. But diving deeper, the intricate nuances of GMAW demand detailed attention, understanding, and practice. Unfortunately, the vast sea of fragmented information available on this topic can be confusing for many. Comprehensive sources offering clarity on GMAW's intricacies can sometimes be challenging to come by.
 """,
@@ -136,7 +136,7 @@ GMAW(Gas Metal Arc Welding): A brief Look
 
     Each transfer mode offers unique advantages. The 'short circuit mode,' for instance, is preferred for welding out of position or when addressing larger gaps in imperfectly aligned joints. However, it has its limitations, especially when ensuring thorough fusion in pressurized vessels or pipes. In contrast, the "spray transfer mode" is revered for its guarantee of optimal fusion, making it ideal for code-quality welding. Its primary limitation? It's primarily restricted to flat and horizontal position welding and demands significant expertise for managing large gaps.
 
-    Selecting the appropriate wire size is another pivotal aspect of GMAW. While 0.035 wire size is versatile enough for materials ranging between 1/8” to ½”, for thicker materials (½” and above), the 0.045 wire is preferable. On the other end of the spectrum, working with sheet metal necessitates switching to 0.023-0.030 sized wires.
+    Selecting the appropriate wire size is another pivotal aspect of GMAW. While 0.035 wire size is versatile enough for materials ranging between 1/8” to ½”, for thicker materials (½” and above), the .045 wire is preferable. On the other end of the spectrum, working with sheet metal necessitates switching to .023-.030 sized wires.
 """,
         description4: """
     Lastly, an essential technical note for GMAW enthusiasts: all GMAW filler metals are optimized for Direct Current Electrode Positive (DCEP) or reverse polarity. This configuration ensures that the electric arc's characteristics align with the desired welding outcomes.
@@ -181,7 +181,7 @@ FCAW (Flux Core Arc Welding): A Comprehensive Overview
         image2: "Synchro",
         image3: "Welding3-6472",
         image4: "T-Joint",
-        image5: "",
+        image5: "Stick17",
         color: Color(#colorLiteral(red: 1, green: 0.3477956653, blue: 0.3974102139, alpha: 1)),
         description: """
 GTAW (Gas Tungsten Arc Welding)
@@ -250,7 +250,7 @@ Filler Metals
 
     * Filler Metal: The filler metal is in the form of a stick electrode.
     * Composition: Electrodes are made from a core rod coated with a layer of flux. The core rod material corresponds to the weld's desired strength and composition.
-    * Selection: Electrodes are categorized based on the AWS (American Welding Society) system. For instance, an E6013 electrode indicates a certain tensile strength, welding position, and flux composition.
+    * Selection: Electrodes are categorized based on the AWS (American Welding Society) system. For instance, an E6010 electrode indicates a certain tensile strength, welding position, and flux composition. This can be described as: The first two digits '60' represent a deposit strength of 60,000 psi. The third digit '1' refers to it's ability to be used in all positions. The last digit '0' refers to the chemical composition of the flux, in this case an organic - rutile based flux designed to be used in DCRP.
     * Noteworthy Points: The flux coating generates a protective gas shield when heated, which protects the weld from contaminants. It also contributes slag, a layer on top of the weld bead that further shields the cooling weld from the atmosphere.
 """,
         description3: """
@@ -260,7 +260,7 @@ Filler Metals
     * Filler Metal: The filler is a continuous wire fed from a spool.
     * Composition: Wires can be made of various materials, including carbon steel, stainless steel, aluminum, and more. They are often solid but can have specialized cores.
     * Selection: Wires are also categorized using the AWS system, e.g., ER70S-6 for a specific type of carbon steel wire.
-    * Noteworthy Points: An external shielding gas, such as pure CO₂ or a mixture of CO₂ and argon, protects the weld pool from contamination.
+    * Noteworthy Points: An external shielding gas, such as pure CO₂ or a mixture of CO₂ and argon, protects the weld pool from contamination. This wire can be used for the GTAW process in a pinch.
 
     3. FCAW (Flux-Cored Arc Welding):
     This process is a variation of GMAW, using a wire with a flux core.
@@ -278,6 +278,7 @@ Filler Metals
     * Composition: Filler rods can be made from various materials, mirroring those available for GMAW.
     * Selection: As with other processes, AWS classification aids in selection, like ER70s-2 for a type of steel rod.
     * Noteworthy Points: The purity and cleanliness of GTAW filler metals are crucial, given the process's precision and the absence of flux. Proper storage and handling to prevent contamination are essential.
+    * If you are out of filler metal for some reason, you can snip off some mig wire and twist it in a pinch. They are the same chemical coposition. For example: The ER70s-3 for GTAW is the same as ER70s-3 for GMAW. One is in a rod form and the other is in a wire form.
 
     Filler metals play a pivotal role in the welding world, bridging base metals and ensuring the resultant weld's strength and durability. Each welding process demands specific filler metal forms and compositions, tailored to the unique requirements of the job. As welding technologies and applications evolve, so too will the range and specificity of filler metals, underscoring their enduring importance in the fabrication universe.
 """
@@ -324,6 +325,11 @@ Weld Inspection: AWS Guidelines and Best Practices
     * Welding Procedure Specification (WPS): Details the welding process to be used, base metals, filler metals, and other essential parameters.
     * Procedure Qualification Record (PQR): Documents the testing results of a sample weld created following a WPS.
     * Welder Performance Qualification (WPQ): Certifies a welder's capability to produce welds meeting AWS standards.
+
+    5. Welder Certification vs Qualification?
+    This is a topic that seems to confuse many people. When you or someone performs a qualification procedure from a specific welding code, you or that person will be 'Qualified' as long as the weld passed the test requirements of that specific code that it was welded to. None of the codes specify the term 'Certification' as it relates to a qualification procedure. So where does the term 'Cerified Welder' or 'Welder Cerification' come into this? On the qualification report that lists the parameters and the name of the welder, there is a place for a signature for the person witnessing the event to sign. It is when this person signs the document that it then becomes 'Certified' but at all times before and after that occurs, the welder will always be 'Qualified'. If they want to then tell all their friends they are certified, there is no harm done, the truth is that they are just 'Qualified'.
+
+    Another thing to mention is an "AWS Certified Welder". This is a designation that a welder can achieve if he or she decides to perform their weld qualification test at an AWS Accredited Test Facility. The test is exactly the same as any qualification procedure someone might take at a job site or place of employment. The only differnce is that an ATF has the endorsement from the AWS to issue the welder a special title of 'AWS Certified Welder' as well as a nice wallet size card and their name and certification number stored in the AWS data base for tracking purposes. The people that choose to go this route are officially 'Certified' by the AWS but at the end of the day, they are still just 'Qualified" welders.
 
     Weld inspection is an intricate dance of technology, expertise, and meticulous attention to detail. AWS's guidelines offer a structured framework, ensuring that welded structures adhere to the highest safety and quality standards. By following these guidelines and best practices, the welding community upholds the trust placed in them by countless industries worldwide.
 """

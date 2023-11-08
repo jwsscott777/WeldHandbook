@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SmallDetailView: View {
     var item: Item = items[0]
+    @GestureState private var zoom = 1.0
 
     // Function to dynamically calculate the image frame height based on screen size
         func dynamicImageHeight(geometry: GeometryProxy) -> CGFloat {
@@ -41,36 +42,68 @@ struct SmallDetailView: View {
                 VStack(alignment: .leading, spacing: 16) {
                     Text(item.description)
                         .font(.title2)
+                        .textSelection(.enabled)
                     Image(item.image2)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .clipShape(RoundedRectangle(cornerRadius: 30))
                         .frame(height: dynamicImageHeight(geometry: geometry))
                         .frame(maxWidth: .infinity)
+                        .scaleEffect(zoom)
+                        .gesture(
+                            MagnifyGesture()
+                                .updating($zoom) { value, gestureState, transaction in
+                                    gestureState = value.magnification
+                                }
+                        )
                     Text(item.description2)
                         .font(.title2)
+                        .textSelection(.enabled)
                     Image(item.image3)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .clipShape(RoundedRectangle(cornerRadius: 30))
                         .frame(height: dynamicImageHeight(geometry: geometry))
                         .frame(maxWidth: .infinity)
+                        .scaleEffect(zoom)
+                        .gesture(
+                            MagnifyGesture()
+                                .updating($zoom) { value, gestureState, transaction in
+                                    gestureState = value.magnification
+                                }
+                        )
                     Text(item.description3)
                         .font(.title2)
+                        .textSelection(.enabled)
                     Image(item.image4)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .clipShape(RoundedRectangle(cornerRadius: 30))
                         .frame(height: dynamicImageHeight(geometry: geometry))
                         .frame(maxWidth: .infinity)
+                        .scaleEffect(zoom)
+                        .gesture(
+                            MagnifyGesture()
+                                .updating($zoom) { value, gestureState, transaction in
+                                    gestureState = value.magnification
+                                }
+                        )
                     Text(item.description4)
                         .font(.title2)
+                        .textSelection(.enabled)
                     Image(item.image5)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .clipShape(RoundedRectangle(cornerRadius: 30))
                         .frame(height: dynamicImageHeight(geometry: geometry))
                         .frame(maxWidth: .infinity)
+                        .scaleEffect(zoom)
+                        .gesture(
+                            MagnifyGesture()
+                                .updating($zoom) { value, gestureState, transaction in
+                                    gestureState = value.magnification
+                                }
+                        )
                 }
                 .padding()
 

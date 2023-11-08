@@ -10,6 +10,7 @@ import SwiftUI
 
 struct DetailView: View {
     var course: Course = courses[3]
+    @GestureState private var zoom = 1.0
 
     // Function to dynamically calculate the image frame height based on screen size
         func dynamicImageHeight(geometry: GeometryProxy) -> CGFloat {
@@ -48,36 +49,68 @@ struct DetailView: View {
                 VStack(alignment: .leading, spacing: 16) {
                     Text(course.description)
                         .font(.title2)
+                        .textSelection(.enabled)
                     Image(course.image2)
                         .resizable()
-                        .aspectRatio(contentMode: .fit)
+                        .aspectRatio(contentMode:  .fit)
                         .clipShape(RoundedRectangle(cornerRadius: 30))
                         .frame(height: dynamicImageHeight(geometry: geometry))
                         .frame(maxWidth: .infinity)
+                        .scaleEffect(zoom)
+                        .gesture(
+                            MagnifyGesture()
+                                .updating($zoom) { value, gestureState, transaction in
+                                    gestureState = value.magnification
+                                }
+                        )
                     Text(course.description2)
                         .font(.title2)
+                        .textSelection(.enabled)
                     Image(course.image3)
                         .resizable()
-                        .aspectRatio(contentMode: .fit)
+                        .aspectRatio(contentMode:  .fit)
                         .clipShape(RoundedRectangle(cornerRadius: 30))
                         .frame(height: dynamicImageHeight(geometry: geometry))
                         .frame(maxWidth: .infinity)
+                        .scaleEffect(zoom)
+                        .gesture(
+                            MagnifyGesture()
+                                .updating($zoom) { value, gestureState, transaction in
+                                    gestureState = value.magnification
+                                }
+                        )
                     Text(course.description3)
                         .font(.title2)
+                        .textSelection(.enabled)
                     Image(course.image4)
                         .resizable()
-                        .aspectRatio(contentMode: .fit)
+                        .aspectRatio(contentMode:  .fit)
                         .clipShape(RoundedRectangle(cornerRadius: 30))
                         .frame(height: dynamicImageHeight(geometry: geometry))
                         .frame(maxWidth: .infinity)
+                        .scaleEffect(zoom)
+                        .gesture(
+                            MagnifyGesture()
+                                .updating($zoom) { value, gestureState, transaction in
+                                    gestureState = value.magnification
+                                }
+                        )
                     Text(course.description4)
                         .font(.title2)
+                        .textSelection(.enabled)
                     Image(course.image5)
                         .resizable()
-                        .aspectRatio(contentMode: .fit)
+                        .aspectRatio(contentMode:  .fit)
                         .clipShape(RoundedRectangle(cornerRadius: 30))
                         .frame(height: dynamicImageHeight(geometry: geometry))
                         .frame(maxWidth: .infinity)
+                        .scaleEffect(zoom)
+                        .gesture(
+                            MagnifyGesture()
+                                .updating($zoom) { value, gestureState, transaction in
+                                    gestureState = value.magnification
+                                }
+                        )
                 } //:Vstack
                 .padding()
             }

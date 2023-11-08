@@ -24,7 +24,7 @@ struct HomeView: View {
                 }
                 .navigationTitle("Welding Handbook")
                 Button(action: {}, label: {
-                    Text("More info Below")
+                    Text("Scroll down for more ⬇️")
                 })
                     .font(.subheadline)
                     .foregroundStyle(.secondary)

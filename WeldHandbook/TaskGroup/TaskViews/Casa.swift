@@ -74,6 +74,9 @@ struct Casa: View {
     func HeaderView() -> some View {
         NavigationStack {
             VStack(alignment: .leading, spacing: 6) {
+                Text("Weld Practice Planner")
+                    .font(.title)
+                    .foregroundStyle(.purple)
                 HStack(spacing: 5) {
                     Text(currentDate.format("MMMM"))
                         .foregroundStyle(.darkBlue)

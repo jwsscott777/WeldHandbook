@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ListDetailView: View {
     var list: ListModel = lists[3]
-
+    @GestureState private var zoom = 1.0
     // Function to dynamically calculate the image frame height based on screen size
         func dynamicImageHeight(geometry: GeometryProxy) -> CGFloat {
             let isLandscape = geometry.size.width > geometry.size.height
@@ -32,6 +32,13 @@ struct ListDetailView: View {
                             .aspectRatio(contentMode: .fit)
                             .clipShape(RoundedRectangle(cornerRadius: 25.0))
                             .frame(height: dynamicImageHeight(geometry: geometry))
+                            .scaleEffect(zoom)
+                            .gesture(
+                                MagnifyGesture()
+                                    .updating($zoom) { value, gestureState, transaction in
+                                        gestureState = value.magnification
+                                    }
+                            )
                         Button(action: {
                             dismiss()
                         }, label: {
@@ -48,6 +55,7 @@ struct ListDetailView: View {
                         .padding(.bottom)
                     Text(list.description)
                         .font(.headline)
+                        .textSelection(.enabled)
                 }
                 .padding()
             }

@@ -21,11 +21,12 @@ struct AppInfoView: View {
                                 .aspectRatio(contentMode: .fit)
                             .clipShape(RoundedRectangle(cornerRadius: 25.0))
                             .padding()
+                        Text("""
+        This app is designed for quick refernce of topics that are way more detailed in other books and volumes. This is no way an attempt to replace the wealth of knowledge that already exists. Use this app as a refresher or maybe something you don't remember but don't have time to research. Also, there is a section where if you are in school and are practicing your joints and positions you can keep track and save your progress in an organized way.
+    """)
 
                     }//:form
                     .foregroundStyle(.red)
-
-
 
 
                     //mark footer
