@@ -26,10 +26,10 @@ struct NewTaskView: View {
             .hSpacing(.leading)
 
             VStack(alignment: .leading, spacing: 8) {
-                Text("Task Title")
+                Text("Event Title")
                     .font(.caption)
                     .foregroundStyle(.gray)
-                TextField("Enter a task Here", text: $taskTitle)
+                TextField("Enter Event Here", text: $taskTitle)
                     .padding(.vertical, 12)
                     .padding(.horizontal, 15)
                     .background(.tertiary.shadow(.drop(color: .black.opacity(0.25), radius: 2)), in: .rect(cornerRadius: 10))
@@ -38,7 +38,7 @@ struct NewTaskView: View {
 
             HStack(spacing: 12) {
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Task Date")
+                    Text("Event Date")
                         .font(.caption)
                         .foregroundStyle(.gray)
                     DatePicker("", selection: $taskDate)
@@ -48,7 +48,7 @@ struct NewTaskView: View {
                 .padding(.trailing, -15)
 
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Task Color")
+                    Text("Event Color")
                         .font(.caption)
                         .foregroundStyle(.gray)
                     let colors: [String] = (1...5).compactMap { index -> String in
@@ -89,7 +89,7 @@ struct NewTaskView: View {
                 await SwipeActionTip.pressActionEvent.donate()
             }
             }, label: {
-                Text("Create Task")
+                Text("Create Event")
                     .font(.title2)
                     .fontWeight(.semibold)
                     .textScale(.secondary)

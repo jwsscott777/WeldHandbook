@@ -22,7 +22,9 @@ struct AppInfoView: View {
                             .clipShape(RoundedRectangle(cornerRadius: 25.0))
                             .padding()
                         Text("""
-        This app is designed for quick refernce of topics that are way more detailed in other books and volumes. This is no way an attempt to replace the wealth of knowledge that already exists. Use this app as a refresher or maybe something you don't remember but don't have time to research. Also, there is a section where if you are in school and are practicing your joints and positions you can keep track and save your progress in an organized way.
+        This app is designed for quick reference of topics that are way more detailed in other books and volumes. This is no way an attempt to replace the wealth of knowledge that already exists. Use this app as a refresher or maybe something you don't remember but don't have time to research. Also, there is a section where if you are in school and are practicing your joints and positions you can keep track and save your progress in an organized way.
+
+        Disclaimer: The information in this app is purely my own and in no way is it endorsed or affiliated with any authoratative organization. Use the information contained in this app at your own discretion and by all means, seek out the library of welding information from the American Welding Society and the ASME collection.
     """)
 
                     }//:form

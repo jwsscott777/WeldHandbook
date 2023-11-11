@@ -42,7 +42,7 @@ struct TasksView: View {
         .padding(.top, 15)
         .overlay {
             if tasks.isEmpty {
-                Text("Nothing Here, click the bottom button to add a task")
+                Text("Nothing Here, click blue button to create an event")
                     .font(.caption)
                     .foregroundStyle(.gray)
                     .frame(width: 200)

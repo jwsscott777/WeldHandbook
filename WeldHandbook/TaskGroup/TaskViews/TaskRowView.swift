@@ -47,7 +47,7 @@ struct TaskRowView: View {
                     context.delete(task)
                     try? context.save()
                 } label: {
-                    Text("Delete Task")
+                    Text("Delete Event")
                 }
 
             }

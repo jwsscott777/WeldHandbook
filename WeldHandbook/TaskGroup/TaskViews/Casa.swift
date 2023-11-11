@@ -113,7 +113,7 @@ struct Casa: View {
                 Button(action: {
                     navigated = true
                 }, label: {
-                    Image(.wallpaperFour)
+                    Image(.weldLogo12)
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 45, height: 45)

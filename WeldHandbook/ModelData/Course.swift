@@ -61,7 +61,7 @@ Understanding Welding: Processes and Techniques
         image2: "oxyfuelset-9470",
         image3: "oxyfuelset2-9476",
         image4: "oxyfuelset3-9483",
-        image5: "oxyfuelset4-9500",
+        image5: "OxyTorch",
         color: Color(#colorLiteral(red: 0.3150139749, green: 0, blue: 0.8982304931, alpha: 1)),
         description: """
 Oxyfuel Welding: Process and Precautions
@@ -71,17 +71,19 @@ Oxyfuel Welding: Process and Precautions
         description2: """
     To begin with oxyfuel welding, there's a structured approach to adopt. Your journey should start with the acquisition of the manufacturer's instructions tailored to your specific equipment brand. These guidelines are crucial, serving as your initial compass in the expansive realm of oxyfuel welding.
 
+    Also, consider what the Oxyfuel torch is designed to do: You can weld, braze and general purpose heat with it but not cut the metal. Cutting metal is only meant for the cutting torch.
+
     Upon determining the thickness of the steel you're dealing with, the manufacturer's guidelines will direct you to an appropriate tip selection and specify the requisite flow rates. Once these essentials are pinpointed, you'll embark on an equipment check – ensuring connections are tight, and everything is in prime working order.
 """,
         description3: """
-    To gauge your tank pressure, a simple step is to open the valve on each of the bottles. Subsequently, the adjusting screws on the regulators come into play. These are tweaked until your desired working pressure is attained. For instance, for a #2 tip designated for a 1/8-inch thickness, both the oxygen and acetylene should be calibrated to 3 psi.
+    To gauge your tank pressure, a simple step is to open the valve on each of the bottles. Subsequently, the adjusting screws on the regulators come into play. These are tweaked until your desired working pressure is attained. For instance, for a #2 tip designated for a 1/8-inch thickness, both the oxygen and acetylene should be calibrated to 3 psi. An important thing to understand is: For all the tips you may use, the ratio of the working pressures will always be 1 - to - one. 3 psi for Oxygen as well as 3 psi for Acetylene or 5 psi for Oxygen and 5 psi depending on the manufacturer of you brand of equipment. Don't make the mistake of thinking you need to increase the working pressures on your oxygen and acetylene bottles in the hopes you will get a hotter flame. All your doing is wasting your gas. There is not one instance except for a 'Rosebud" tip that your pressures should ever be over 8 psi.
 
     A critical point of consideration revolves around the bottle's valve turns. The oxygen valve necessitates complete opening until it is firmly seated. In contrast, the acetylene bottle requires a more nuanced approach: it should only be opened just enough to establish tank pressure. This differential handling stems from safety considerations: in emergencies, the acetylene tank must be the first to be shut off, even before the oxygen bottle, which is why its full opening is discouraged.
 
     As for the torch lighting sequence, it’s paramount to open the acetylene valve first. Employing a flint striker, initiate a flame, adjusting it until the pronounced carbon soot significantly diminishes. Gradually, introduce oxygen to the flame, fine-tuning until you achieve a neutral flame. Upon conclusion of the welding, a strict protocol is observed: shut off the acetylene first, extinguishing the flame, followed by the oxygen. This sequence ensures the absence of lingering acetylene in the tip post-operation.
 """,
         description4: """
-    For 'Oxyfuel Cutting', the foundational principles remain relatively similar. However, a standout distinction emerges in the working pressures: oxygen consistently demands a higher pressure than acetylene, as recommended by manufacturers.
+    For 'Oxyfuel Cutting', the foundational principles remain relatively similar. However, a standout distinction emerges in the working pressures: oxygen consistently demands a higher pressure than acetylene, as recommended by manufacturers. For example: If in doubt, and you can't determine your cutting tip size, set your Oxygen working pressure to 20 - 25 psi and your Acetelyne pressure to 5 psi. This will help you determine which thickness of metal you may be able to properly cut with it.
 
     In essence, while oxyfuel welding might not be the trendiest technique today, its versatility and adaptability, especially in off-grid scenarios, make it an invaluable tool in the welder's arsenal. Proper adherence to safety and operational guidelines is pivotal, ensuring both quality work and a safe working environment.
 """
@@ -90,10 +92,10 @@ Oxyfuel Welding: Process and Precautions
         title: "SMAW PROCESS",
         subtitle: "Stick Welding",
         image: "Weld1",
-        image2: "Stick17",
+        image2: "Groove",
         image3: "Stick18",
-        image4: "StickFace",
-        image5: "ElectrodeIllust1",
+        image4: "Designation",
+        image5: "StickIllustration",
         color: Color(#colorLiteral(red: 0, green: 0.7283110023, blue: 1, alpha: 1)),
         description: """
 SMAW(Shielded Metal Arc Welding): Process Information
@@ -109,6 +111,11 @@ SMAW(Shielded Metal Arc Welding): Process Information
     A proficient welder isn't merely defined by their practical skills but also by their intimate knowledge of their equipment. This entails discerning the intricacies of their machine, including the setup for the desired polarity. For instance, many might overlook the fact that an A/C-only machine lacks a polarity switch – a seemingly small detail that can make a significant difference in welding outcomes. Furthermore, understanding how to accurately gauge amperages and discern the machine's duty cycle – its operational time in a given period without overheating – is vital.
 """,
         description4: """
+    Which electrode to use?
+    * E6010/E6011 are good choices if the material is dirty or there are some gaps to fill. On pipe work, E6010 is used for production root pass welding. It works well on galvanized metals because of its ability to penetrate through the galvanized coating.
+    * E7018 is the all around go to electrode for practically every type of job you might encounter. It does not perform well on dirty metal or fit ups that are too wide. The 1/8" variety is what most people use on structural applications, but the 3/32" diameter should always be in a welder's posession for all around ease of use.
+    * E7024 is not used that much. It is practical if you have to put down a lot of weld metal on a flat or horizontal joint. It works best in straight polarity.
+
     Regrettably, even seasoned welders sometimes falter in these theoretical areas. If you, as a reader, find yourself grappling with these concepts, do not yield to the allure of complacency. Embrace curiosity and the pursuit of knowledge. Seek out mentors, engage in discussions, or attend workshops. Ensuring you are well-acquainted with your equipment's ins and outs is not merely a professional asset; it's a safety imperative. In the world of welding, knowledge isn't just power – it's the backbone of precision, safety, and excellence.
 """
     ),
@@ -118,8 +125,8 @@ SMAW(Shielded Metal Arc Welding): Process Information
         image: "Weld7",
         image2: "Welding7-1792",
         image3: "wirefeeder",
-        image4: "MigIllustration1",
-        image5: "inverter",
+        image4: "DriveRolls",
+        image5: "MigImage7",
         color: Color(#colorLiteral(red: 0.9467853904, green: 0.2021691203, blue: 0.3819385171, alpha: 1)),
         description: """
 GMAW(Gas Metal Arc Welding): A brief Look
@@ -128,6 +135,12 @@ GMAW(Gas Metal Arc Welding): A brief Look
 """,
         description2: """
     The shielding gas, primarily composed of 100% argon for aluminum and an argon-CO2 mix for mild steels in the 'short circuit mode', plays a crucial role. This blend ensures the stability and purity of the weld, preventing oxidation and other contamination.
+
+    A guide for the correct gas selection:
+    * Short-circuit less than 20 gage - Argon + (6 - 10%) CO2
+    * Short-circuit 18 to 11 gage - Argon + 25% CO2
+    * Spray - Argon + (13 - 20%) CO2
+    * Short-circuit and Spray for Stainlees Steel - Argon + (2 - 4%) CO2
 
     The perceived ease of GMAW, often labeled 'MIG' welding, can be misleading. While many attest to its simplicity, achieving mastery in this method is far from straightforward. The prevalent misconception might arise from its beginner-friendly initiation phase. But diving deeper, the intricate nuances of GMAW demand detailed attention, understanding, and practice. Unfortunately, the vast sea of fragmented information available on this topic can be confusing for many. Comprehensive sources offering clarity on GMAW's intricacies can sometimes be challenging to come by.
 """,
@@ -148,10 +161,10 @@ GMAW(Gas Metal Arc Welding): A brief Look
         title: "FCAW PROCESS",
         subtitle: "Flux Core Welding",
         image: "Weld5",
-        image2: "Electrodes7",
-        image3: "Electrodes7",
-        image4: "Electrodes7",
-        image5: "Electrodes7",
+        image2: "FluxSpool",
+        image3: "FluxWeld20",
+        image4: "FluxGun",
+        image5: "Welding3-6472",
         color: Color(#colorLiteral(red: 0.9721538424, green: 0.2151708901, blue: 0.5066347718, alpha: 1)),
         description: """
 FCAW (Flux Core Arc Welding): A Comprehensive Overview
@@ -179,9 +192,9 @@ FCAW (Flux Core Arc Welding): A Comprehensive Overview
         subtitle: "Tig Welding",
         image: "Weld17",
         image2: "Synchro",
-        image3: "Welding3-6472",
-        image4: "T-Joint",
-        image5: "Stick17",
+        image3: "Tig",
+        image4: "TigPipe2",
+        image5: "TigPipe5",
         color: Color(#colorLiteral(red: 1, green: 0.3477956653, blue: 0.3974102139, alpha: 1)),
         description: """
 GTAW (Gas Tungsten Arc Welding)
@@ -234,9 +247,9 @@ GTAW Steel Filler Metal:
         title: "FILLER METALS",
         subtitle: "Electrodes and Filler Metal",
         image: "Weld8",
-        image2: "ElectrodeChart",
+        image2: "Designation",
         image3: "Electrodes9",
-        image4: "Electrode24",
+        image4: "FillerMetals1",
         image5: "Electrodes",
         color: Color(#colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)),
         description: """
@@ -287,10 +300,10 @@ Filler Metals
         title: "WELD INSPECTION",
         subtitle: "Visual Criteria",
         image: "Weld9",
-        image2: "T-Joint",
-        image3: "Toe",
-        image4: "ElectrodeChart",
-        image5: "Stick18",
+        image2: "Insp3",
+        image3: "Positions17",
+        image4: "Insp4",
+        image5: "Insp1",
         color: Color(#colorLiteral(red: 0.1446507573, green: 0.8378821015, blue: 0.9349924922, alpha: 1)),
         description: """
 Weld Inspection: AWS Guidelines and Best Practices
