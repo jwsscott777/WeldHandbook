@@ -44,7 +44,7 @@ struct TasksView: View {
             if tasks.isEmpty {
                 Text("Nothing Here, click blue button to create an event")
                     .font(.caption)
-                    .foregroundStyle(.gray)
+                    .foregroundStyle(.orange)
                     .frame(width: 200)
             }
         }

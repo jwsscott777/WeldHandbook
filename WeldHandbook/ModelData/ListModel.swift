@@ -12,7 +12,7 @@ struct ListModel: Identifiable {
     var image: String
     var image2: String
     var title: String
-    var description: String
+    var description: LocalizedStringResource
 }
 
 var lists = [

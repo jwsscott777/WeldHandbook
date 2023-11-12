@@ -5,16 +5,16 @@ import SwiftUI
 
 struct Item: Identifiable {
     var id = UUID()
-    var title: String
-    var text: String
+    var title: LocalizedStringResource
+    var text: LocalizedStringResource
     var image2: String
     var image3: String
     var image4: String
     var image5: String
-    var description: String
-    var description2: String
-    var description3: String
-    var description4: String
+    var description: LocalizedStringResource
+    var description2: LocalizedStringResource
+    var description3: LocalizedStringResource
+    var description4: LocalizedStringResource
     var image: String
     var gradient: LinearGradient
 }
@@ -30,12 +30,12 @@ Setting Up and Using a SMAW (Shielded Metal Arc Welding) Machine: Quick Checklis
 """, description2: """
     2. Inspect Equipment:
         * Check the welding machine for any visible damage.
-        * Ensure the power cable, electrode holder, ground clamp, and welding leads are in good condition (no exposed wires or damage).
+        * Ensure the power cable, electrode holder, work clamp, and welding leads are in good condition (no exposed wires or damage).
 
     3. Setup Workspace:
         * Secure the workpiece using clamps or fixtures.
         * Clean the workpiece surface using a wire brush or grinder to remove rust, paint, or any contaminants.
-        * Attach the ground clamp as close to the welding area as possible.
+        * Attach the work clamp as close to the welding area as possible.
 
     4. Power Up:
         * Connect the machine to an appropriate power source.
@@ -86,12 +86,12 @@ Setting Up and Using a GMAW (Gas Metal Arc Welding) Machine:
 """, description2: """
     2. Inspect the Machine and Components:
         * Check for any visible damage to the machine.
-        * Inspect the power cable, torch, ground clamp, and welding leads for wear or damage.
+        * Inspect the power cable, torch, work clamp, and welding leads for wear or damage.
 
     3. Setting Up the Workspace:
         * Secure the workpiece with clamps or fixtures.
         * Clean the welding surface using a wire brush or grinder to remove contaminants.
-        * Attach the ground clamp close to the welding area.
+        * Attach the work clamp close to the welding area.
         * Tip: Grounding closer to the work reduces energy losses.
 
     4. Power and Gas Setup:

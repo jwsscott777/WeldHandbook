@@ -8,6 +8,7 @@
 import SwiftUI
 import TipKit
 struct HomeView: View {
+    
     let welcomeTip = WelcomeTip()
     var body: some View {
         NavigationStack {
@@ -23,9 +24,7 @@ struct HomeView: View {
                     .padding()
                 }
                 .navigationTitle("Welding Handbook")
-                Button(action: {}, label: {
-                    Text("Scroll down for more ⬇️")
-                })
+                    Text("More Info ⬇️")
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
                     .frame(maxWidth: .infinity, alignment: .leading)

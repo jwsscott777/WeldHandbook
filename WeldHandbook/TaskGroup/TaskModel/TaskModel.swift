@@ -42,12 +42,3 @@ extension Date {
     }
 }
 
-
-//var sampleTasks: [Task] = [
-//    .init(taskTitle: "Write Story", creationDate: .updateHour(-5), isCompleted: true, tint: .taskColor1),
-//    .init(taskTitle: "Take out beast", creationDate: .updateHour(-3),  tint: .taskColor2),
-//    .init(taskTitle: "Clean Truck", creationDate: .updateHour(-4), tint: .taskColor3),
-//    .init(taskTitle: "Install FireTV", creationDate: .updateHour(0), isCompleted: true, tint: .taskColor4),
-//    .init(taskTitle: "Make Dinner", creationDate: .updateHour(2), isCompleted: true, tint: .taskColor1),
-//    .init(taskTitle: "Get Coffee", creationDate: .updateHour(1), tint: .taskColor5)
-//]

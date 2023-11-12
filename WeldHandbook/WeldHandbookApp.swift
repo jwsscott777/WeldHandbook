@@ -17,7 +17,7 @@ struct WeldHandbookApp: App {
         .modelContainer(for: [TaskModel.self, Position.self])
     }
     init() {
-      //  Tips.showAllTipsForTesting()
+       // Tips.showAllTipsForTesting()
       //  Tips.hideAllTipsForTesting()
         try?  Tips.resetDatastore()
         try? Tips.configure()

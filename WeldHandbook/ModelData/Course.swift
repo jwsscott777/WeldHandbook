@@ -9,18 +9,18 @@ import SwiftUI
 
 struct Course: Identifiable {
     var id = UUID()
-    var title: String
-    var subtitle: String
+    var title: LocalizedStringResource
+    var subtitle: LocalizedStringResource
     var image: String
     var image2: String
     var image3: String
     var image4: String
     var image5: String
     var color: Color
-    var description: String
-    var description2: String
-    var description3: String
-    var description4: String
+    var description: LocalizedStringResource
+    var description2: LocalizedStringResource
+    var description3: LocalizedStringResource
+    var description4: LocalizedStringResource
 }
 
 var courses = [
@@ -140,7 +140,7 @@ GMAW(Gas Metal Arc Welding): A brief Look
     * Short-circuit less than 20 gage - Argon + (6 - 10%) CO2
     * Short-circuit 18 to 11 gage - Argon + 25% CO2
     * Spray - Argon + (13 - 20%) CO2
-    * Short-circuit and Spray for Stainlees Steel - Argon + (2 - 4%) CO2
+    * Short-circuit and Spray for Stainless Steel - Argon + (2 - 4%) CO2
 
     The perceived ease of GMAW, often labeled 'MIG' welding, can be misleading. While many attest to its simplicity, achieving mastery in this method is far from straightforward. The prevalent misconception might arise from its beginner-friendly initiation phase. But diving deeper, the intricate nuances of GMAW demand detailed attention, understanding, and practice. Unfortunately, the vast sea of fragmented information available on this topic can be confusing for many. Comprehensive sources offering clarity on GMAW's intricacies can sometimes be challenging to come by.
 """,
@@ -263,7 +263,7 @@ Filler Metals
 
     * Filler Metal: The filler metal is in the form of a stick electrode.
     * Composition: Electrodes are made from a core rod coated with a layer of flux. The core rod material corresponds to the weld's desired strength and composition.
-    * Selection: Electrodes are categorized based on the AWS (American Welding Society) system. For instance, an E6010 electrode indicates a certain tensile strength, welding position, and flux composition. This can be described as: The first two digits '60' represent a deposit strength of 60,000 psi. The third digit '1' refers to it's ability to be used in all positions. The last digit '0' refers to the chemical composition of the flux, in this case an organic - rutile based flux designed to be used in DCRP.
+    * Selection: Electrodes are categorized based on the AWS (American Welding Society) system. For instance, an E6010 electrode indicates a certain tensile strength, welding position, and flux composition. This can be described as: The first two digits '60' represent a deposit strength of 60,000 psi. The third digit '1' refers to it's ability to be used in all positions. The last digit '0' refers to the chemical composition of the flux, in this case an organic  based flux designed to be used in DCRP.
     * Noteworthy Points: The flux coating generates a protective gas shield when heated, which protects the weld from contaminants. It also contributes slag, a layer on top of the weld bead that further shields the cooling weld from the atmosphere.
 """,
         description3: """

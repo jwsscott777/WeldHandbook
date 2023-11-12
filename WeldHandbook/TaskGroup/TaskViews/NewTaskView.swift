@@ -41,7 +41,7 @@ struct NewTaskView: View {
                     Text("Event Date")
                         .font(.caption)
                         .foregroundStyle(.gray)
-                    DatePicker("", selection: $taskDate)
+                    DatePicker(String(""), selection: $taskDate)
                         .datePickerStyle(.compact)
                         .scaleEffect(0.9, anchor: .leading)
                 }
@@ -98,8 +98,8 @@ struct NewTaskView: View {
                     .padding(.vertical, 12)
                     .background(Color(taskColor), in: .rect(cornerRadius: 10))
             })
-            .disabled(taskTitle == "")
-            .opacity(taskTitle == "" ? 0.5 : 1)
+            .disabled(taskTitle == String(""))
+            .opacity(taskTitle == String("") ? 0.5 : 1)
         }
         .padding(15)
     }

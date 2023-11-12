@@ -14,10 +14,11 @@ struct Casa: View {
     @State private var currentWeekIndex: Int = 1
     @State private var createWeek: Bool = false
     @State private var createNewTask: Bool = false
-   // @State private var image = UIImage()
+
     /// Animation Namespace
     @Namespace private var animation
     @State private var navigated = false
+
     let swipeActionTip = SwipeActionTip()
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
@@ -74,7 +75,7 @@ struct Casa: View {
     func HeaderView() -> some View {
         NavigationStack {
             VStack(alignment: .leading, spacing: 6) {
-                Text("Weld Practice Planner")
+                Text("Weld Planner")
                     .font(.title)
                     .foregroundStyle(.purple)
                 HStack(spacing: 5) {

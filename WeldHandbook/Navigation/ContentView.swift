@@ -9,7 +9,6 @@ import SwiftUI
 import TipKit
 
 struct ContentView: View {
-    let welcomeTip = WelcomeTip()
     var body: some View {
         TabView {
             HomeView()
@@ -32,7 +31,7 @@ struct ContentView: View {
                     Image(systemName: "text.book.closed.fill")
                     Text("Reference")
                 }
-        }.popoverTip(welcomeTip)
+        }
     }
 }
 

@@ -25,4 +25,5 @@ class Position {
         self.date = date
         self.priority = priority
     }
+
 }

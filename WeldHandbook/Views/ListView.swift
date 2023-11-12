@@ -18,7 +18,8 @@ struct ListView: View {
         if searchText.isEmpty {
             return lists
         } else {
-            return lists.filter { $0.title.localizedCaseInsensitiveContains(searchText) }
+            return lists.filter { $0.title
+                .localizedCaseInsensitiveContains(searchText) }
         }
     }
     var body: some View {
