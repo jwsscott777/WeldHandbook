@@ -1537,7 +1537,11 @@
         }
       }
     },
+    "App Disclaimer" : {
+
+    },
     "App Information" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {

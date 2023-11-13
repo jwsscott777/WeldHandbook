@@ -8,7 +8,7 @@
 import SwiftUI
 import TipKit
 struct HomeView: View {
-    
+    @State private var navigated = false
     let welcomeTip = WelcomeTip()
     var body: some View {
         NavigationStack {
@@ -40,14 +40,20 @@ struct HomeView: View {
                     }
                 }
                 .padding()
-                NavigationLink(destination: AppInfoView()) {
-                    Button(action: {}, label: {
-                        Text("App Information")
+
+                    Button(action: {
+                        navigated = true
+                    }, label: {
+                        Text("App Disclaimer")
                     })
+                    .foregroundStyle(.accent)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding()
                     .buttonStyle(.plain)
-                }
+
+                .navigationDestination(isPresented: $navigated, destination: {
+                    AppInfoView()
+                })
             }
         }
     }
