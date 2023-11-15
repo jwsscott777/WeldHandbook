@@ -11,6 +11,7 @@ struct Item: Identifiable {
     var image3: String
     var image4: String
     var image5: String
+    var descriptionqt: LocalizedStringResource
     var description: LocalizedStringResource
     var description2: LocalizedStringResource
     var description3: LocalizedStringResource
@@ -20,7 +21,37 @@ struct Item: Identifiable {
 }
 
 var items = [
-    Item(title: "SMAW", text: "Quick Tips", image2: "welder", image3: "StickFace", image4: "StickSlag", image5: "Vertical", description: """
+    Item(title: "SMAW", text: "Quick Tips", image2: "welder", image3: "StickFace", image4: "StickSlag", image5: "Vertical",
+         descriptionqt: """
+         Quick Settings:
+
+         1. Electrodes commonly used:
+
+            * E6010 - Designed for welding pipe and general structures. Excellent for all-position and vertical down
+         welding. Slag is light and easy to remove. Deep, penetrating arc. Low deposition rates.
+         Polarity DC + (electrode positive).
+
+            * E6011 - Similar to E6010 but modified to allow use of AC. Excellent for welding sheet metal corner
+         joints vertical down. Polarity AC or DC + (electrode positive).
+
+            * E7018 - An iron-powder, low-hydrogen, all-position electrode. Excellent for rigid, highly stressed structures of low- to medium-carbon steel. Can also be used for welding mild and high-strength steels, highcarbon
+         steels, and alloy steels. Polarity AC or DC + reverse polarity.
+
+            * E7024 - An iron-powder electrode with low hydrogen, usable in all positions. Excellent for high-amperage, large, fillet welds in flat and horizontal positions. Polarity AC or DC, + or −.
+
+         2. Amperage Ranges:
+
+            * E6010 - 75–130 / 1/8"
+            * E6011 - 75–130 / 1/8"
+            * E7018 - 110–160 / 1/8"
+            * E7024 - 130–180 / 1/8"
+
+         3. Polarity:
+            * DCEP = DCRP
+            * DCEN = DCSP
+
+         """,
+         description: """
 Setting Up and Using a SMAW (Shielded Metal Arc Welding) Machine: Quick Checklist
 
 1. Safety First:
@@ -76,7 +107,37 @@ Setting Up and Using a SMAW (Shielded Metal Arc Welding) Machine: Quick Checklis
         .init(color: Color(#colorLiteral(red: 0.7541666626930237, green: 0.2042534351348877, blue: 0.583319902420044, alpha: 1)), location: 1)]),
             startPoint: UnitPoint(x: 0.5002249700310126, y: 3.0834283490377423e-7),
             endPoint: UnitPoint(x: -0.0016390833199537713, y: 0.977085239704672))),
-    Item(title: "GMAW", text: "Quick Tips", image2: "Mig4", image3: "DriveRolls", image4: "GMAWChart", image5: "FluxGun", description: """
+    Item(title: "GMAW", text: "Quick Tips", image2: "Mig4", image3: "DriveRolls", image4: "GMAWChart", image5: "FluxGun",
+         descriptionqt: """
+         Quick Settings:
+
+         1. GMAW Welding of Sheet Steel:
+
+            * Short-Circuit Transfer Mode:
+                * Used for welding carbon steel, low-alloy steel, and stainless steel sheets from 24 gage to 11 gage.
+                * Optimal electrode: 0.035-inch diameter.
+                * Current: 50 to 200 amps.
+                * Voltage: 14 to 22 volts, with 16 to 18 volts being optimum for most applications.
+
+         2. Shielding Gases for GMAW Welding:
+
+            * Carbon and Low-Alloy Steels:
+
+                * For short-circuit welding of thinner metals, argon with 15–25% CO2 is recommended.
+                * For very thin metals (less than 18 gage), argon mixed with 2 to 5% oxygen can be used.
+
+            * Stainless Steels:
+
+                * For thin-gage stainless steel, an argon mixture with 2 to 4% CO2 is practical.
+                * For thicker stainless steels, argon 98% + oxygen 2% is traditionally used.
+
+         3. GMAW Spray Transfer:
+
+            * With a 0.035-inch diameter electrode using argon 75% + CO2 25%, small globular weld droplet formation occurs in the conventional spray transfer range.
+            * Wire Speed: Over 420 ipm.
+            * Voltage: 24-32 volts.
+         """,
+         description: """
 Setting Up and Using a GMAW (Gas Metal Arc Welding) Machine:
 
 1. Safety First:
@@ -140,7 +201,60 @@ Setting Up and Using a GMAW (Gas Metal Arc Welding) Machine:
         .init(color: Color(#colorLiteral(red: 0.18777775764465332, green: 0.678086519241333, blue: 0.8666666746139526, alpha: 1)), location: 1)]),
             startPoint: UnitPoint(x: 0.5002249700310126, y: 3.0834283490377423e-7),
             endPoint: UnitPoint(x: -0.0016390833199537713, y: 0.977085239704672))),
-    Item(title: "FCAW", text: "Quick Tips", image2: "FluxPanel", image3: "FluxCoreChart", image4: "FluxWeld18", image5: "FluxWeld17", description: """
+    Item(title: "FCAW", text: "Quick Tips", image2: "FluxPanel", image3: "FluxCoreChart", image4: "FluxWeld18", image5: "FluxWeld17", descriptionqt: """
+         Quick Settings
+
+         1. Electrode Selection and Settings for Various Steel Thicknesses:
+
+         * For vertical up welds on steel thicknesses from 1/8 to 3/16 inches and pipe thickness range of 1/4 to 1/2 inches, use a 0.035-inch diameter E71T-1 electrode.
+
+         * For steel in the range of 1/4 to 3/8 inches thickness, consider a 0.045-inch diameter E71T-1 electrode, or a 0.062-inch diameter E71T-1 electrode in nonheat-sensitive applications.
+
+         * For steel over 3/8 inches thickness, a 0.062-inch diameter E71T-1 electrode is recommended.
+
+         * For flat and horizontal welds on steel of 3/8 to 3/4 inches thickness, use a 1/16-inch diameter E70T-X electrode, and for steel over 3/4 inches thickness, a 3/32-inch E70T-X electrode.
+
+         2. Settings for Dual-Shielded, All-Position FCAW Electrodes:
+
+         * For vertical up welding with E71T-1 electrodes (0.045-inch diameter), the recommended current range is approximately 130 to 250 amps.
+
+         * Optimal settings for a vertical up weld with an E71T-1, 0.035-inch diameter electrode are a wire feed rate of 450 in./min, a welding current of 160 to 170 amps, and a voltage of 27 to 28 volts.
+
+         3. Additional Guidlines:
+
+         * A .035-inch electrode is ideal for welding steel pipe with wall thicknesses less than 1/2 inch.
+
+         * The recommended contact tip recess for FCAW is about 1/2 inch with a minimum electrode extension of 3/4 inch.
+
+         * For .045-inch diameter E71T-1 all-position electrodes, use a wire feed rate of 350 in./min for vertical up welding (200 to 190 amps, 24 to 25 volts) and 560 in./min for flat welding (270 amps, 25 to 27 volts).
+
+         0.052-inch (1.3-mm) Diameter Electrodes:
+
+         * Vertical Up Welding:
+            * Wire Feed Rate: Set to approximately 250 in./min (106 mm/s).
+            * Amperage: Around 200 amps.
+            * Voltage: Set to 25 volts.
+
+         Flat Welding:
+            * Wire Feed Rate: Set  490 to 560 in./min (207 to 237 mm/s).
+            * Amperage: Approximately 300 amps.
+            * Voltage: Set to 28 volts.
+
+         0.062-inch (1.6-mm) Diameter Electrodes:
+         * Vertical Up Welding:
+            * Wire Feed Rate: 190 in./min.
+            * Amperage: 230 to 240 amps.
+            * Voltage: Adjust to 24–25 volts.
+
+         * Flat Welding:
+            * Wire Feed Rate: 300 in./min.
+            * Amperage: 340–350 amps.
+            * Voltage: Set to 29–30 volts.
+
+         Average Deposition Rates for Manual Welding:
+            * Welding for 30 minutes of each hour on steel thicknesses of 1/4 to 3/8 inches with an all-position flux-cored electrode of 0.062-inch or 0.045-inch diameter typically results in a deposition rate of about 4–5 lb/h.
+         """,
+         description: """
 Setting Up and Using a FCAW Welding Machine:
 
 1. Safety First:
@@ -199,7 +313,28 @@ Setting Up and Using a FCAW Welding Machine:
         .init(color: Color(#colorLiteral(red: 0.9541666507720947, green: 0.3578125238418579, blue: 0.6255632638931274, alpha: 1)), location: 1)]),
             startPoint: UnitPoint(x: 0.5002249700310126, y: 3.0834283490377423e-7),
             endPoint: UnitPoint(x: -0.0016390833199537713, y: 0.977085239704672))),
-    Item(title: "GTAW", text: "Quick Tips", image2: "TigPipe3", image3: "TigPanel", image4: "TigPipe4", image5: "TigTorch", description: """
+    Item(title: "GTAW", text: "Quick Tips", image2: "TigPipe3", image3: "TigPanel", image4: "TigPipe4", image5: "TigTorch",
+         descriptionqt: """
+         Tungsten Selection Guide:
+
+         1. Pure Tungsten (EWP):
+            * Good for low-amperage welding of aluminum and magnesium using AC; forms a molten ball shape at the tip during AC welding.
+
+         2. Thoriated Electrodes (EWTh):
+            * Offer higher current capacity and superior arc stability compared to pure tungsten, especially for DC welding. Not suitable for maintaining a rounded ball shape at the tip.
+
+         3. Zirconiated Electrodes (EWZr):
+            * Less sensitive to contamination and superior in current capacity than pure tungsten, used in critical applications.
+
+         Electrode Selection Based on Base Metal:
+
+         * For carbon, low-alloy, stainless, and nickel steels: Thoriated electrodes with DCEN; use EWZr for thin materials.
+         * For aluminum: Zirconium or pure tungsten with AC; thoriated zirconium with DCEP for thin sections.
+         * For copper and copper alloys: Thoriated electrodes with DCEN; use EWZr or EWP with AC for thin sections.
+         * For magnesium: Zirconium with AC; use DCEP with the same electrode for thin sections.
+         * For titanium: Thoriated electrodes with DCEN.
+         """,
+         description: """
 Setting Up and Using a GTAW (TIG) Welding Machine
 
 1. Select the Right Machine:
@@ -256,59 +391,86 @@ Setting Up and Using a GTAW (TIG) Welding Machine
         .init(color: Color(#colorLiteral(red: 0.3376389145851135, green: 0.9208333492279053, blue: 0.8508499264717102, alpha: 1)), location: 1)]),
             startPoint: UnitPoint(x: 0.8472221674106832, y: -0.36111113989033466),
             endPoint: UnitPoint(x: -0.4110787222278236, y: 1.8127854520696247))),
-    Item(title: "Filler Metals", text: "Quick Tips", image2: "FillerMetal", image3: "Electrodes10", image4: "FillerMetals1", image5: "FluxSpool", description: """
-Choosing and understanding filler metals for the main processes
+    Item(title: "Weld Symbols", text: "Quick Tips", image2: "FillerMetal", image3: "Electrodes10", image4: "FillerMetals1", image5: "FluxSpool",
+         descriptionqt: """
+         Understand the Elements of Welding Symbols:
 
-Why do we need to correctly choose our filler metals?
+            * Reference Line: The basis of the welding symbol.
+            * Arrow: Connects the reference line to the joint.
+            * Basic Weld Symbols: Indicate the type of welding.
+            * Dimensions and Other Data: Provide details like size, length, spacing, etc.
+            * Supplementary Symbols: Convey additional information.
+            * Finish Symbols: Indicate the method of finishing.
+            * Tail and Specification: Used for additional references or processes.
+            * Process or Other Reference: Specifies the welding process or other necessary information.
+         """,
+         description: """
+        1. Study the Basic Weld Symbols: Familiarize yourself with the basic weld symbols shown in the table, like square, bevel, V, U, J, flare V, and flare bevel. Understand that these symbols represent the type of weld desired.
+
+        2. Learn to Interpret Welding Symbols: Welding symbols are more complex and can include up to eight elements. Understand that these symbols convey detailed welding instructions. Focus on each element, like the reference line, arrow, dimensions, and supplementary symbols.
+
+        3. Use Visual Aids: Refer to figures and diagrams, like Fig. 1 in the document, which show the standard location of elements in a welding symbol. Visual aids can help you understand how the symbols are structured and read.
 """, description2: """
-    1. Compatibility with Base Metals:
-        * The filler metal must be compatible with the base metals being joined to prevent weld defects such as cracking or insufficient bond strength. A mismatch in the metallurgical properties can lead to weld failure under stress or during use.
-        * Many industries must adhere to strict welding codes and standards, which specify the type of filler metal that must be used for different applications. Using the correct filler metal ensures compliance with these regulations.
+        4. Reference Guides and Standards: Keep a copy of ANSI/AWS A2.4-79 or any updated version handy for reference. This standard provides detailed descriptions and examples of welding symbols.
 
-    2. Mechanical Properties:
-        * The filler metal determines the mechanical properties of the weld, such as tensile strength, ductility, and toughness. It is essential that the weld metal meets or exceeds the performance requirements of the base material to ensure the integrity of the welded structure.
-        * For example: E7018 has a minimum deposited tensile strength of 70,000 psi based on the first two digits '70' of its designation. ER70s-3 has a minimum deposited tensile strength of 70,000 psi as well, based on the '70' being in its designation. 11018 has a minimum tensile strength of 110,000 psi based upon the first three digits '110' of its designation etc...
-
-    3. Corrosion Resistance:
-        * In environments where corrosion is a concern, selecting a filler metal that provides the necessary corrosion resistance is vital to the longevity and durability of the weldment.
-
-    4. Service Conditions:
-        * The filler metal must be able to withstand the service conditions of the final product, which may include factors like temperature extremes, mechanical loads, or chemical exposure.
-
-    5. Weld Quality:
-        * The right filler metal contributes to achieving a high-quality weld with good appearance and consistency, which is often critical in applications where the welds are visible or subjected to rigorous inspection standards.
-
-    6. Code and Specification Compliance:
-        * Many industries must adhere to strict welding codes and standards, which specify the type of filler metal that must be used for different applications. Using the correct filler metal ensures compliance with these regulations.
-
-    7. Economic Efficiency:
-        * Using the correct filler metal can reduce the need for rework or repair, saving both time and materials, which translates to cost savings and increased productivity.
+        5. Learn the Difference Between Weld Symbol and Welding Symbol: Understand that a weld symbol represents only the type of weld, while a welding symbol includes comprehensive instructions.
 
     """, description3: """
-    For the Processes:
+        6. Practice Reading Symbols: Practice interpreting symbols from the document or other resources. Start with simple weld symbols and gradually move to more complex welding symbols.
 
-    Shielded Metal Arc Welding (SMAW) Filler Metals:
-        * For SMAW, also known as stick welding, the filler metals come in the form of coated electrodes. These electrodes consist of a core wire coated with a flux that protects the molten weld pool from atmospheric contamination. An example of a common filler metal for SMAW is the E6013 electrode, which is suitable for mild steel welding and offers moderate penetration and a stable arc. Another example is the E7018 electrode, which is characterized by low hydrogen content and is often used for welding critical structures where higher tensile strength is needed.
+        7. Online Tutorials and Courses: Consider online resources, tutorials, and courses that provide visual and interactive ways to learn welding symbols.
 
-
-    Gas Metal Arc Welding (GMAW) Filler Metals:
-        * In GMAW, commonly referred to as MIG welding, the filler metal is supplied as a continuously fed wire. This process can accommodate a variety of metal types and thicknesses. For example, ER70S-6 is a common mild steel filler wire that contains higher levels of silicon and manganese to provide better wetting and a more fluid weld pool. On the other hand, for welding aluminum alloys, an ER4043 wire would be selected, which is a popular aluminum filler metal because of its versatility and ease of use.
-
-
-    Flux-Cored Arc Welding (FCAW) Filler Metals:
-        * FCAW uses a continuously fed tubular electrode filled with flux. The flux within the wire shields the arc and can be designed to produce additional shielding gas. Filler metals for FCAW are typically classified by their usability, the mechanical properties of the deposited weld metal, and the chemical composition of the filler metal. An example is E71T-1, a widely used carbon steel electrode that is versatile and suitable for single-pass and multi-pass welding. For stainless steel applications, an electrode like E316LT1-1 would be used due to its compatibility with 316 stainless steel and its resistance to corrosion.
-
-    Gas Tungsten Arc Welding (GTAW) Filler Metals:
-        * GTAW, or TIG welding, uses a non-consumable tungsten electrode to produce the arc, and the filler metal is manually fed into the weld pool. Filler metals for GTAW come in straight lengths of wire. A common filler metal for TIG welding stainless steel is ER308L, which matches 304 stainless steel and provides good resistance to intergranular corrosion. For high-temperature applications involving nickel alloys, a filler metal like ERNiCrMo-3 (commonly associated with the Inconel 625 alloy) can be used due to its high-temperature strength and corrosion resistance.
     """, description4: """
-        In all cases, the AWS classification system assists welders in selecting the correct filler metal for their specific application. For instance, the prefix "E" indicates an electrode for SMAW, while "ER" indicates a rod or wire for GMAW or GTAW. The subsequent digits and letters give information about the metal's composition, tensile strength, and other properties. The choice of filler metal not only influences the quality of the weld but also affects its mechanical properties and suitability for the service environment of the welded component.
+        8. Consult with Experienced Welders or Instructors: If possible, consult with experienced welders or instructors who can provide insights and practical tips on interpreting welding symbols.
+
+        9. Hands-On Practice: Apply your knowledge by reading the symbols on actual welding drawings or during practical welding exercises.
+
+        10. Understanding welding symbols is crucial for accurate communication in the field of welding, and becoming proficient requires time and practice.
     """, image: "FillerMetals", gradient: LinearGradient(
             gradient: Gradient(stops: [
         .init(color: Color(#colorLiteral(red: 0.9969777843, green: 0.7088937798, blue: 1, alpha: 1)), location: 0),
         .init(color: Color(#colorLiteral(red: 1, green: 0.4107720319, blue: 0.1538359534, alpha: 1)), location: 1)]),
             startPoint: UnitPoint(x: 0.8472221674106832, y: -0.36111113989033466),
             endPoint: UnitPoint(x: -0.4110787222278236, y: 1.8127854520696247))),
-    Item(title: "Inspection", text: "Quick Tips", image2: "Crack2", image3: "Insp2", image4: "Insp1", image5: "B2.1", description: """
+    Item(title: "Inspection", text: "Quick Tips", image2: "Crack2", image3: "Insp2", image4: "Insp1", image5: "B2.1",
+         descriptionqt: """
+         Quick Checklist for Welders and Inspectors:
+
+         1. Visual Inspection:
+            * Check for obvious defects such as cracks, porosity, undercutting, and incomplete fusion.
+            * Ensure the weld size meets the specifications (width, length, and height).
+            * Look for any surface irregularities like spatter, uneven bead profile, and misalignment.
+
+         2. Dimensional Checks:
+            * Verify that the dimensions of the welded components align with the engineering drawings and specifications.
+            * Measure the leg length and throat size of fillet welds.
+            * Check the weld reinforcement and penetration depth for groove welds.
+
+         3. Non-Destructive Testing (NDT):
+            * Employ methods like ultrasonic testing, radiographic testing, magnetic particle testing, and dye penetrant inspection to detect internal and surface defects.
+            * Choose the NDT method based on the type of material, weld, and defects suspected.
+
+         4. Destructive Testing:
+            * In some cases, carry out destructive tests like bend tests, tensile tests, and impact tests to evaluate the mechanical properties of the weld.
+            * Use these tests primarily for procedure qualification and welder performance qualification.
+
+         5. Welder and Procedure Qualification:
+            * Verify that the welders are qualified to perform the welding as per the required standards and procedures.
+            * Ensure that the welding procedure specifications (WPS) are approved and followed during the welding process.
+
+         6. Material Verification:
+            * Confirm that the materials used (base metals, filler metals, shielding gases) comply with the specifications and are appropriate for the welding process.
+
+         7. Welding Equipment and Settings:
+            * Inspect welding equipment for proper function and calibration.
+            * Ensure that the welding parameters (amperage, voltage, travel speed) adhere to the WPS.
+
+         8. Record Keeping and Documentation:
+            * Maintain accurate records of inspections, tests, and certifications.
+            * Document any non-conformities and ensure corrective actions are taken.
+            * Confirm compliance with relevant codes, standards (like AWS, ASME), and legal requirements.
+         """,
+         description: """
 A welder or inspector following the American Welding Society (AWS) standards must be vigilant about various types of discontinuities that may occur during the welding process. Discontinuities are interruptions in the typical structure of a material or welding, which may or may not affect the integrity of the weld. Here's a brief overview of the main types:
 """, description2: """
 1. Cracks:

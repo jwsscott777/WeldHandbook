@@ -40,6 +40,10 @@ struct SmallDetailView: View {
                 .padding(16)
                 .background(item.gradient)
                 VStack(alignment: .leading, spacing: 16) {
+                    Text(item.descriptionqt)
+                        .font(.title2)
+                        .foregroundStyle(.orange)
+                        .textSelection(.enabled)
                     Text(item.description)
                         .font(.title2)
                         .textSelection(.enabled)

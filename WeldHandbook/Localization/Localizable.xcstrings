@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "        1. Study the Basic Weld Symbols: Familiarize yourself with the basic weld symbols shown in the table, like square, bevel, V, U, J, flare V, and flare bevel. Understand that these symbols represent the type of weld desired.\n\n        2. Learn to Interpret Welding Symbols: Welding symbols are more complex and can include up to eight elements. Understand that these symbols convey detailed welding instructions. Focus on each element, like the reference line, arrow, dimensions, and supplementary symbols.\n\n        3. Use Visual Aids: Refer to figures and diagrams, like Fig. 1 in the document, which show the standard location of elements in a welding symbol. Visual aids can help you understand how the symbols are structured and read." : {
+
+    },
     "        GMAW (Gas Metal Arc Welding): This method employs an electric arc between a continuously fed metal electrode wire and the base metal, providing both the heat and filler metal necessary for welding. The welding arc is enveloped by an argon-based shielding gas, occasionally mixed with CO2 and O2 for enhanced performance. GMAW's popularity spans both professionals and novices, owing to its straightforward setup. However, achieving code quality welding demands meticulous adjustments to voltage and wire speed, a feat only attainable with considerable experience. It is a 'Constant Voltage' power source.\n\n        FCAW (Flux Cored Arc Welding): Sharing many similarities with GMAW, FCAW stands out due to its flux core, a design reminiscent of the SMAW process. This process comes in two variants. The first depends solely on the wire's internal flux for shielding the weld, while the second combines this with an external argon mix gas for superior weld quality, a method often termed 'Dual Shield' flux cored arc welding. It is a 'Constant Voltage' power source." : {
       "localizations" : {
         "es-419" : {
@@ -32,6 +35,9 @@
           }
         }
       }
+    },
+    "        Shielded Metal Arc Welding (SMAW) Filler Metals:\n\n            * For SMAW, also known as stick welding, the filler metals come in the form of coated electrodes. These electrodes consist of a core wire coated with a flux that protects the molten weld pool from atmospheric contamination. An example of a common filler metal for SMAW is the E6013 electrode, which is suitable for mild steel welding and offers moderate penetration and a stable arc. Another example is the E7018 electrode, which is characterized by low hydrogen content and is often used for welding critical structures where higher tensile strength is needed." : {
+
     },
     "        SMAW (Shielded Metal Arc Welding): A process where an electric arc is passed through a flux-coated electrode, which matches the base metal's type, resulting in the melting of both the electrode and the base metal. Praised for its versatility, SMAW finds applications from minor repairs to intensive pipe welding. A significant advantage lies in its resilience against windy outdoor conditions. It is a 'Constant Current' power source.\n\n        GTAW (Gas Tungsten Arc Welding): A technique where heat is generated between a tungsten electrode and the base metal. Unlike other processes, the filler metal is introduced separately to the molten puddle. Shielding typically involves 100% argon, though thicker aluminum demands an argon-helium mix for rapid puddle development. GTAW is especially favored for welding stainless steel and other specialty metals. It is a 'Constant Current' power source." : {
       "localizations" : {
@@ -177,22 +183,6 @@
         }
       }
     },
-    "    1. SMAW (Shielded Metal Arc Welding):\n    Also known as stick welding, SMAW uses a consumable electrode coated in flux.\n\n    * Filler Metal: The filler metal is in the form of a stick electrode.\n    * Composition: Electrodes are made from a core rod coated with a layer of flux. The core rod material corresponds to the weld's desired strength and composition.\n    * Selection: Electrodes are categorized based on the AWS (American Welding Society) system. For instance, an E6010 electrode indicates a certain tensile strength, welding position, and flux composition. This can be described as: The first two digits '60' represent a deposit strength of 60,000 psi. The third digit '1' refers to it's ability to be used in all positions. The last digit '0' refers to the chemical composition of the flux, in this case an organic  based flux designed to be used in DCRP.\n    * Noteworthy Points: The flux coating generates a protective gas shield when heated, which protects the weld from contaminants. It also contributes slag, a layer on top of the weld bead that further shields the cooling weld from the atmosphere." : {
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "    1. SMAW (soldadura por arco metálico protegido):\n    También conocida como soldadura con electrodo revestido, SMAW utiliza un electrodo consumible recubierto de fundente.\n\n    * Metal de aportación: El metal de aportación tiene la forma de un electrodo revestido.\n    * Composición: Los electrodos están hechos de una varilla central recubierta con una capa de fundente. El material de la varilla central corresponde a la resistencia y composición deseadas de la soldadura.\n    *Selección: Los electrodos se clasifican según el sistema AWS (American Welding Society). Por ejemplo, un electrodo E6010 indica una determinada resistencia a la tracción, posición de soldadura y composición del fundente. Esto se puede describir como: Los dos primeros dígitos '60' representan una fuerza de depósito de 60.000 psi. El tercer dígito '1' se refiere a su capacidad para usarse en todas las posiciones. El último dígito '0' se refiere a la composición química del fundente, en este caso un fundente de base orgánica diseñado para usarse en DCRP.\n    * Puntos destacables: El recubrimiento fundente genera un gas protector cuando se calienta, que protege la soldadura de contaminantes. También aporta escoria, una capa encima del cordón de soldadura que protege aún más la soldadura enfriada de la atmósfera."
-          }
-        },
-        "ht" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1. SMAW (Swielded Metal Arc Welding):\n    Konnen tou kòm baton soude, SMAW sèvi ak yon elektwòd konsomab kouvwi nan flux.\n\n    * Filler Metal: Filler metal la se nan fòm lan nan yon elektwòd baton.\n    * Konpozisyon: Elektwòd yo te fè soti nan yon baton nwayo kouvwi ak yon kouch flux. Materyèl baton debaz la koresponn ak fòs ak konpozisyon vle soude a.\n    * Seleksyon: Elektwòd yo klase dapre sistèm AWS (American Welding Society). Pou egzanp, yon elektwòd E6010 endike yon sèten fòs rupture, pozisyon soude, ak konpozisyon flux. Sa a ka dekri tankou: De premye chif '60' reprezante yon fòs depo 60,000 psi. Twazyèm chif '1' refere a kapasite li pou itilize nan tout pozisyon. Dènye chif '0' refere a konpozisyon chimik flux a, nan ka sa a yon flux òganik ki fèt pou itilize nan DCRP.\n    * Pwen enpòtan: Kouch koule a jenere yon pwoteksyon gaz pwoteksyon lè chofe, ki pwoteje soude a kont kontaminan. Li kontribye tou salop, yon kouch sou tèt chaplèt la soude ki plis pwoteje soude refwadisman an soti nan atmosfè a."
-          }
-        }
-      }
-    },
     "    2. Dual Shield Flux Core Wires: As the name suggests, this type employs both its internal flux and an external shielding gas for protection. This dual protection results in cleaner welds with minimal spatter and slag. With their nomenclature often being E71T-1xxxxx, these wires are becoming increasingly popular, especially in structural steel applications. They require Direct Current Electrode Positive (DCRP) or reverse polarity and deliver the benefits of spray transfer without undesirable fallout. However, while the quality of welds with dual shield wires is exceptional, the initial setup costs are higher compared to SMAW. This economic consideration might influence decisions, especially in budget-conscious projects." : {
       "localizations" : {
         "es-419" : {
@@ -257,21 +247,17 @@
         }
       }
     },
-    "    4. GTAW (Gas Tungsten Arc Welding):\n    Often called TIG (Tungsten Inert Gas) welding, GTAW uses a non-consumable tungsten electrode.\n\n    * Filler Metal: The filler is a rod introduced manually into the weld pool, separate from the electrode.\n    * Composition: Filler rods can be made from various materials, mirroring those available for GMAW.\n    * Selection: As with other processes, AWS classification aids in selection, like ER70s-2 for a type of steel rod.\n    * Noteworthy Points: The purity and cleanliness of GTAW filler metals are crucial, given the process's precision and the absence of flux. Proper storage and handling to prevent contamination are essential.\n    * If you are out of filler metal for some reason, you can snip off some mig wire and twist it in a pinch. They are the same chemical coposition. For example: The ER70s-3 for GTAW is the same as ER70s-3 for GMAW. One is in a rod form and the other is in a wire form.\n\n    Filler metals play a pivotal role in the welding world, bridging base metals and ensuring the resultant weld's strength and durability. Each welding process demands specific filler metal forms and compositions, tailored to the unique requirements of the job. As welding technologies and applications evolve, so too will the range and specificity of filler metals, underscoring their enduring importance in the fabrication universe." : {
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "    4. GTAW (soldadura por arco de tungsteno con gas):\n    A menudo llamada soldadura TIG (gas inerte de tungsteno), GTAW utiliza un electrodo de tungsteno no consumible.\n\n    *Metal de Aporte: El aporte es una varilla que se introduce manualmente en el baño de soldadura, separada del electrodo.\n    * Composición: Las varillas de relleno pueden estar hechas de varios materiales, reflejando las disponibles para GMAW.\n    * Selección: Al igual que con otros procesos, la clasificación AWS ayuda en la selección, como ER70s-2 para un tipo de varilla de acero.\n    * Puntos destacables: La pureza y limpieza de los metales de aportación GTAW son cruciales, dada la precisión del proceso y la ausencia de fundente. El almacenamiento y manipulación adecuados para evitar la contaminación son esenciales.\n    * Si por alguna razón se le acabó el metal de aportación, puede cortar un poco de alambre mig y girarlo en caso de apuro. Son la misma composición química. Por ejemplo: el ER70s-3 para GTAW es el mismo que el ER70s-3 para GMAW. Uno tiene forma de varilla y el otro tiene forma de alambre.\n\n    Los metales de aportación desempeñan un papel fundamental en el mundo de la soldadura, uniendo los metales base y garantizando la resistencia y durabilidad de la soldadura resultante. Cada proceso de soldadura exige formas y composiciones de metal de aportación específicas, adaptadas a los requisitos únicos del trabajo. A medida que las tecnologías y aplicaciones de soldadura evolucionan, también lo harán la gama y la especificidad de los metales de aportación, lo que subraya su importancia duradera en el universo de la fabricación."
-          }
-        },
-        "ht" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "4. GTAW (Gaz tengstèn arc soude):\n    Souvan yo rele TIG (Tungstène gaz inaktif) soude, GTAW sèvi ak yon elektwòd tengstèn ki pa konsome.\n\n    * Filler Metal: Filler a se yon baton prezante manyèlman nan pisin nan soude, separe de elektwòd la.\n    * Konpozisyon: Filler branch bwa ka fèt nan divès kalite materyèl, mirwar sa ki disponib pou GMAW.\n    * Seleksyon: Menm jan ak lòt pwosesis, klasifikasyon AWS ede nan seleksyon, tankou ER70s-2 pou yon kalite baton asye.\n    * Pwen enpòtan pou remake: Pite ak pwòpte metal filler GTAW yo enpòtan anpil, bay presizyon pwosesis la ak absans flux. Bon depo ak manyen pou anpeche kontaminasyon yo esansyèl.\n    * Si ou soti nan filler metal pou kèk rezon, ou ka koupe kèk fil mig ak tòde li nan yon zongle. Yo se menm kopozisyon chimik. Pa egzanp: ER70s-3 pou GTAW se menm jan ak ER70s-3 pou GMAW. Youn nan fòm baton ak lòt la nan fòm fil.\n\n    Filler metal yo jwe yon wòl esansyèl nan mond soude a, fè pon metal debaz yo epi asire fòs ak rezistans soude rezilta a. Chak pwosesis soude mande fòm metal filler espesifik ak konpozisyon, pwepare a kondisyon inik nan travay la. Kòm teknoloji soude ak aplikasyon evolye, se konsa tou pral seri a ak espesifik nan metal ranpli, souliye enpòtans dirab yo nan linivè a fabwikasyon."
-          }
-        }
-      }
+    "    4. GTAW (Gas Tungsten Arc Welding):\n    Often called TIG (Tungsten Inert Gas) welding, GTAW uses a non-consumable tungsten electrode.\n\n    * Filler Metal: The filler is a rod introduced manually into the weld pool, separate from the electrode.\n    * Composition: Filler rods can be made from various materials, mirroring those available for GMAW.\n    * Selection: As with other processes, AWS classification aids in selection, like ER70s-2 for a type of steel rod.\n    * Noteworthy Points: The purity and cleanliness of GTAW filler metals are crucial, given the process's precision and the absence of flux. Proper storage and handling to prevent contamination are essential.\n    * If you are out of filler metal for some reason, you can snip off some mig wire and twist it in a pinch. They are the same chemical coposition. For example: The ER70s-3 for GTAW is the same as ER70s-3 for GMAW. One is in a rod form and the other is in a wire form.\n\n    Filler metals play a pivotal role in the welding world, bridging base metals and ensuring the resultant weld's strength and durability. Each welding process demands specific filler metal forms and compositions, tailored to the unique requirements of the job. As welding technologies and applications evolve, so too will the range and specificity of filler metals, underscoring their enduring importance in the fabrication universe.\n\n    In all cases, the AWS classification system assists welders in selecting the correct filler metal for their specific application. For instance, the prefix \"E\" indicates an electrode for SMAW, while \"ER\" indicates a rod or wire for GMAW or GTAW. The subsequent digits and letters give information about the metal's composition, tensile strength, and other properties. The choice of filler metal not only influences the quality of the weld but also affects its mechanical properties and suitability for the service environment of the welded component." : {
+
+    },
+    "    4. Reference Guides and Standards: Keep a copy of ANSI/AWS A2.4-79 or any updated version handy for reference. This standard provides detailed descriptions and examples of welding symbols.\n\n    5. Learn the Difference Between Weld Symbol and Welding Symbol: Understand that a weld symbol represents only the type of weld, while a welding symbol includes comprehensive instructions.\n" : {
+
+    },
+    "    6. Practice Reading Symbols: Practice interpreting symbols from the document or other resources. Start with simple weld symbols and gradually move to more complex welding symbols.\n\n    7. Online Tutorials and Courses: Consider online resources, tutorials, and courses that provide visual and interactive ways to learn welding symbols.\n" : {
+
+    },
+    "    8. Consult with Experienced Welders or Instructors: If possible, consult with experienced welders or instructors who can provide insights and practical tips on interpreting welding symbols.\n\n    9. Hands-On Practice: Apply your knowledge by reading the symbols on actual welding drawings or during practical welding exercises.\n\n    10. Understanding welding symbols is crucial for accurate communication in the field of welding, and becoming proficient requires time and practice." : {
+
     },
     "    A \"fillet weld\" is one of the most commonly used types of welds in the welding industry. It is characterized by its triangular or roughly triangular cross-sectional shape and is used to join two pieces of metal at a right angle. Rather than fusing the edges of the two metals directly, as is done in a groove weld, a fillet weld lays filler metal in the interior angle between the two pieces, creating a bond that spans the gap between them. The fillet weld is integral to many structural and non-structural applications because of its versatility and ease of execution.\n\n    Fillet welds can be found in a multitude of welded structures and assemblies, from buildings and bridges to furniture and machinery. They are particularly prevalent in scenarios where tee and lap joints are present. The strength and size of a fillet weld are determined by the weld's \"leg size,\" which refers to the length of each of the two sides of the triangular cross-section. Properly executed fillet welds are crucial for ensuring the structural integrity of a welded assembly, as their quality directly influences the load-bearing capacity and longevity of the joint.\n\n    To produce an effective fillet weld, several factors must be taken into consideration. Proper selection of filler material is essential to ensure compatibility with the base metals being joined. Additionally, the welder must regulate heat input and travel speed to avoid potential defects such as undercut, porosity, or lack of fusion. The joint preparation, cleanliness of the base metals, and correct welding technique all play a role in determining the overall quality and efficacy of the fillet weld." : {
       "localizations" : {
@@ -397,22 +383,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pou egzanp, ann diseke konsèp nan 'mòd transfè.' GMAW gen plizyè mòd, tankou 'kout sikwi', 'globular', 'batman kè' ak 'espre'. Distenksyon ant yo ak mete machin ou avèk presizyon pou chak mòd se esansyèl. Nan yon kontèks jeneralize, pou yon gwosè fil 0.035, epesè materyèl nan 1/4 pous, ak yon melanj gaz pwoteksyon nan 75% agon ak 25% CO2, 'mòd sikwi kout la' anjeneral reyalize ak anviwònman vòltaj ki varye ant 17-24. vòlt ak vitès fil ant 75-420 pous pou chak minit. Depase anviwònman sa yo, ou ta tranzisyon nan \"mòd espre\". Men, sonje, chanjman nan mòd sa a ka bezwen yon chanjman nan melanj gaz la elve enèji arc la.\n\n    Chak mòd transfè ofri avantaj inik. 'Mòd kous kout la', pou egzanp, pi pito pou soude soti nan pozisyon oswa lè adrese pi gwo twou vid ki genyen nan jwenti ki pa pafè. Sepandan, li gen limit li yo, espesyalman lè asire bon jan fizyon nan veso presyon oswa tiyo. Nan kontras, \"mòd transfè espre\" venere pou garanti li yo nan fizyon pi bon, ki fè li ideyal pou kòd-bon jan kalite soude. Limit prensipal li? Li prensipalman limite a soude pozisyon plat ak orizontal epi li mande ekspètiz enpòtan pou jere gwo twou vid ki genyen.\n\n    Chwazi gwosè fil ki apwopriye a se yon lòt aspè esansyèl nan GMAW. Pandan ke gwosè fil 0.035 se versatile ase pou materyèl ki varye ant 1/8 \"a ½\", pou materyèl ki pi epè (½\" ak pi wo a), fil .045 la pi preferab. Nan lòt bout nan spectre a, travay ak metal fèy nesesite chanje nan .023-.030 fil gwosè."
-          }
-        }
-      }
-    },
-    "    In all cases, the AWS classification system assists welders in selecting the correct filler metal for their specific application. For instance, the prefix \"E\" indicates an electrode for SMAW, while \"ER\" indicates a rod or wire for GMAW or GTAW. The subsequent digits and letters give information about the metal's composition, tensile strength, and other properties. The choice of filler metal not only influences the quality of the weld but also affects its mechanical properties and suitability for the service environment of the welded component." : {
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "    En todos los casos, el sistema de clasificación AWS ayuda a los soldadores a seleccionar el metal de aportación correcto para su aplicación específica. Por ejemplo, el prefijo \"E\" indica un electrodo para SMAW, mientras que \"ER\" indica una varilla o alambre para GMAW o GTAW. Los dígitos y letras siguientes brindan información sobre la composición, la resistencia a la tracción y otras propiedades del metal. La elección del metal de aportación no sólo influye en la calidad de la soldadura sino que también afecta a sus propiedades mecánicas y a su idoneidad para el entorno de servicio del componente soldado."
-          }
-        },
-        "ht" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nan tout ka yo, sistèm klasifikasyon AWS la ede soude yo chwazi metal ki kòrèk la pou aplikasyon espesifik yo. Pou egzanp, prefiks \"E\" endike yon elektwòd pou SMAW, pandan ke \"ER\" endike yon baton oswa fil pou GMAW oswa GTAW. Chif ak lèt ​​ki vin apre yo bay enfòmasyon sou konpozisyon metal la, fòs rupture, ak lòt pwopriyete. Chwa a nan metal filler pa sèlman enfliyanse bon jan kalite a nan soude a, men tou afekte pwopriyete mekanik li yo ak konvnab pou anviwònman an sèvis nan eleman nan soude."
           }
         }
       }
@@ -1201,22 +1171,6 @@
         }
       }
     },
-    "1. Compatibility with Base Metals:\n    * The filler metal must be compatible with the base metals being joined to prevent weld defects such as cracking or insufficient bond strength. A mismatch in the metallurgical properties can lead to weld failure under stress or during use.\n    * Many industries must adhere to strict welding codes and standards, which specify the type of filler metal that must be used for different applications. Using the correct filler metal ensures compliance with these regulations.\n\n2. Mechanical Properties:\n    * The filler metal determines the mechanical properties of the weld, such as tensile strength, ductility, and toughness. It is essential that the weld metal meets or exceeds the performance requirements of the base material to ensure the integrity of the welded structure.\n    * For example: E7018 has a minimum deposited tensile strength of 70,000 psi based on the first two digits '70' of its designation. ER70s-3 has a minimum deposited tensile strength of 70,000 psi as well, based on the '70' being in its designation. 11018 has a minimum tensile strength of 110,000 psi based upon the first three digits '110' of its designation etc...\n\n3. Corrosion Resistance:\n    * In environments where corrosion is a concern, selecting a filler metal that provides the necessary corrosion resistance is vital to the longevity and durability of the weldment.\n\n4. Service Conditions:\n    * The filler metal must be able to withstand the service conditions of the final product, which may include factors like temperature extremes, mechanical loads, or chemical exposure.\n\n5. Weld Quality:\n    * The right filler metal contributes to achieving a high-quality weld with good appearance and consistency, which is often critical in applications where the welds are visible or subjected to rigorous inspection standards.\n\n6. Code and Specification Compliance:\n    * Many industries must adhere to strict welding codes and standards, which specify the type of filler metal that must be used for different applications. Using the correct filler metal ensures compliance with these regulations.\n\n7. Economic Efficiency:\n    * Using the correct filler metal can reduce the need for rework or repair, saving both time and materials, which translates to cost savings and increased productivity.\n" : {
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1. Compatibilidad con Metales Base:\n    * El metal de aportación debe ser compatible con los metales base que se van a unir para evitar defectos de soldadura, como grietas o una fuerza de unión insuficiente. Una falta de coincidencia en las propiedades metalúrgicas puede provocar fallas en la soldadura bajo tensión o durante el uso.\n    * Muchas industrias deben cumplir estrictos códigos y normas de soldadura, que especifican el tipo de metal de aportación que debe utilizarse para diferentes aplicaciones. El uso del metal de aportación correcto garantiza el cumplimiento de estas normas.\n\n2. Propiedades mecánicas:\n    * El metal de aportación determina las propiedades mecánicas de la soldadura, como la resistencia a la tracción, la ductilidad y la tenacidad. Es esencial que el metal de soldadura cumpla o supere los requisitos de rendimiento del material base para garantizar la integridad de la estructura soldada.\n    * Por ejemplo: E7018 tiene una resistencia a la tracción depositada mínima de 70 000 psi según los dos primeros dígitos '70' de su designación. ER70s-3 también tiene una resistencia a la tracción depositada mínima de 70.000 psi, según el \"70\" que figura en su designación. 11018 tiene una resistencia a la tracción mínima de 110.000 psi según los primeros tres dígitos '110' de su designación, etc.\n\n3. Resistencia a la corrosión:\n    * En ambientes donde la corrosión es una preocupación, seleccionar un metal de aportación que proporcione la resistencia a la corrosión necesaria es vital para la longevidad y durabilidad de la soldadura.\n\n4. Condiciones del Servicio:\n    * El metal de aportación debe poder soportar las condiciones de servicio del producto final, que pueden incluir factores como temperaturas extremas, cargas mecánicas o exposición a productos químicos.\n\n5. Calidad de soldadura:\n    * El metal de aportación adecuado contribuye a lograr una soldadura de alta calidad con buena apariencia y consistencia, lo que suele ser fundamental en aplicaciones donde las soldaduras son visibles o están sujetas a rigurosos estándares de inspección.\n\n6. Cumplimiento de códigos y especificaciones:\n    * Muchas industrias deben cumplir estrictos códigos y normas de soldadura, que especifican el tipo de metal de aportación que debe utilizarse para diferentes aplicaciones. El uso del metal de aportación correcto garantiza el cumplimiento de estas normas.\n\n7. Eficiencia Económica:\n    * El uso del metal de aportación correcto puede reducir la necesidad de retrabajo o reparación, ahorrando tiempo y materiales, lo que se traduce en ahorro de costos y mayor productividad."
-          }
-        },
-        "ht" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1. Konpatibilite ak metal debaz:\n    * Filler metal la dwe konpatib ak metal debaz yo mete ansanm pou anpeche domaj soude tankou fann oswa fòs kosyon ensifizan. Yon dezakò nan pwopriyete métallurgique yo ka mennen nan echèk soude anba estrès oswa pandan itilizasyon.\n    * Anpil endistri yo dwe respekte kòd strik soude ak estanda, ki espesifye ki kalite metal filler ki dwe itilize pou aplikasyon diferan. Sèvi ak metal filler kòrèk la asire konfòmite ak règleman sa yo.\n\n2. Pwopriyete mekanik:\n    * Filler metal la detèmine pwopriyete mekanik soude a, tankou fòs rupture, duktilite, ak severite. Li esansyèl ke metal la soude satisfè oswa depase kondisyon pèfòmans materyèl debaz la pou asire entegrite estrikti soude a.\n    * Pou egzanp: E7018 gen yon minimòm depoze fòs rupture de 70,000 psi ki baze sou de premye chif '70' nan deziyasyon li yo. ER70s-3 gen yon minimòm depoze fòs rupture de 70,000 psi tou, ki baze sou '70' yo nan deziyasyon li yo. 11018 gen yon fòs rupture minimòm de 110,000 psi ki baze sou twa premye chif '110' nan deziyasyon li yo elatriye...\n\n3. Rezistans korozyon:\n    * Nan anviwònman kote korozyon se yon enkyetid, chwazi yon metal ranpli ki bay rezistans korozyon ki nesesè yo enpòtan anpil pou lonjevite ak durability soude a.\n\n4. Kondisyon Sèvis:\n    * Filler metal la dwe kapab kenbe tèt ak kondisyon sèvis yo nan pwodwi final la, ki ka gen ladan faktè tankou ekstrèm tanperati, chay mekanik, oswa ekspoze chimik.\n\n5. Weld Kalite:\n    * Dwa a ranpli metal kontribye nan reyalize yon soude-wo kalite ak bon aparans ak konsistans, ki se souvan kritik nan aplikasyon kote soude yo vizib oswa sibi estanda enspeksyon solid.\n\n6. Konfòmite kòd ak spesifikasyon:\n    * Anpil endistri yo dwe respekte kòd strik soude ak estanda, ki espesifye ki kalite metal filler ki dwe itilize pou aplikasyon diferan. Sèvi ak metal filler kòrèk la asire konfòmite ak règleman sa yo.\n\n7. Efikasite ekonomik:\n    * Sèvi ak metal filler kòrèk la ka diminye nesesite pou rivork oswa reparasyon, ekonomize tou de tan ak materyèl, ki tradui nan ekonomi pri ak ogmante pwodiktivite."
-          }
-        }
-      }
-    },
     "1. Cracks:\n    * These are serious welding defects that can occur in the weld metal or parent material. They can be hot or cold, longitudinal, transverse, crater, or underbead cracks, and are often due to stress and improper welding parameters.\n\n2. Porosity:\n    * This refers to small gas pockets or voids that are trapped within the weld as it solidifies. It can be scattered or clustered and often results from contaminated materials or improper shielding gas coverage.\n\n3. Slag Inclusions:\n    * These are non-metallic solid materials trapped in the weld metal or between the weld and the base metal. Usually, this is due to improper cleaning between weld passes or insufficient control of the welding process.\n\n4. Incomplete Fusion:\n    * This occurs when the weld metal fails to fuse completely with the base metal or preceding weld bead, which can result from low heat input, incorrect angle, or speed during welding.\n\n5. Incomplete Penetration (Lack of Penetration):\n    * This happens when the weld metal does not extend through the joint thickness. It is a critical discontinuity that can significantly weaken the weld." : {
       "localizations" : {
         "es-419" : {
@@ -1540,23 +1494,6 @@
     "App Disclaimer" : {
 
     },
-    "App Information" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Información de la aplicación"
-          }
-        },
-        "ht" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enfòmasyon sou aplikasyon an"
-          }
-        }
-      }
-    },
     "Application Info" : {
       "localizations" : {
         "es-419" : {
@@ -1585,22 +1522,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tantativ"
-          }
-        }
-      }
-    },
-    "Choosing and understanding filler metals for the main processes\n\nWhy do we need to correctly choose our filler metals?" : {
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Elección y comprensión de los metales de aportación para los principales procesos.\n\n¿Por qué necesitamos elegir correctamente nuestros metales de aportación?"
-          }
-        },
-        "ht" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chwazi ak konprann metal filler pou pwosesis prensipal yo\n\nPoukisa nou bezwen kòrèkteman chwazi metal filler nou yo?"
           }
         }
       }
@@ -1877,22 +1798,6 @@
         }
       }
     },
-    "Filler Metals" : {
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Metales de Relleno"
-          }
-        },
-        "ht" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Filler Metals"
-          }
-        }
-      }
-    },
     "FILLER METALS" : {
       "localizations" : {
         "es-419" : {
@@ -1953,22 +1858,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flux Core Welding"
-          }
-        }
-      }
-    },
-    "For the Processes:\n\nShielded Metal Arc Welding (SMAW) Filler Metals:\n    * For SMAW, also known as stick welding, the filler metals come in the form of coated electrodes. These electrodes consist of a core wire coated with a flux that protects the molten weld pool from atmospheric contamination. An example of a common filler metal for SMAW is the E6013 electrode, which is suitable for mild steel welding and offers moderate penetration and a stable arc. Another example is the E7018 electrode, which is characterized by low hydrogen content and is often used for welding critical structures where higher tensile strength is needed.\n\n\nGas Metal Arc Welding (GMAW) Filler Metals:\n    * In GMAW, commonly referred to as MIG welding, the filler metal is supplied as a continuously fed wire. This process can accommodate a variety of metal types and thicknesses. For example, ER70S-6 is a common mild steel filler wire that contains higher levels of silicon and manganese to provide better wetting and a more fluid weld pool. On the other hand, for welding aluminum alloys, an ER4043 wire would be selected, which is a popular aluminum filler metal because of its versatility and ease of use.\n\n\nFlux-Cored Arc Welding (FCAW) Filler Metals:\n    * FCAW uses a continuously fed tubular electrode filled with flux. The flux within the wire shields the arc and can be designed to produce additional shielding gas. Filler metals for FCAW are typically classified by their usability, the mechanical properties of the deposited weld metal, and the chemical composition of the filler metal. An example is E71T-1, a widely used carbon steel electrode that is versatile and suitable for single-pass and multi-pass welding. For stainless steel applications, an electrode like E316LT1-1 would be used due to its compatibility with 316 stainless steel and its resistance to corrosion.\n\nGas Tungsten Arc Welding (GTAW) Filler Metals:\n    * GTAW, or TIG welding, uses a non-consumable tungsten electrode to produce the arc, and the filler metal is manually fed into the weld pool. Filler metals for GTAW come in straight lengths of wire. A common filler metal for TIG welding stainless steel is ER308L, which matches 304 stainless steel and provides good resistance to intergranular corrosion. For high-temperature applications involving nickel alloys, a filler metal like ERNiCrMo-3 (commonly associated with the Inconel 625 alloy) can be used due to its high-temperature strength and corrosion resistance." : {
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Para los Procesos:\n\nMetales de aportación para soldadura por arco metálico protegido (SMAW):\n    * Para SMAW, también conocida como soldadura con electrodo revestido, los metales de aportación se presentan en forma de electrodos revestidos. Estos electrodos constan de un núcleo de alambre recubierto con un fundente que protege el baño de soldadura fundida de la contaminación atmosférica. Un ejemplo de metal de aportación común para SMAW es el electrodo E6013, que es adecuado para soldadura de acero dulce y ofrece una penetración moderada y un arco estable. Otro ejemplo es el electrodo E7018, que se caracteriza por un bajo contenido de hidrógeno y se utiliza a menudo para soldar estructuras críticas donde se necesita una mayor resistencia a la tracción.\n\n\nMetales de aportación para soldadura por arco metálico con gas (GMAW):\n    * En GMAW, comúnmente conocida como soldadura MIG, el metal de aportación se suministra como un alambre alimentado continuamente. Este proceso puede adaptarse a una variedad de tipos y espesores de metales. Por ejemplo, ER70S-6 es un alambre de relleno de acero dulce común que contiene niveles más altos de silicio y manganeso para proporcionar una mejor humectación y un baño de soldadura más fluido. Por otro lado, para soldar aleaciones de aluminio, se seleccionaría un alambre ER4043, que es un metal de aportación de aluminio popular debido a su versatilidad y facilidad de uso.\n\n\nMetales de aportación para soldadura por arco con núcleo fundente (FCAW):\n    * FCAW utiliza un electrodo tubular alimentado continuamente y lleno de fundente. El flujo dentro del cable protege el arco y puede diseñarse para producir gas de protección adicional. Los metales de aportación para FCAW normalmente se clasifican según su usabilidad, las propiedades mecánicas del metal de soldadura depositado y la composición química del metal de aportación. Un ejemplo es el E71T-1, un electrodo de acero al carbono ampliamente utilizado que es versátil y adecuado para soldadura de una o varias pasadas. Para aplicaciones de acero inoxidable, se utilizaría un electrodo como E316LT1-1 debido a su compatibilidad con el acero inoxidable 316 y su resistencia a la corrosión.\n\nMetales de aportación para soldadura por arco de tungsteno con gas (GTAW):\n    * La soldadura GTAW, o TIG, utiliza un electrodo de tungsteno no consumible para producir el arco y el metal de aportación se introduce manualmente en el baño de soldadura. Los metales de aportación para GTAW vienen en trozos de alambre rectos. Un metal de aportación común para la soldadura TIG de acero inoxidable es el ER308L, que coincide con el acero inoxidable 304 y proporciona buena resistencia a la corrosión intergranular. Para aplicaciones de alta temperatura que involucran aleaciones de níquel, se puede usar un metal de aportación como ERNiCrMo-3 (comúnmente asociado con la aleación Inconel 625) debido a su resistencia a altas temperaturas y a la corrosión."
-          }
-        },
-        "ht" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pou Pwosesis yo:\n\nPwoteje Metal Arc Soude (SMAW) Filler Metals:\n    * Pou SMAW, konnen tou kòm baton soude, metal yo ranpli vini nan fòm lan nan elektwòd kouvwi. Elektwòd sa yo konpoze de yon fil nwayo kouvwi ak yon flux ki pwoteje pisin nan soude fonn kont kontaminasyon atmosferik. Yon egzanp yon metal filler komen pou SMAW se elektwòd E6013, ki apwopriye pou soude asye grav epi li ofri pénétration modere ak yon arc ki estab. Yon lòt egzanp se elektwòd E7018, ki karakterize pa kontni idwojèn ki ba epi li souvan itilize pou soude estrikti kritik kote pi wo fòs rupture ki nesesè.\n\n\nGaz Metal Arc Soude (GMAW) Filler Metals:\n    * Nan GMAW, souvan refere yo kòm soude MIG, se metal la filler apwovizyone kòm yon fil kontinyèlman manje. Pwosesis sa a ka akomode yon varyete de kalite metal ak epesè. Pou egzanp, ER70S-6 se yon fil filler komen asye ki gen pi wo nivo Silisyòm ak Manganèz pou bay pi bon mouye ak yon pisin soude ki pi likid. Nan lòt men an, pou soude alyaj aliminyòm, yo ta dwe chwazi yon fil ER4043, ki se yon metal filler aliminyòm popilè paske nan adaptabilite li yo ak fasilite nan itilize.\n\n\nFlux-Cored Arc Welding (FCAW) Filler Metals:\n    * FCAW itilize yon elektwòd tubulaires kontinyèlman manje plen ak flux. Flux ki nan fil la pwoteje arc la epi yo ka fèt pou pwodwi plis gaz pwoteksyon. Filler metal pou FCAW yo anjeneral klase dapre itilizasyon yo, pwopriyete mekanik metal la soude depoze, ak konpozisyon chimik metal filler la. Yon egzanp se E71T-1, yon elektwòd asye kabòn lajman itilize ki versatile ak apwopriye pou yon sèl-pas ak milti-pas soude. Pou aplikasyon pou asye pur, yon elektwòd tankou E316LT1-1 ta dwe itilize akòz konpatibilite li yo ak 316 asye pur ak rezistans li nan korozyon.\n\nGaz Tungstène Arc Welding (GTAW) Filler Metals:\n    * GTAW, oswa TIG soude, sèvi ak yon elektwòd tengstèn ki pa konsome pou pwodwi arc la, epi metal la ranpli manyèlman manje nan pisin nan soude. Filler metal pou GTAW vini nan longè fil dwat. Yon metal filler komen pou TIG soude asye pur se ER308L, ki matche ak 304 asye pur epi li bay bon rezistans nan korozyon intergranular. Pou aplikasyon pou wo-tanperati ki enplike alyaj nikèl, yon metal filler tankou ERNiCrMo-3 (souvan ki asosye ak alyaj Inconel 625) ka itilize akòz fòs segondè-tanperati li yo ak rezistans korozyon."
           }
         }
       }
@@ -2389,6 +2278,18 @@
         }
       }
     },
+    "Quick Checklist for Welders and Inspectors:\n\n1. Visual Inspection:\n   * Check for obvious defects such as cracks, porosity, undercutting, and incomplete fusion.\n   * Ensure the weld size meets the specifications (width, length, and height).\n   * Look for any surface irregularities like spatter, uneven bead profile, and misalignment.\n\n2. Dimensional Checks:\n   * Verify that the dimensions of the welded components align with the engineering drawings and specifications.\n   * Measure the leg length and throat size of fillet welds.\n   * Check the weld reinforcement and penetration depth for groove welds.\n\n3. Non-Destructive Testing (NDT):\n   * Employ methods like ultrasonic testing, radiographic testing, magnetic particle testing, and dye penetrant inspection to detect internal and surface defects.\n   * Choose the NDT method based on the type of material, weld, and defects suspected.\n\n4. Destructive Testing:\n   * In some cases, carry out destructive tests like bend tests, tensile tests, and impact tests to evaluate the mechanical properties of the weld.\n   * Use these tests primarily for procedure qualification and welder performance qualification.\n\n5. Welder and Procedure Qualification:\n   * Verify that the welders are qualified to perform the welding as per the required standards and procedures.\n   * Ensure that the welding procedure specifications (WPS) are approved and followed during the welding process.\n\n6. Material Verification:\n   * Confirm that the materials used (base metals, filler metals, shielding gases) comply with the specifications and are appropriate for the welding process.\n\n7. Welding Equipment and Settings:\n   * Inspect welding equipment for proper function and calibration.\n   * Ensure that the welding parameters (amperage, voltage, travel speed) adhere to the WPS.\n\n8. Record Keeping and Documentation:\n   * Maintain accurate records of inspections, tests, and certifications.\n   * Document any non-conformities and ensure corrective actions are taken.\n   * Confirm compliance with relevant codes, standards (like AWS, ASME), and legal requirements." : {
+
+    },
+    "Quick Settings\n\n1. Electrode Selection and Settings for Various Steel Thicknesses:\n\n* For vertical up welds on steel thicknesses from 1/8 to 3/16 inches and pipe thickness range of 1/4 to 1/2 inches, use a 0.035-inch diameter E71T-1 electrode.\n\n* For steel in the range of 1/4 to 3/8 inches thickness, consider a 0.045-inch diameter E71T-1 electrode, or a 0.062-inch diameter E71T-1 electrode in nonheat-sensitive applications.\n\n* For steel over 3/8 inches thickness, a 0.062-inch diameter E71T-1 electrode is recommended.\n\n* For flat and horizontal welds on steel of 3/8 to 3/4 inches thickness, use a 1/16-inch diameter E70T-X electrode, and for steel over 3/4 inches thickness, a 3/32-inch E70T-X electrode.\n\n2. Settings for Dual-Shielded, All-Position FCAW Electrodes:\n\n* For vertical up welding with E71T-1 electrodes (0.045-inch diameter), the recommended current range is approximately 130 to 250 amps.\n\n* Optimal settings for a vertical up weld with an E71T-1, 0.035-inch diameter electrode are a wire feed rate of 450 in./min, a welding current of 160 to 170 amps, and a voltage of 27 to 28 volts.\n\n3. Additional Guidlines:\n\n* A .035-inch electrode is ideal for welding steel pipe with wall thicknesses less than 1/2 inch.\n\n* The recommended contact tip recess for FCAW is about 1/2 inch with a minimum electrode extension of 3/4 inch.\n\n* For .045-inch diameter E71T-1 all-position electrodes, use a wire feed rate of 350 in./min for vertical up welding (200 to 190 amps, 24 to 25 volts) and 560 in./min for flat welding (270 amps, 25 to 27 volts).\n\n0.052-inch (1.3-mm) Diameter Electrodes:\n\n* Vertical Up Welding:\n   * Wire Feed Rate: Set to approximately 250 in./min (106 mm/s).\n   * Amperage: Around 200 amps.\n   * Voltage: Set to 25 volts.\n\nFlat Welding:\n   * Wire Feed Rate: Set  490 to 560 in./min (207 to 237 mm/s).\n   * Amperage: Approximately 300 amps.\n   * Voltage: Set to 28 volts.\n\n0.062-inch (1.6-mm) Diameter Electrodes:\n* Vertical Up Welding:\n   * Wire Feed Rate: 190 in./min.\n   * Amperage: 230 to 240 amps.\n   * Voltage: Adjust to 24–25 volts.\n\n* Flat Welding:\n   * Wire Feed Rate: 300 in./min.\n   * Amperage: 340–350 amps.\n   * Voltage: Set to 29–30 volts.\n\nAverage Deposition Rates for Manual Welding:\n   * Welding for 30 minutes of each hour on steel thicknesses of 1/4 to 3/8 inches with an all-position flux-cored electrode of 0.062-inch or 0.045-inch diameter typically results in a deposition rate of about 4–5 lb/h." : {
+
+    },
+    "Quick Settings:\n\n1. Electrodes commonly used:\n\n   * E6010 - Designed for welding pipe and general structures. Excellent for all-position and vertical down\nwelding. Slag is light and easy to remove. Deep, penetrating arc. Low deposition rates.\nPolarity DC + (electrode positive).\n\n   * E6011 - Similar to E6010 but modified to allow use of AC. Excellent for welding sheet metal corner\njoints vertical down. Polarity AC or DC + (electrode positive).\n\n   * E7018 - An iron-powder, low-hydrogen, all-position electrode. Excellent for rigid, highly stressed structures of low- to medium-carbon steel. Can also be used for welding mild and high-strength steels, highcarbon\nsteels, and alloy steels. Polarity AC or DC + reverse polarity.\n\n   * E7024 - An iron-powder electrode with low hydrogen, usable in all positions. Excellent for high-amperage, large, fillet welds in flat and horizontal positions. Polarity AC or DC, + or −.\n\n2. Amperage Ranges:\n\n   * E6010 - 75–130 / 1/8\"\n   * E6011 - 75–130 / 1/8\"\n   * E7018 - 110–160 / 1/8\"\n   * E7024 - 130–180 / 1/8\"\n\n3. Polarity:\n   * DCEP = DCRP\n   * DCEN = DCSP\n" : {
+
+    },
+    "Quick Settings:\n\n1. GMAW Welding of Sheet Steel:\n\n   * Short-Circuit Transfer Mode:\n       * Used for welding carbon steel, low-alloy steel, and stainless steel sheets from 24 gage to 11 gage.\n       * Optimal electrode: 0.035-inch diameter.\n       * Current: 50 to 200 amps.\n       * Voltage: 14 to 22 volts, with 16 to 18 volts being optimum for most applications.\n\n2. Shielding Gases for GMAW Welding:\n\n   * Carbon and Low-Alloy Steels:\n\n       * For short-circuit welding of thinner metals, argon with 15–25% CO2 is recommended.\n       * For very thin metals (less than 18 gage), argon mixed with 2 to 5% oxygen can be used.\n\n   * Stainless Steels:\n\n       * For thin-gage stainless steel, an argon mixture with 2 to 4% CO2 is practical.\n       * For thicker stainless steels, argon 98% + oxygen 2% is traditionally used.\n\n3. GMAW Spray Transfer:\n\n   * With a 0.035-inch diameter electrode using argon 75% + CO2 25%, small globular weld droplet formation occurs in the conventional spray transfer range.\n   * Wire Speed: Over 420 ipm.\n   * Voltage: 24-32 volts." : {
+
+    },
     "Quick Tips" : {
       "localizations" : {
         "es-419" : {
@@ -2709,6 +2610,9 @@
         }
       }
     },
+    "Tungsten Selection Guide:\n\n1. Pure Tungsten (EWP):\n   * Good for low-amperage welding of aluminum and magnesium using AC; forms a molten ball shape at the tip during AC welding.\n\n2. Thoriated Electrodes (EWTh):\n   * Offer higher current capacity and superior arc stability compared to pure tungsten, especially for DC welding. Not suitable for maintaining a rounded ball shape at the tip.\n\n3. Zirconiated Electrodes (EWZr):\n   * Less sensitive to contamination and superior in current capacity than pure tungsten, used in critical applications.\n\nElectrode Selection Based on Base Metal:\n\n* For carbon, low-alloy, stainless, and nickel steels: Thoriated electrodes with DCEN; use EWZr for thin materials.\n* For aluminum: Zirconium or pure tungsten with AC; thoriated zirconium with DCEP for thin sections.\n* For copper and copper alloys: Thoriated electrodes with DCEN; use EWZr or EWP with AC for thin sections.\n* For magnesium: Zirconium with AC; use DCEP with the same electrode for thin sections.\n* For titanium: Thoriated electrodes with DCEN." : {
+
+    },
     "Type the name of position before tapping the add button" : {
       "localizations" : {
         "es-419" : {
@@ -2724,6 +2628,9 @@
           }
         }
       }
+    },
+    "Understand the Elements of Welding Symbols:\n\n   * Reference Line: The basis of the welding symbol.\n   * Arrow: Connects the reference line to the joint.\n   * Basic Weld Symbols: Indicate the type of welding.\n   * Dimensions and Other Data: Provide details like size, length, spacing, etc.\n   * Supplementary Symbols: Convey additional information.\n   * Finish Symbols: Indicate the method of finishing.\n   * Tail and Specification: Used for additional references or processes.\n   * Process or Other Reference: Specifies the welding process or other necessary information." : {
+
     },
     "Understanding Welding: Processes and Techniques\n\n        Welding is a subject that, though seemingly straightforward, boasts a myriad of nuances and complexities. The American Welding Society, an authoritative voice in the welding industry, defines welding as a 'localized coalescence' – a precise process of fusing two metals into a single, unified piece. At its core, welding requires the metals intended for joining to be in a liquid state, ensuring that upon solidification, they meld seamlessly at the point of fusion.\n\n        To achieve this fusion, a variety of 'processes' have been devised, each with the primary goal of generating enough heat to melt metals. The melting points of metals, naturally, vary based on their composition and type. However, the principle remains: welding processes, whether they derive heat electrically or chemically, are designed to meet these specific melting needs." : {
       "localizations" : {
@@ -2868,6 +2775,9 @@
           }
         }
       }
+    },
+    "Weld Symbols" : {
+
     },
     "Welding Handbook" : {
       "localizations" : {

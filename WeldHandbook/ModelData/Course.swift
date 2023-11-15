@@ -247,7 +247,7 @@ GTAW Steel Filler Metal:
         title: "FILLER METALS",
         subtitle: "Electrodes and Filler Metal",
         image: "Weld8",
-        image2: "Designation",
+        image2: "FillerMetal",
         image3: "Electrodes9",
         image4: "FillerMetals1",
         image5: "Electrodes",
@@ -258,13 +258,9 @@ Filler Metals
     In welding, the fusion of base metals is facilitated by the introduction of filler metals. These metals, available in various compositions and forms, are vital in ensuring strong, durable welds that meet specific application requirements. Here, we explore the filler metals used in the four primary welding processes: SMAW, GMAW, FCAW, and GTAW.
 """,
         description2: """
-    1. SMAW (Shielded Metal Arc Welding):
-    Also known as stick welding, SMAW uses a consumable electrode coated in flux.
+        Shielded Metal Arc Welding (SMAW) Filler Metals:
 
-    * Filler Metal: The filler metal is in the form of a stick electrode.
-    * Composition: Electrodes are made from a core rod coated with a layer of flux. The core rod material corresponds to the weld's desired strength and composition.
-    * Selection: Electrodes are categorized based on the AWS (American Welding Society) system. For instance, an E6010 electrode indicates a certain tensile strength, welding position, and flux composition. This can be described as: The first two digits '60' represent a deposit strength of 60,000 psi. The third digit '1' refers to it's ability to be used in all positions. The last digit '0' refers to the chemical composition of the flux, in this case an organic  based flux designed to be used in DCRP.
-    * Noteworthy Points: The flux coating generates a protective gas shield when heated, which protects the weld from contaminants. It also contributes slag, a layer on top of the weld bead that further shields the cooling weld from the atmosphere.
+            * For SMAW, also known as stick welding, the filler metals come in the form of coated electrodes. These electrodes consist of a core wire coated with a flux that protects the molten weld pool from atmospheric contamination. An example of a common filler metal for SMAW is the E6013 electrode, which is suitable for mild steel welding and offers moderate penetration and a stable arc. Another example is the E7018 electrode, which is characterized by low hydrogen content and is often used for welding critical structures where higher tensile strength is needed.
 """,
         description3: """
     2. GMAW (Gas Metal Arc Welding):
@@ -294,6 +290,8 @@ Filler Metals
     * If you are out of filler metal for some reason, you can snip off some mig wire and twist it in a pinch. They are the same chemical coposition. For example: The ER70s-3 for GTAW is the same as ER70s-3 for GMAW. One is in a rod form and the other is in a wire form.
 
     Filler metals play a pivotal role in the welding world, bridging base metals and ensuring the resultant weld's strength and durability. Each welding process demands specific filler metal forms and compositions, tailored to the unique requirements of the job. As welding technologies and applications evolve, so too will the range and specificity of filler metals, underscoring their enduring importance in the fabrication universe.
+
+    In all cases, the AWS classification system assists welders in selecting the correct filler metal for their specific application. For instance, the prefix "E" indicates an electrode for SMAW, while "ER" indicates a rod or wire for GMAW or GTAW. The subsequent digits and letters give information about the metal's composition, tensile strength, and other properties. The choice of filler metal not only influences the quality of the weld but also affects its mechanical properties and suitability for the service environment of the welded component.
 """
     ),
     Course(
