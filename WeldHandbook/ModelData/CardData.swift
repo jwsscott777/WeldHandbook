@@ -37,18 +37,20 @@ var items = [
             * E7018 - An iron-powder, low-hydrogen, all-position electrode. Excellent for rigid, highly stressed structures of low- to medium-carbon steel. Can also be used for welding mild and high-strength steels, highcarbon
          steels, and alloy steels. Polarity AC or DC + reverse polarity.
 
-            * E7024 - An iron-powder electrode with low hydrogen, usable in all positions. Excellent for high-amperage, large, fillet welds in flat and horizontal positions. Polarity AC or DC, + or −.
+            * E7024 - An iron-powder electrode with low hydrogen, usable in all positions. Excellent for high-amperage, large, fillet welds in flat and horizontal positions. Polarity AC or DC − (electrode negative).
 
          2. Amperage Ranges:
 
-            * E6010 - 75–130 / 1/8"
-            * E6011 - 75–130 / 1/8"
-            * E7018 - 110–160 / 1/8"
+            * E6010 - 75–130 / 1/8" (90 amps) preferred.
+            * E6011 - 75–130 / 1/8" (90 amps) preferred.
+            * E7018 - 90 / 3/32"
+            * E7018 - 110–160 / 1/8" (140 amps) preferred for Flat & Horizontal.
+            (110-115 amps) preferred for Vertical & Overhead.
             * E7024 - 130–180 / 1/8"
 
          3. Polarity:
-            * DCEP = DCRP
-            * DCEN = DCSP
+            * DCEP = DCRP == Electrode Positive or Reverse Polarity.
+            * DCEN = DCSP == Electrode Negative or Straight Polarity.
 
          """,
          description: """
@@ -206,11 +208,11 @@ Setting Up and Using a GMAW (Gas Metal Arc Welding) Machine:
 
          1. Electrode Selection and Settings for Various Steel Thicknesses:
 
-         * For vertical up welds on steel thicknesses from 1/8 to 3/16 inches and pipe thickness range of 1/4 to 1/2 inches, use a 0.035-inch diameter E71T-1 electrode.
+         * For vertical up welds on steel thicknesses from 1/8 to 3/16 inches and pipe thickness range of 1/4 to 1/2 inches, use a .035-inch diameter E71T-1 electrode.
 
-         * For steel in the range of 1/4 to 3/8 inches thickness, consider a 0.045-inch diameter E71T-1 electrode, or a 0.062-inch diameter E71T-1 electrode in nonheat-sensitive applications.
+         * For steel in the range of 1/4 to 3/8 inches thickness, consider a 0.045-inch diameter E71T-1 electrode, or a .062-inch diameter E71T-1 electrode in nonheat-sensitive applications.
 
-         * For steel over 3/8 inches thickness, a 0.062-inch diameter E71T-1 electrode is recommended.
+         * For steel over 3/8 inches thickness, a .062-inch diameter E71T-1 electrode is recommended.
 
          * For flat and horizontal welds on steel of 3/8 to 3/4 inches thickness, use a 1/16-inch diameter E70T-X electrode, and for steel over 3/4 inches thickness, a 3/32-inch E70T-X electrode.
 
@@ -218,7 +220,7 @@ Setting Up and Using a GMAW (Gas Metal Arc Welding) Machine:
 
          * For vertical up welding with E71T-1 electrodes (0.045-inch diameter), the recommended current range is approximately 130 to 250 amps.
 
-         * Optimal settings for a vertical up weld with an E71T-1, 0.035-inch diameter electrode are a wire feed rate of 450 in./min, a welding current of 160 to 170 amps, and a voltage of 27 to 28 volts.
+         * Optimal settings for a vertical up weld with an E71T-1, .035-inch diameter electrode are a wire feed rate of 450 in./min, a welding current of 160 to 170 amps, and a voltage of 27 to 28 volts.
 
          3. Additional Guidlines:
 
@@ -252,7 +254,7 @@ Setting Up and Using a GMAW (Gas Metal Arc Welding) Machine:
             * Voltage: Set to 29–30 volts.
 
          Average Deposition Rates for Manual Welding:
-            * Welding for 30 minutes of each hour on steel thicknesses of 1/4 to 3/8 inches with an all-position flux-cored electrode of 0.062-inch or 0.045-inch diameter typically results in a deposition rate of about 4–5 lb/h.
+            * Welding for 30 minutes of each hour on steel thicknesses of 1/4 to 3/8 inches with an all-position flux-cored electrode of .062-inch or 0.045-inch diameter typically results in a deposition rate of about 4–5 lb/h.
          """,
          description: """
 Setting Up and Using a FCAW Welding Machine:
@@ -289,7 +291,9 @@ Setting Up and Using a FCAW Welding Machine:
         * Description: This wire type doesn't need an external shielding gas. The flux in its core produces the shielding once it's burned, protecting the molten weld pool from atmospheric contaminants.
         * Advantages: Portable and well-suited for outdoor welding or situations with drafts, where shielding gases could be blown away. Typically comes in smaller spools, making it handy for DIYers and those with lower-output machines.
         * Use Case: Useful for general repairs, hobbyist projects, and applications where the utmost weld appearance and minimal post-weld cleanup isn't critical.
+        * Disadvantages: Quality and performance is not up to most code standards. Not recommended.
         * Tip: Ensure a clean workpiece surface; while self-shielded wires are forgiving, contaminants can still affect weld quality.
+        * Polarity must be set for DCEN as opposed to more quality wire which runs on DCRP.
     """, description4: """
     6. Set Voltage and Wire Feed Speed:
         * Adjust settings according to the wire type, material thickness, and welding position.
@@ -354,6 +358,7 @@ Setting Up and Using a GTAW (TIG) Welding Machine
         * Set the machine's controls:
             * For polarity, use DCEN for most metals, and AC for aluminum and magnesium.
             * Adjust balance control (on AC machines) to control the cleaning vs. penetration effect on aluminum.
+            * This adjustment basically controls how much the AC sine wave favors DCRP or DCSP - DCRP = Cleaning. DCSP = Penetration.
 
     """, description3: """
     5. Gas Selection & Flow Rate:
@@ -361,11 +366,11 @@ Setting Up and Using a GTAW (TIG) Welding Machine
         * Set the shielding gas flow rate; typically, 15-25 cfh (cubic feet per hour) is a good starting point.
 
     6. Amperage Setting:
-        * Adjust the machine’s amperage based on the material thickness and tungsten size.
-        * For aluminum, setting the amperage double what you would for steel is a good idea because of aluminum's ability to rapidly dissipate heat more than most other metals.
+        * Adjust the machine’s amperage based on the material thickness and tungsten size. 130 amps is a good range to start with. 90 amps is good to start with on stainless steel.
+        * For aluminum, setting the amperage double what you would for steel is a good idea because of aluminum's ability to rapidly dissipate heat more than most other metals. Don't be afraid to crank up the amps here, if your using a remote foot pedal or bump switch. The longer you linger at the start of the weld, waiting for the metal to be ready to weld, it has probably already started to transform into it's 'Hot Shortness' nature and drop out on you. Its better to go in hot and taper down the heat with your remote control as you run your bead.
 
     7. Remote Control Setting:
-        * If using a foot pedal, set the machine to "remote" control. This provides amperage control while welding.
+        * If using a foot pedal or a bump switch on the torch, set the machine to "remote" control. This provides amperage control while welding.
 
     """, description4: """
     8. High-Frequency Setting:
@@ -391,7 +396,7 @@ Setting Up and Using a GTAW (TIG) Welding Machine
         .init(color: Color(#colorLiteral(red: 0.3376389145851135, green: 0.9208333492279053, blue: 0.8508499264717102, alpha: 1)), location: 1)]),
             startPoint: UnitPoint(x: 0.8472221674106832, y: -0.36111113989033466),
             endPoint: UnitPoint(x: -0.4110787222278236, y: 1.8127854520696247))),
-    Item(title: "Weld Symbols", text: "Quick Tips", image2: "FillerMetal", image3: "Electrodes10", image4: "FillerMetals1", image5: "FluxSpool",
+    Item(title: "Weld Symbols", text: "Quick Tips", image2: "MainSymbol", image3: "Basic1", image4: "Basic2", image5: "Basic3",
          descriptionqt: """
          Understand the Elements of Welding Symbols:
 
