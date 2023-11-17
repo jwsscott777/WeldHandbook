@@ -9,19 +9,18 @@ import SwiftUI
 
 struct CardView: View {
     var course: Course = courses[3]
-    
+
     var body: some View {
         VStack(alignment: .leading, spacing: 8.0) {
-            Image(course.image)
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .cornerRadius(30)
-                .frame(height: 128)
-                .frame(maxWidth: .infinity)
+                Image(course.image)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .cornerRadius(30)
+                    .frame(height: 128)
+                    .frame(maxWidth: .infinity)
             Text(course.title)
                 .font(.title)
                 .fontWeight(.bold)
-
             Text(course.subtitle)
                 .lineLimit(2)
                 .opacity(0.7)

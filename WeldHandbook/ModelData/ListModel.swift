@@ -319,5 +319,5 @@ var lists = [
     A WPS typically outlines various parameters and conditions essential for the welding process in question. This includes, but is not limited to, the welding process itself (e.g., SMAW, GTAW, GMAW), the type and classification of filler metal, the base metal specifications, joint design, welding position, preheat and inter-pass temperatures, electrical settings (amperage and voltage), welding speed, and shielding gas type and flow rate. Furthermore, any necessary post-weld heat treatment (PWHT) procedures will also be specified.
 
     It's essential to note that a WPS should not be confused with a procedure qualification record (PQR), although they are interrelated. While a WPS is a set of instructions for performing a weld, a PQR is a record that the weld produced by following a specific WPS has been tested and meets the necessary quality and performance criteria. In many industries, before a WPS can be adopted and used in production, it must be backed by a PQR that gives it qualified status.
-"""),
+""")
 ]

@@ -17,7 +17,7 @@ struct AddAttemptsTip: Tip {
     }
 
     var message: Text? {
-        Text("Type the name of position before tapping the add button")
+        Text("Select an attempt from above and input result before clicking add button. Also, you can add an image from your library as well.")
     }
 
     var image: Image? {
