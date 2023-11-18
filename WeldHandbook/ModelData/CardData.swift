@@ -2,7 +2,6 @@
 
 
 import SwiftUI
-
 struct Item: Identifiable {
     var id = UUID()
     var title: LocalizedStringResource
@@ -19,7 +18,6 @@ struct Item: Identifiable {
     var image: String
     var gradient: LinearGradient
 }
-
 var items = [
     Item(title: "SMAW", text: "Quick Tips", image2: "welder", image3: "StickFace", image4: "StickSlag", image5: "Vertical",
          descriptionqt: """

@@ -7,7 +7,6 @@
 
 import SwiftUI
 import TipKit
-
 struct ContentView: View {
     var body: some View {
         TabView {
@@ -34,7 +33,6 @@ struct ContentView: View {
         }
     }
 }
-
 #Preview {
     ContentView()
         .preferredColorScheme(.dark)

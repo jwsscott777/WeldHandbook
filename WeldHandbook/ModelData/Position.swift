@@ -7,7 +7,6 @@
 
 import Foundation
 import SwiftData
-
 @Model
 class Position {
     var name: String
@@ -18,12 +17,10 @@ class Position {
     var image: Data?
     //var images: [Data] = []
     @Relationship(deleteRule: .cascade) var goals = [Goal]()
-
     init(name: String = "", details: String = "", date: Date = .now, priority: Int = 2) {
         self.name = name
         self.details = details
         self.date = date
         self.priority = priority
     }
-
 }

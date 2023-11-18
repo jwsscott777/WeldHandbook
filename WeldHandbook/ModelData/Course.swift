@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct Course: Identifiable {
     var id = UUID()
     var title: LocalizedStringResource
@@ -22,7 +21,6 @@ struct Course: Identifiable {
     var description3: LocalizedStringResource
     var description4: LocalizedStringResource
 }
-
 var courses = [
     Course(
         title: "WELD PROCESSES",

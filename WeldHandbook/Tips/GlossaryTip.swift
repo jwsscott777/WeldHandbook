@@ -7,7 +7,6 @@
 
 import Foundation
 import TipKit
-
 struct GlossaryTip: Tip {
     var title: Text {
         Text("Use Search to locate a term")
@@ -15,11 +14,9 @@ struct GlossaryTip: Tip {
             .font(.largeTitle)
             .foregroundStyle(.green)
     }
-
     var message: Text? {
         Text("After, scroll through the list to explore new topics")
     }
-
     var image: Image? {
         Image(.weldLogo12)
     }

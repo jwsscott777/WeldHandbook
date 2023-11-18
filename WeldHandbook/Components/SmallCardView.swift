@@ -6,10 +6,8 @@
 //
 
 import SwiftUI
-
 struct SmallCardView: View {
     var item: Item = items[0]
-
     var body: some View {
         VStack(alignment: .leading, spacing: 8.0) {
             Image(item.image)
@@ -31,7 +29,6 @@ struct SmallCardView: View {
         .clipShape(RoundedRectangle(cornerRadius: 30))
     }
 }
-
 #Preview {
     SmallCardView()
 }

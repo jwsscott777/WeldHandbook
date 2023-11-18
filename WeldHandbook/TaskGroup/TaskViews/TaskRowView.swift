@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct TaskRowView: View {
     @Bindable var task: TaskModel
     @Environment(\.modelContext) private var context
@@ -49,7 +48,6 @@ struct TaskRowView: View {
                 } label: {
                     Text("Delete Event")
                 }
-
             }
             .offset(x: -8)
         }
@@ -61,7 +59,6 @@ struct TaskRowView: View {
         return task.creationDate.isSameHour ? .darkBlue : (task.creationDate.isPast ? .red : .black)
     }
 }
-
 #Preview {
     ContentView()
 }

@@ -6,17 +6,13 @@
 //
 
 import SwiftUI
-
-
 struct DetailView: View {
     var course: Course = courses[3]
     @GestureState private var zoom = 1.0
-
     // Function to dynamically calculate the image frame height based on screen size
         func dynamicImageHeight(geometry: GeometryProxy) -> CGFloat {
             let isLandscape = geometry.size.width > geometry.size.height
             let isRegularWidth = geometry.size.width > 600 // A common breakpoint for regular width
-
             if isLandscape && isRegularWidth {
                 return geometry.size.width / 2 // or some fraction of the width
             } else {
@@ -36,7 +32,6 @@ struct DetailView: View {
                     Text(course.title)
                         .font(.title)
                         .fontWeight(.bold)
-
                     Text(course.subtitle)
                         .lineLimit(2)
                         .opacity(0.7)
@@ -117,7 +112,6 @@ struct DetailView: View {
         }
     }
 }
-
 #Preview {
     DetailView()
 }

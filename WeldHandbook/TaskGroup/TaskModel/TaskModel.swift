@@ -6,7 +6,6 @@
 
 import SwiftUI
 import SwiftData
-
 @Model
 class TaskModel: Identifiable {
     var id: UUID
@@ -14,7 +13,6 @@ class TaskModel: Identifiable {
     var creationDate: Date
     var isCompleted: Bool
     var tint: String
-
     init(id: UUID = .init(), taskTitle: String, creationDate: Date = .init(), isCompleted: Bool = false, tint: String) {
         self.id = id
         self.taskTitle = taskTitle
@@ -22,7 +20,6 @@ class TaskModel: Identifiable {
         self.isCompleted = isCompleted
         self.tint = tint
     }
-
     var tintColor: Color {
         switch tint {
             case "TaskColor 1": return .taskColor1
@@ -34,7 +31,6 @@ class TaskModel: Identifiable {
         }
     }
 }
-
 extension Date {
     static func updateHour(_ value: Int) -> Date {
         let calendar = Calendar.current

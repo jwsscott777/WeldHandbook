@@ -7,7 +7,6 @@
 
 import Foundation
 import TipKit
-
 struct CreateToDoTip: Tip {
     var title: Text {
         Text("Create a weld position")
@@ -15,11 +14,9 @@ struct CreateToDoTip: Tip {
             .font(.title)
             .foregroundStyle(.green)
     }
-    
     var message: Text? {
         Text("Tap on the plus button to create a weld position to track")
     }
-
     var image: Image? {
         Image(.weldLogo12)
     }

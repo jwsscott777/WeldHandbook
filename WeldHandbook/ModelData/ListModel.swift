@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct ListModel: Identifiable {
     var id = UUID()
     var image: String
@@ -14,7 +13,6 @@ struct ListModel: Identifiable {
     var title: String
     var description: LocalizedStringResource
 }
-
 var lists = [
     ListModel(image: "list.bullet.clipboard", image2: "AC", title: "Alternating Current",  description: """
     Alternating current (AC) in welding refers to the swift change in the flow direction of the electric current. This shift, from reverse to straight polarity, happens 60 times every second, or at 60 hertz. In essence, this means that the direction reverses every 1/120 of a second. This change happens so rapidly that it's typically imperceptible to the human eye. To illustrate, if we were to slow down these cycles, lights powered by AC in our workspaces would appear to flicker on and off. AC plays a crucial role in Tungsten Inert Gas (TIG) welding of aluminum, enabling a balance between cleaning the metal surface (using Direct Current Reverse Polarity or DCRP) and achieving penetration (using Direct Current Straight Polarity or DCSP). Additionally, AC is utilized in Shielded Metal Arc Welding (SMAW) to address "arc blow" issues and for diverse general welding tasks.

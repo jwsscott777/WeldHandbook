@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct NewTaskView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(\.modelContext) private var context
@@ -24,7 +23,6 @@ struct NewTaskView: View {
                     .tint(.red)
             })
             .hSpacing(.leading)
-
             VStack(alignment: .leading, spacing: 8) {
                 Text("Event Title")
                     .font(.caption)
@@ -35,7 +33,6 @@ struct NewTaskView: View {
                     .background(.tertiary.shadow(.drop(color: .black.opacity(0.25), radius: 2)), in: .rect(cornerRadius: 10))
             }
             .padding(.top, 5)
-
             HStack(spacing: 12) {
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Event Date")
@@ -46,7 +43,6 @@ struct NewTaskView: View {
                         .scaleEffect(0.9, anchor: .leading)
                 }
                 .padding(.trailing, -15)
-
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Event Color")
                         .font(.caption)
@@ -54,7 +50,6 @@ struct NewTaskView: View {
                     let colors: [String] = (1...5).compactMap { index -> String in
                         return "TaskColor \(index)"
                     }
-
                     HStack(spacing: 0) {
                         ForEach(colors, id: \.self) { color in
                             Circle()
@@ -72,9 +67,7 @@ struct NewTaskView: View {
                 }
             }
             .padding(.top, 5)
-
             Spacer(minLength: 0)
-
             Button(action: {
                 /// Save
                 let task = TaskModel(taskTitle: taskTitle, creationDate: taskDate, tint: taskColor)
@@ -104,9 +97,7 @@ struct NewTaskView: View {
         .padding(15)
     }
 }
-
 #Preview {
     NewTaskView(swipeActionTip: SwipeActionTip())
         .vSpacing(.bottom)
-
 }

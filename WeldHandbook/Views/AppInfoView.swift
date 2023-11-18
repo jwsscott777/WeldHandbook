@@ -1,6 +1,5 @@
 
 import SwiftUI
-
 struct AppInfoView: View {
     @Environment(\.dismiss) var dismiss
     var body: some View {
@@ -11,7 +10,7 @@ struct AppInfoView: View {
                             FormRowStaticView(icon: "gear", firstText: "Application", secondText: "Weld Handbook")
                             FormRowStaticView(icon: "checkmark.seal", firstText: "Compatible", secondText: "iPhone, iPad")
                             FormRowStaticView(icon: "keyboard", firstText: "Developer", secondText: "James Scott")
-                            FormRowStaticView(icon: "wrench", firstText: "Designer", secondText: "James Scott")
+                            FormRowStaticView(icon: "globe", firstText: "Website", secondText: "weldlearn.com")
                             FormRowStaticView(icon: "flag", firstText: "Version", secondText: "1.0.0")
                         }//: sec 4
                         .padding(.vertical, 3)
@@ -52,7 +51,6 @@ struct AppInfoView: View {
         }//: Nav
     }
 }
-
 #Preview {
     AppInfoView()
 }

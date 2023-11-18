@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct ListItem: View {
     var list: ListModel = lists[0]
     var body: some View {
@@ -28,7 +27,6 @@ struct ListItem: View {
         }.padding(.vertical)
     }
 }
-
 #Preview {
     ListItem()
 }

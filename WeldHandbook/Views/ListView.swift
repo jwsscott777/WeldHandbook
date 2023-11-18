@@ -7,7 +7,6 @@
 
 import SwiftUI
 import TipKit
-
 struct ListView: View {
     @State private var selectedListItem: ListModel?
     @State private var show = false
@@ -43,7 +42,6 @@ struct ListView: View {
         }
     }
 }
-
 #Preview {
     ListView()
 }

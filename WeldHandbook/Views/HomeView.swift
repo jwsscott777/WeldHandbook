@@ -31,7 +31,6 @@ struct HomeView: View {
                     .padding()
                     .buttonStyle(.plain)
                     .popoverTip(welcomeTip)
-
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 160), spacing: 16)], spacing: 16) {
                     ForEach(items) { item in
                         NavigationLink(destination: SmallDetailView(item: item)) {
@@ -40,7 +39,6 @@ struct HomeView: View {
                     }
                 }
                 .padding()
-
                     Button(action: {
                         navigated = true
                     }, label: {
@@ -50,7 +48,6 @@ struct HomeView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding()
                     .buttonStyle(.plain)
-
                 .navigationDestination(isPresented: $navigated, destination: {
                     AppInfoView()
                 })
@@ -58,7 +55,6 @@ struct HomeView: View {
         }
     }
 }
-
 #Preview {
     HomeView()
 }

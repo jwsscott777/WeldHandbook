@@ -9,14 +9,12 @@ import SwiftUI
 import SwiftData
 import PhotosUI
 import TipKit
-
 struct GoalView: View {
     @Environment(\.modelContext) var modelContext
     @State private var sortOrder = SortDescriptor(\Position.name)
     @State private var path = [Position]()
     @State private var searchText = ""
     let createToDoTip = CreateToDoTip()
-   
     var body: some View {
         NavigationStack(path: $path) {
             PositionListingView(sort: sortOrder, searchString: searchText)
@@ -32,7 +30,6 @@ struct GoalView: View {
                         })
                         .popoverTip(createToDoTip, arrowEdge: .top)
                     }
-
                     ToolbarItem {
                  //       TipView(sortActionTip)
                         Menu("Sort", systemImage: "arrow.up.arrow.down") {
@@ -56,7 +53,6 @@ struct GoalView: View {
         path = [position]
     }
 }
-
 #Preview {
     GoalView()
 }

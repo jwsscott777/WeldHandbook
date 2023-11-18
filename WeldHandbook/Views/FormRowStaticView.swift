@@ -6,13 +6,11 @@
 //
 
 import SwiftUI
-
 struct FormRowStaticView: View {
     //Properties
     var icon: String
     var firstText: String
     var secondText: String
-    
     //body
     var body: some View {
         HStack {
@@ -29,7 +27,6 @@ struct FormRowStaticView: View {
         }
     }
 }
-
 #Preview {
     FormRowStaticView(icon: "gear", firstText: "Application", secondText: "Lista")
         .previewLayout(.fixed(width: 375, height: 60))

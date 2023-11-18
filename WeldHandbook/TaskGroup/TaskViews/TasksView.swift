@@ -7,7 +7,6 @@
 
 import SwiftUI
 import SwiftData
-
 struct TasksView: View {
     @Binding var currentDate: Date
     @Query private var tasks: [TaskModel]
@@ -50,7 +49,6 @@ struct TasksView: View {
         }
     }
 }
-
 #Preview {
     ContentView()
 }

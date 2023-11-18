@@ -7,18 +7,15 @@
 
 import SwiftUI
 import TipKit
-
 struct Casa: View {
     @State private var currentDate: Date = .init()
     @State private var weekSlider: [[Date.WeekDay]] = []
     @State private var currentWeekIndex: Int = 1
     @State private var createWeek: Bool = false
     @State private var createNewTask: Bool = false
-
     /// Animation Namespace
     @Namespace private var animation
     @State private var navigated = false
-
     let swipeActionTip = SwipeActionTip()
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
@@ -70,7 +67,6 @@ struct Casa: View {
                 .presentationBackground(.thickMaterial)
         })
     }
-
     @ViewBuilder
     func HeaderView() -> some View {
         NavigationStack {
@@ -86,13 +82,11 @@ struct Casa: View {
                         .foregroundStyle(.gray)
                 }
                 .font(.title.bold())
-
                 Text(currentDate.formatted(date: .complete, time: .omitted))
                     .font(.callout)
                     .fontWeight(.semibold)
                     .textScale(.secondary)
                     .foregroundStyle(.gray)
-
                 TabView(selection: $currentWeekIndex) {
                     ForEach(weekSlider.indices, id: \.self) { index in
                         let week = weekSlider[index]
@@ -106,7 +100,6 @@ struct Casa: View {
                 .frame(height: 90)
             }
             .hSpacing(.leading)
-/// FIX THIS LATER TO GO TO A SETTINGS PAGE OR SOMETHING
             .navigationDestination(isPresented: $navigated, destination: {
                 HomeView()
             })
@@ -130,7 +123,6 @@ struct Casa: View {
         }
         }
     }
-
     @ViewBuilder
     func WeekView(_ week: [Date.WeekDay]) -> some View {
         HStack(spacing: 0) {
@@ -188,8 +180,6 @@ struct Casa: View {
             }
         }
     }
-
-
     func paginateWeek() {
         if weekSlider.indices.contains(currentWeekIndex) {
             if let firstDate = weekSlider[currentWeekIndex].first?.date, currentWeekIndex == 0 {
@@ -197,17 +187,14 @@ struct Casa: View {
                 weekSlider.removeLast()
                 currentWeekIndex = 1
             }
-
             if let lastDate = weekSlider[currentWeekIndex].last?.date, currentWeekIndex == (weekSlider.count - 1) {
                 weekSlider.append(lastDate.createNextWeek())
                 weekSlider.removeFirst()
                 currentWeekIndex = weekSlider.count - 2
             }
         }
-    //    print(weekSlider.count)
     }
 }
-
 #Preview {
     ContentView()
 }

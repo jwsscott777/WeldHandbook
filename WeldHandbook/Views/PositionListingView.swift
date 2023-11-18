@@ -16,9 +16,7 @@ struct PositionListingView: View {
                     VStack(alignment: .leading) {
                         Text(position.name)
                             .font(.headline)
-
                         Text(position.date.formatted(date: .long, time: .shortened))
-
                         /// Photo
                         if let selectedPhotoData = position.image, let uiImage = UIImage(data: selectedPhotoData) {
                             Image(uiImage: uiImage)
@@ -33,7 +31,6 @@ struct PositionListingView: View {
             .onDelete(perform: deletePositions)
         }
     }
-
     init(sort: SortDescriptor<Position>, searchString: String) {
         _positions = Query(filter: #Predicate {
             if searchString.isEmpty {
@@ -43,7 +40,6 @@ struct PositionListingView: View {
             }
         }, sort: [sort])
     }
-
     func deletePositions(_ indexSet: IndexSet) {
         for index in indexSet {
             let position = positions[index]
@@ -51,7 +47,6 @@ struct PositionListingView: View {
         }
     }
 }
-
 #Preview {
     PositionListingView(sort: SortDescriptor(\Position.name), searchString: "")
 }

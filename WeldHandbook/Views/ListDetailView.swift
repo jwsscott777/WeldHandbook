@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct ListDetailView: View {
     var list: ListModel = lists[3]
     @GestureState private var zoom = 1.0
@@ -63,7 +62,6 @@ struct ListDetailView: View {
 
     }
 }
-
 #Preview {
     ListDetailView()
 }

@@ -9,25 +9,18 @@ import SwiftUI
 import SwiftUIImageViewer
 import PhotosUI
 import TipKit
-
 struct EditPositionView: View {
     @Bindable var position: Position
     @State private var newGoalName = ""
-
     /// Photo stuff
     @State private var selectedPhoto: PhotosPickerItem?
-    // @State private var selectedPhotoData: Data?
-
     @State private var isImageViewPresented = false
-
     let addAttemptsTip = AddAttemptsTip()
-   
     var body: some View {
         Form {
             TextField("Name of weld position", text: $position.name)
             TextField("Details, electrodes used, etc...", text: $position.details, axis: .vertical)
             DatePicker("Date", selection: $position.date)
-
             Section("Attempts") {
                 Picker("Priority", selection: $position.priority) {
                     Text("First").tag(1)
@@ -49,7 +42,6 @@ struct EditPositionView: View {
                         Text("Add")
                     })
                     .popoverTip(addAttemptsTip, arrowEdge: .bottom)
-                 //   Button("Add", action: addGoal)
                 }
             }
             /// Photo stuff
@@ -103,7 +95,6 @@ struct EditPositionView: View {
             }
         }
     }
-
     func addGoal() {
         guard newGoalName.isEmpty == false  else { return }
 
@@ -114,7 +105,6 @@ struct EditPositionView: View {
         }
     }
 }
-
 #Preview {
     do {
         let config = ModelConfiguration(isStoredInMemoryOnly: true)
