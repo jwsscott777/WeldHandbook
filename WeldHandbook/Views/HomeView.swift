@@ -23,13 +23,12 @@ struct HomeView: View {
                     }
                     .padding()
                 }
-                .navigationTitle("Welding Handbook")
+                .navigationTitle("Weld Handbook")
                     Text("More Info ⬇️")
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding()
-                    .buttonStyle(.plain)
                     .popoverTip(welcomeTip)
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 160), spacing: 16)], spacing: 16) {
                     ForEach(items) { item in
@@ -48,9 +47,9 @@ struct HomeView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding()
                     .buttonStyle(.plain)
-                .navigationDestination(isPresented: $navigated, destination: {
+                .navigationDestination(isPresented: $navigated) {
                     AppInfoView()
-                })
+                }
             }
         }
     }

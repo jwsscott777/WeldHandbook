@@ -29,7 +29,7 @@ var courses = [
         image2: "Braze",
         image3: "Stick",
         image4: "Mig",
-        image5: "wirefeeder",
+        image5: "inverter",
         color: Color(#colorLiteral(red: 0, green: 0.5217629075, blue: 1, alpha: 1)),
         description: """
 Understanding Welding: Processes and Techniques
@@ -246,7 +246,7 @@ GTAW Steel Filler Metal:
         subtitle: "Electrodes and Filler Metal",
         image: "Weld8",
         image2: "FillerMetal",
-        image3: "Electrodes9",
+        image3: "Electrodes8",
         image4: "FillerMetals1",
         image5: "Electrodes",
         color: Color(#colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)),

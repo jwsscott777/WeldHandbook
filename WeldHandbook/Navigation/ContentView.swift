@@ -25,6 +25,11 @@ struct ContentView: View {
                     Image(systemName: "folder.fill.badge.person.crop")
                     Text("Practice")
                 }
+            SettingView()
+                .tabItem {
+                    Image(systemName: "gear")
+                    Text("Settings")
+                }
             ListView()
                 .tabItem {
                     Image(systemName: "text.book.closed.fill")
