@@ -9,7 +9,7 @@ import SwiftUI
 import TipKit
 struct ListView: View {
     @State private var selectedListItem: ListModel?
-    @State private var show = false
+  //  @State private var show = false
     @State private var searchText = ""
     let glossaryTip = GlossaryTip()
 
@@ -28,14 +28,17 @@ struct ListView: View {
                ListItem(list: item)
                     .onTapGesture {
                         selectedListItem = item
-                        show.toggle()
+                     //   show.toggle()
                     }
             }
-            .sheet(isPresented: $show) {
-                if let selectedItem = selectedListItem {
-                    ListDetailView(list: selectedItem)
-                }
+            .sheet(item: $selectedListItem) { selectedItem in
+                ListDetailView(list: selectedItem)
             }
+//            .sheet(isPresented: $show) {
+//                if let selectedItem = selectedListItem {
+//                    ListDetailView(list: selectedItem)
+//                }
+//            }
             .scrollIndicators(.hidden)
             .navigationTitle("Glossary of Terms")
             .searchable(text: $searchText)
