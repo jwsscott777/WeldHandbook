@@ -4457,6 +4457,9 @@
     "Electrode Diameter" : {
 
     },
+    "Electrode Diameter:" : {
+
+    },
     "Electrode Selection" : {
 
     },
@@ -4780,9 +4783,6 @@
         }
       }
     },
-    "FCAW Wire" : {
-
-    },
     "Filler Description" : {
 
     },
@@ -4866,10 +4866,7 @@
         }
       }
     },
-    "Filler Rod Selection" : {
-
-    },
-    "Filler Rods" : {
+    "Filter" : {
 
     },
     "First" : {
@@ -5111,9 +5108,6 @@
           }
         }
       }
-    },
-    "GMAW Wire" : {
-
     },
     "GMAW(Gas Metal Arc Welding): A brief Look\n\n    GMAW (Gas Metal Arc Welding) is a standout among the welding processes and boasts significant popularity among both hobbyists and professionals. Its 'Constant Voltage' characteristic differentiates it from many other welding techniques. Ensuring Direct Current Reverse Polarity (DCRP) and abstaining from AC is imperative for achieving the desired weld quality in GMAW." : {
       "localizations" : {
@@ -5475,10 +5469,10 @@
         }
       }
     },
-    "Material" : {
+    "Material Thickness" : {
 
     },
-    "Material Thickness" : {
+    "Material Thickness:" : {
 
     },
     "Mig Welding" : {
@@ -6610,6 +6604,12 @@
     "Settings" : {
 
     },
+    "Show all positions" : {
+
+    },
+    "Show upcoming positions" : {
+
+    },
     "SMAW" : {
       "localizations" : {
         "en" : {
@@ -6976,9 +6976,6 @@
         }
       }
     },
-    "Tig Filler Rod" : {
-
-    },
     "Tig Welding" : {
       "localizations" : {
         "en" : {
@@ -7019,6 +7016,9 @@
         }
       }
     },
+    "Tungsten" : {
+
+    },
     "Tungsten Selection Guide:\n\n1. Pure Tungsten (EWP):\n   * Good for low-amperage welding of aluminum and magnesium using AC; forms a molten ball shape at the tip during AC welding.\n\n2. Thoriated Electrodes (EWTh):\n   * Offer higher current capacity and superior arc stability compared to pure tungsten, especially for DC welding. Not suitable for maintaining a rounded ball shape at the tip.\n\n3. Zirconiated Electrodes (EWZr):\n   * Less sensitive to contamination and superior in current capacity than pure tungsten, used in critical applications.\n\nElectrode Selection Based on Base Metal:\n\n* For carbon, low-alloy, stainless, and nickel steels: Thoriated electrodes with DCEN; use EWZr for thin materials.\n* For aluminum: Zirconium or pure tungsten with AC; thoriated zirconium with DCEP for thin sections.\n* For copper and copper alloys: Thoriated electrodes with DCEN; use EWZr or EWP with AC for thin sections.\n* For magnesium: Zirconium with AC; use DCEP with the same electrode for thin sections.\n* For titanium: Thoriated electrodes with DCEN." : {
       "localizations" : {
         "en" : {
@@ -7058,6 +7058,9 @@
           }
         }
       }
+    },
+    "Tungsten:" : {
+
     },
     "Understand the Elements of Welding Symbols:\n\n   * Reference Line: The basis of the welding symbol.\n   * Arrow: Connects the reference line to the joint.\n   * Basic Weld Symbols: Indicate the type of welding.\n   * Dimensions and Other Data: Provide details like size, length, spacing, etc.\n   * Supplementary Symbols: Convey additional information.\n   * Finish Symbols: Indicate the method of finishing.\n   * Tail and Specification: Used for additional references or processes.\n   * Process or Other Reference: Specifies the welding process or other necessary information." : {
       "localizations" : {
@@ -7178,6 +7181,9 @@
           }
         }
       }
+    },
+    "Used for:" : {
+
     },
     "Visual Criteria" : {
       "localizations" : {

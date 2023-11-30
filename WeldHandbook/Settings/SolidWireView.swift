@@ -28,7 +28,8 @@ struct SolidWireView: View {
             }
         }
         .foregroundStyle(.red)
-        .navigationTitle("GMAW Wire")
+        .navigationTitle("GMAW")
+        .scrollIndicators(.hidden)
     }
 }
 

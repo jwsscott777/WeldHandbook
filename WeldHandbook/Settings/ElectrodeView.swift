@@ -28,7 +28,8 @@ struct ElectrodeView: View {
             }
         }
         .foregroundStyle(.red)
-        .navigationTitle("Electrode")
+        .navigationTitle("SMAW")
+        .scrollIndicators(.hidden)
     }
 }
 

@@ -10,6 +10,7 @@ import SwiftData
 @Model
 class Goal {
     var name: String
+    var position: Position?
     init(name: String) {
         self.name = name
     }

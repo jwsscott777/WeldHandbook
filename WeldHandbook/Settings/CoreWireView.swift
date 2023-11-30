@@ -28,7 +28,8 @@ struct CoreWireView: View {
             }
         }
         .foregroundStyle(.red)
-        .navigationTitle("FCAW Wire")
+        .navigationTitle("FCAW")
+        .scrollIndicators(.hidden)
     }
 }
 

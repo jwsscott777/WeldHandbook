@@ -11,13 +11,18 @@ import PhotosUI
 import TipKit
 struct GoalView: View {
     @Environment(\.modelContext) var modelContext
-    @State private var sortOrder = SortDescriptor(\Position.name)
+    @State private var sortOrder = [
+        SortDescriptor(\Position.name),
+        SortDescriptor(\Position.date)
+         ]
     @State private var path = [Position]()
     @State private var searchText = ""
+    @State private var minimumDate = Date.distantPast
+    let currentDate = Date.now
     let createToDoTip = CreateToDoTip()
     var body: some View {
         NavigationStack(path: $path) {
-            PositionListingView(sort: sortOrder, searchString: searchText)
+            PositionListingView(sort: sortOrder, searchString: searchText, minimumDate: minimumDate)
                 .navigationTitle("Weld Position Tracker")
                 .navigationDestination(for: Position.self, destination: EditPositionView.init)
                 .searchable(text: $searchText)
@@ -35,11 +40,29 @@ struct GoalView: View {
                         Menu("Sort", systemImage: "arrow.up.arrow.down") {
                             Picker("Sort", selection: $sortOrder) {
                                 Text("Name")
-                                    .tag(SortDescriptor(\Position.name))
+                                    .tag([
+                                        SortDescriptor(\Position.name),
+                                        SortDescriptor(\Position.date)
+                                         ])
                                 Text("Priority")
-                                    .tag(SortDescriptor(\Position.priority, order: .reverse))
+                                    .tag([
+                                        SortDescriptor(\Position.priority, order: .reverse),
+                                        SortDescriptor(\Position.name)
+                                    ])
                                 Text("Date")
-                                    .tag(SortDescriptor(\Position.date))
+                                    .tag([
+                                        SortDescriptor(\Position.date),
+                                        SortDescriptor(\Position.name)
+                                    ])
+                            }
+                            .pickerStyle(.inline)
+
+                            Picker("Filter", selection: $minimumDate) {
+                                Text("Show all positions")
+                                    .tag(Date.distantPast)
+
+                                Text("Show upcoming positions")
+                                    .tag(currentDate)
                             }
                             .pickerStyle(.inline)
                         }

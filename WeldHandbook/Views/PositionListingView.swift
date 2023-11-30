@@ -30,15 +30,17 @@ struct PositionListingView: View {
             }
             .onDelete(perform: deletePositions)
         }
+        .scrollIndicators(.hidden)
     }
-    init(sort: SortDescriptor<Position>, searchString: String) {
+    init(sort: [SortDescriptor<Position>], searchString: String, minimumDate: Date) {
         _positions = Query(filter: #Predicate {
             if searchString.isEmpty {
-                return true
+                return $0.date > minimumDate
             } else {
-                return $0.name.localizedStandardContains(searchString)
+                return $0.date > minimumDate &&
+                ($0.name.localizedStandardContains(searchString) || $0.goals.contains  { $0.name.localizedStandardContains(searchString) })
             }
-        }, sort: [sort])
+        }, sort: sort)
     }
     func deletePositions(_ indexSet: IndexSet) {
         for index in indexSet {
@@ -48,5 +50,5 @@ struct PositionListingView: View {
     }
 }
 #Preview {
-    PositionListingView(sort: SortDescriptor(\Position.name), searchString: "")
+    PositionListingView(sort: [SortDescriptor(\Position.name)], searchString: "", minimumDate: .distantPast)
 }

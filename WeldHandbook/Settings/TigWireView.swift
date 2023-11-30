@@ -11,11 +11,11 @@ struct TigWireView: View {
     let tigwire: TigWire
     var body: some View {
         List {
-            Section("Filler Rod Selection") {
-                LabeledContent("Tig Filler Rod", value: tigwire.name)
-                LabeledContent("Material", value: tigwire.title)
-                LabeledContent("Electrode Diameter", value: tigwire.diameter)
-                LabeledContent("Material Thickness", value: tigwire.thickness)
+            Section("Electrode Selection") {
+                LabeledContent("Tungsten:", value: tigwire.name)
+                LabeledContent("Used for:", value: tigwire.title)
+                LabeledContent("Electrode Diameter:", value: tigwire.diameter)
+                LabeledContent("Material Thickness:", value: tigwire.thickness)
             }
             Section("Amperage Range") {
                 LabeledContent("Suggested Setting:", value: tigwire.setting)
@@ -28,7 +28,8 @@ struct TigWireView: View {
             }
         }
         .foregroundStyle(.red)
-        .navigationTitle("Filler Rods")
+        .navigationTitle("Tungsten")
+        .scrollIndicators(.hidden)
     }
 }
 

@@ -10,8 +10,15 @@ import SwiftUIImageViewer
 import PhotosUI
 import TipKit
 struct EditPositionView: View {
+    @Environment(\.modelContext) private var modelContext
     @Bindable var position: Position
     @State private var newGoalName = ""
+
+    var sortedGoals: [Goal] {
+        position.goals.sorted {
+            $0.name < $1.name
+        }
+    }
     /// Photo stuff
     @State private var selectedPhoto: PhotosPickerItem?
     @State private var isImageViewPresented = false
@@ -31,9 +38,10 @@ struct EditPositionView: View {
                 .pickerStyle(.segmented)
             }
             Section("Passed Welded Attempts") {
-                ForEach(position.goals) { goal in
+                ForEach(sortedGoals) { goal in
                     Text(goal.name)
                 }
+                .onDelete(perform: deleteGoals)
                 HStack {
                     TextField("Add a passed attempt in \(position.name)", text: $newGoalName)
                     Button(action: {
@@ -87,6 +95,7 @@ struct EditPositionView: View {
                 }
             } /// Photo stuff
         }
+        .scrollIndicators(.hidden)
         .navigationTitle("Edit Weld Position")
         .navigationBarTitleDisplayMode(.large)
         .task(id: selectedPhoto) {
@@ -104,7 +113,14 @@ struct EditPositionView: View {
             newGoalName = ""
         }
     }
+    func deleteGoals(_ indexSet: IndexSet) {
+        for index in indexSet {
+            let goal = sortedGoals[index]
+            modelContext.delete(goal)
+        }
+    }
 }
+
 #Preview {
     do {
         let config = ModelConfiguration(isStoredInMemoryOnly: true)

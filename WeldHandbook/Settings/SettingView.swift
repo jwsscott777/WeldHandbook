@@ -37,6 +37,7 @@ struct SettingView: View {
                 }
             }
             .listStyle(.insetGrouped)
+            .scrollIndicators(.hidden)
             .navigationTitle("Suggested Settings")
             .navigationDestination(for: Electrode.self) { item in
                 ElectrodeView(electrode: item)
