@@ -21,6 +21,13 @@ struct SettingView: View {
                         }
                     }
                 }
+                Section("GMAW Aluminum") {
+                    ForEach(alumawires) { awire in
+                        NavigationLink(value: awire) {
+                            ProcessItemView(item: awire)
+                        }
+                    }
+                }
                 Section("FCAW") {
                     ForEach(corewires) { core in
                         NavigationLink(value: core) {
@@ -44,6 +51,9 @@ struct SettingView: View {
             }
             .navigationDestination(for: SolidWire.self) { item in
                 SolidWireView(solidwire: item)
+            }
+            .navigationDestination(for: AlumaWire.self) { item in
+                AlumaWireView(alumawire: item)
             }
             .navigationDestination(for: CoreWire.self) { item in
                 CoreWireView(corewire: item)
