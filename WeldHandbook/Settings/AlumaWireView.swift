@@ -22,7 +22,7 @@ struct AlumaWireView: View {
             }
             Section("Wire Description") {
                 VStack {
-                    Text("\(alumawire.description)")
+                    Text(NSLocalizedString(alumawire.description, comment: ""))
                         .foregroundStyle(.orange)
                 }
             }

@@ -22,7 +22,7 @@ struct SolidWireView: View {
             }
             Section("Wire Description") {
                 VStack {
-                    Text("\(solidwire.description)")
+                    Text(NSLocalizedString(solidwire.description, comment: ""))
                         .foregroundStyle(.orange)
                 }
             }

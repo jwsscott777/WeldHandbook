@@ -3,7 +3,6 @@
 import SwiftUI
 
 struct SettingView: View {
-   // @State private var path: NavigationPath = NavigationPath()
     var body: some View {
         NavigationStack() {
             List {
@@ -66,7 +65,5 @@ struct SettingView: View {
 }
 
 #Preview {
-
         SettingView()
-
 }

@@ -13,7 +13,7 @@ struct CoreWireView: View {
         List {
             Section("Wire Selection") {
                 LabeledContent("Wire Type", value: corewire.name)
-                LabeledContent("Mode of Transfer", value: corewire.title)
+                LabeledContent("Position", value: corewire.title)
                 LabeledContent("Wire Diameter", value: corewire.diameter)
                 LabeledContent("Material Thickness", value: corewire.thickness)
             }
@@ -22,7 +22,7 @@ struct CoreWireView: View {
             }
             Section("Wire Description") {
                 VStack {
-                    Text("\(corewire.description)")
+                    Text(NSLocalizedString(corewire.description, comment: ""))
                         .foregroundStyle(.orange)
                 }
             }

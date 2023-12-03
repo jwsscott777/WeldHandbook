@@ -22,7 +22,7 @@ struct ElectrodeView: View {
             }
             Section("Electrode Description") {
                 VStack {
-                    Text("\(electrode.description)")
+                    Text(NSLocalizedString(electrode.description, comment: ""))
                         .foregroundStyle(.orange)
                 }
             }

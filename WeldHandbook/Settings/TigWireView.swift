@@ -22,7 +22,7 @@ struct TigWireView: View {
             }
             Section("Filler Description") {
                 VStack {
-                    Text("\(tigwire.description)")
+                    Text(NSLocalizedString(tigwire.description, comment: ""))
                         .foregroundStyle(.orange)
                 }
             }

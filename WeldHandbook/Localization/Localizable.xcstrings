@@ -3163,7 +3163,38 @@
       }
     },
     "%@" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        }
+      }
     },
     "1. Cracks:\n    * These are serious welding defects that can occur in the weld metal or parent material. They can be hot or cold, longitudinal, transverse, crater, or underbead cracks, and are often due to stress and improper welding parameters.\n\n2. Porosity:\n    * This refers to small gas pockets or voids that are trapped within the weld as it solidifies. It can be scattered or clustered and often results from contaminated materials or improper shielding gas coverage.\n\n3. Slag Inclusions:\n    * These are non-metallic solid materials trapped in the weld metal or between the weld and the base metal. Usually, this is due to improper cleaning between weld passes or insufficient control of the welding process.\n\n4. Incomplete Fusion:\n    * This occurs when the weld metal fails to fuse completely with the base metal or preceding weld bead, which can result from low heat input, incorrect angle, or speed during welding.\n\n5. Incomplete Penetration (Lack of Penetration):\n    * This happens when the weld metal does not extend through the joint thickness. It is a critical discontinuity that can significantly weaken the weld." : {
       "localizations" : {
@@ -3685,6 +3716,170 @@
         }
       }
     },
+    "A celulous based flux similar to E6010 but bonded with potassium silicate. Designed primarally for Alternating Current machines." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A celulous based flux similar to E6010 but bonded with potassium silicate. Designed primarally for Alternating Current machines."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un fundente a base de celulosa similar al E6010 pero unido con silicato de potasio. Diseñado principalmente para máquinas de corriente alterna."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Isang celulous based flux na katulad ng E6010 ngunit nakagapos sa potassium silicate. Pangunahing idinisenyo para sa Alternating Current machine."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yon flux ki baze sou selul ki sanble ak E6010 men lye ak silikat potasyòm. Ki fèt prensipalman pou machin kouran altènatif."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um fluxo de base celulósica semelhante ao E6010, mas ligado com silicato de potássio. Projetado principalmente para máquinas de corrente alternada."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一种类似于 E6010 的纤维素基助焊剂，但与硅酸钾粘合。主要为交流电机设计"
+          }
+        }
+      }
+    },
+    "A shallow penetration electrode similar to E6013 with added iron powder. Excellent for vertical down applications with poor fit-up." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A shallow penetration electrode similar to E6013 with added iron powder. Excellent for vertical down applications with poor fit-up."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un electrodo de penetración poco profunda similar al E6013 con polvo de hierro añadido. Excelente para aplicaciones verticales hacia abajo con ajuste deficiente."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Isang mababaw na penetration electrode na katulad ng E6013 na may idinagdag na pulbos na bakal. Mahusay para sa mga vertical down na application na may mahinang fit-up."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yon lektwòd pénétration fon ki sanble ak E6013 ak poud fè te ajoute. Ekselan pou aplikasyon pou desann vètikal ak pòv anfòm."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um eletrodo de penetração rasa semelhante ao E6013 com adição de pó de ferro. Excelente para aplicações verticais descendentes com ajuste inadequado."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "与E6013类似的浅熔深焊条，添加了铁粉。非常适合装配不良的垂直向下应用"
+          }
+        }
+      }
+    },
+    "A standard among low hydrogen electrodes. The flux contains 25% iron powder used for all position welding." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A standard among low hydrogen electrodes. The flux contains 25% iron powder used for all position welding."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un estándar entre los electrodos de bajo hidrógeno. El fundente contiene un 25 % de polvo de hierro que se utiliza para soldadura en todas las posiciones."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Isang pamantayan sa mga mababang electrodes ng hydrogen. Ang flux ay naglalaman ng 25% iron powder na ginagamit para sa lahat ng position welding."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yon estanda nan mitan elektwòd idwojèn ki ba. Flux la gen 25% poud fè yo itilize pou tout pozisyon soude."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um padrão entre eletrodos com baixo teor de hidrogênio. O fluxo contém 25% de pó de ferro usado para soldagem em todas as posições."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "低氢电极的标准。焊剂含铁粉25%，用于全位置焊接"
+          }
+        }
+      }
+    },
+    "A standard among low hydrogen electrodes. The flux contains 25% iron powder used for all position welding.A great choice for out of position work. It handles better than the 1/8 diameter version. It is often used for the stringer bead caps of 6G pipe." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A standard among low hydrogen electrodes. The flux contains 25% iron powder used for all position welding.A great choice for out of position work. It handles better than the 1/8 diameter version. It is often used for the stringer bead caps of 6G pipe."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un estándar entre los electrodos de bajo hidrógeno. El fundente contiene un 25 % de polvo de hierro que se utiliza para soldadura en todas las posiciones. Una excelente opción para trabajos fuera de posición. Se maneja mejor que la versión de 1/8 de diámetro. A menudo se utiliza para las tapas de los cordones de las tuberías 6G."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Isang pamantayan sa mga mababang electrodes ng hydrogen. Ang flux ay naglalaman ng 25% iron powder na ginagamit para sa lahat ng position welding. Isang magandang pagpipilian para sa wala sa posisyong trabaho. Mas mahusay itong humahawak kaysa sa 1/8 diameter na bersyon. Madalas itong ginagamit para sa stringer bead caps ng 6G pipe."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yon estanda nan mitan elektwòd idwojèn ki ba. Flux la gen 25% poud fè yo itilize pou tout pozisyon soude.Yon gwo chwa pou travay nan pozisyon. Li okipe pi bon pase vèsyon an dyamèt 1/8. Li se souvan itilize pou bouchon yo chaplèt stringer nan tiyo 6G."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um padrão entre eletrodos com baixo teor de hidrogênio. O fluxo contém 25% de pó de ferro usado para soldagem em todas as posições. Uma ótima opção para trabalhos fora de posição. Ele tem um manuseio melhor do que a versão de 1/8 de diâmetro. É frequentemente usado para tampas de longarinas de tubos 6G."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "低氢电极的标准。该焊剂含有25%铁粉，用于全位置焊接。异位工作的绝佳选择。它的操控性比 1/8 直径版本更好。常用于6G管道的纵梁珠帽"
+          }
+        }
+      }
+    },
     "A welder or inspector following the American Welding Society (AWS) standards must be vigilant about various types of discontinuities that may occur during the welding process. Discontinuities are interruptions in the typical structure of a material or welding, which may or may not affect the integrity of the weld. Here's a brief overview of the main types:" : {
       "localizations" : {
         "en" : {
@@ -3966,7 +4161,44 @@
       }
     },
     "Amperage Range" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Amperage Range"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rango de amperaje"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saklaw ng Amperage"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ranje Amperaj"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Faixa de amperagem"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "安培范围"
+          }
+        }
+      }
     },
     "App Disclaimer" : {
       "localizations" : {
@@ -4009,6 +4241,7 @@
       }
     },
     "Application Info" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4044,6 +4277,47 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "应用信息"
+          }
+        }
+      }
+    },
+    "As opposed to thoriated electrodes, ceriated electrodes are not radioactive and can be used equally well with AC and DC. They are characterized by low erosion rate, and a long service life. They can be used with non-corroding steels, aluminum, magnesium, titanium, nickel, and copper alloys." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "As opposed to thoriated electrodes, ceriated electrodes are not radioactive and can be used equally well with AC and DC. They are characterized by low erosion rate, and a long service life. They can be used with non-corroding steels, aluminum, magnesium, titanium, nickel, and copper alloys."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A diferencia de los electrodos torios, los electrodos ceriados no son radiactivos y se pueden utilizar igualmente bien con CA y CC. Se caracterizan por una baja tasa de erosión y una larga vida útil. Se pueden utilizar con aceros no corrosivos, aluminio, magnesio, titanio, níquel y aleaciones de cobre."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilang kabaligtaran sa mga thoriated electrodes, ang mga ceriated electrodes ay hindi radioactive at maaaring magamit nang maayos sa AC at DC. Ang mga ito ay nailalarawan sa pamamagitan ng mababang rate ng pagguho, at isang mahabang buhay ng serbisyo. Maaari silang gamitin sa mga non-corroding steels, aluminum, magnesium, titanium, nickel, at copper alloys."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontrèman ak elektwòd thoriated, elektwòd seryate yo pa radyo-aktif epi yo ka itilize egalman byen ak AC ak DC. Yo karakterize pa to ewozyon ki ba, ak yon lavi sèvis long. Yo ka itilize ak asye ki pa korode, aliminyòm, mayezyòm, Titàn, nikèl, ak alyaj kwiv."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ao contrário dos eletrodos toriados, os eletrodos ceriados não são radioativos e podem ser usados ​​igualmente bem com CA e CC. Eles são caracterizados por uma baixa taxa de erosão e uma longa vida útil. Eles podem ser usados ​​com aços não corrosivos, alumínio, magnésio, titânio, níquel e ligas de cobre."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "与钍电极相反，铈电极不具有放射性，并且可以同样良好地用于交流和直流。它们的特点是侵蚀率低，使用寿命长。它们可与防腐蚀钢、铝、镁、钛、镍和铜合金一起使用。"
           }
         }
       }
@@ -4084,6 +4358,88 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "尝试"
+          }
+        }
+      }
+    },
+    "Bonded with sodium silicate this high-rutile medium penetration electrode, can fill gaps and misaligned fitups. Works great with flat, vertical or vertical down welding. Welds faster than E6010-11, all positions, best in straight polarity." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bonded with sodium silicate this high-rutile medium penetration electrode, can fill gaps and misaligned fitups. Works great with flat, vertical or vertical down welding. Welds faster than E6010-11, all positions, best in straight polarity."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unido con silicato de sodio, este electrodo de penetración media con alto contenido de rutilo puede llenar espacios y montajes desalineados. Funciona muy bien con soldadura plana, vertical o vertical hacia abajo. Suelda más rápido que E6010-11, en todas las posiciones, mejor en polaridad recta."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pinagbuklod ng sodium silicate ang high-rutile medium penetration electrode na ito, maaaring punan ang mga puwang at maling mga fitup. Mahusay na gumagana sa flat, vertical o vertical down welding. Welds mas mabilis kaysa sa E6010-11, lahat ng mga posisyon, pinakamahusay sa straight polarity."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kole ak silikat sodyòm sa a wo-rutile lektwòd pénétration mwayen, ka ranpli twou vid ki genyen ak fitups misaligned. Travay anpil ak plat, vètikal oswa vètikal desann soude. Soude pi vit pase E6010-11, tout pozisyon, pi bon nan polarite dwat."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ligado com silicato de sódio, este eletrodo de penetração média com alto rutílio pode preencher lacunas e ajustes desalinhados. Funciona muito bem com soldagem plana, vertical ou vertical. Solda mais rápido que E6010-11, todas as posições, melhor em polaridade reta."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这种高金红石中等渗透电极与硅酸钠粘合，可以填充间隙和错位的装配。非常适用于平焊、立焊或垂直向下焊接。焊接速度比 E6010-11 更快，所有位置，最佳正极性"
+          }
+        }
+      }
+    },
+    "Bonded with sodium silicate, this rod is similar to E6012 except it is designed for shallow penetration. It works with all positions, best in straight polarity." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bonded with sodium silicate, this rod is similar to E6012 except it is designed for shallow penetration. It works with all positions, best in straight polarity."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unida con silicato de sodio, esta varilla es similar a la E6012 excepto que está diseñada para una penetración superficial. Funciona con todas las posiciones, mejor en polaridad directa."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nakatali sa sodium silicate, ang baras na ito ay katulad ng E6012 maliban kung ito ay dinisenyo para sa mababaw na pagtagos. Gumagana ito sa lahat ng mga posisyon, pinakamahusay sa tuwid na polarity."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kole ak silikat sodyòm, baton sa a sanble ak E6012 eksepte li fèt pou pénétration pa fon. Li travay ak tout pozisyon, pi bon nan polarite dwat."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ligada com silicato de sódio, esta haste é semelhante à E6012, exceto que foi projetada para penetração superficial. Funciona com todas as posições, melhor em polaridade direta."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该棒采用硅酸钠粘合，与 E6012 类似，但设计用于浅穿透。它适用于所有位置，最好是正极性"
           }
         }
       }
@@ -4449,19 +4805,204 @@
       }
     },
     "Electrode" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Electrode"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Electrodo"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Electrode"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elektwòd"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eletrodo"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电极"
+          }
+        }
+      }
     },
     "Electrode Description" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Electrode Description"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descripción del electrodo"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paglalarawan ng Electrode"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elektwòd Deskripsyon"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descrição do eletrodo"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电极说明"
+          }
+        }
+      }
     },
     "Electrode Diameter" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Electrode Diameter"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diámetro del electrodo"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diameter ng Electrode"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dyamèt elektwòd"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diâmetro do eletrodo"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电极直径"
+          }
+        }
+      }
     },
     "Electrode Diameter:" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Electrode Diameter:"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diámetro del electrodo:"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diameter ng Electrode:"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dyamèt elektwòd:"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diâmetro do eletrodo:"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电极直径："
+          }
+        }
+      }
     },
     "Electrode Selection" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Electrode Selection"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selección de electrodos"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pagpili ng Electrode"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleksyon elektwòd"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleção de eletrodo"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电极选择"
+          }
+        }
+      }
     },
     "Electrodes and Filler Metal" : {
       "localizations" : {
@@ -4784,7 +5325,44 @@
       }
     },
     "Filler Description" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filler Description"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descripción del relleno"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paglalarawan ng Tagapuno"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filler Deskripsyon"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descrição do preenchimento"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "填料说明"
+          }
+        }
+      }
     },
     "FILLER METALS" : {
       "localizations" : {
@@ -4867,7 +5445,44 @@
       }
     },
     "Filter" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filter"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filtrar"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salain"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filtre"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filtro"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "筛选"
+          }
+        }
+      }
     },
     "First" : {
       "localizations" : {
@@ -5070,7 +5685,44 @@
       }
     },
     "GMAW Aluminum" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GMAW Aluminum"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aluminio GMAW"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GMAW Aluminum"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GMAW aliminyòm"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alumínio GMAW"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "熔化极气体保护焊铝"
+          }
+        }
+      }
     },
     "GMAW PROCESS" : {
       "localizations" : {
@@ -5312,6 +5964,88 @@
         }
       }
     },
+    "Heavy coating containing 50% iron powder for fast deposition rates. Flat and Horizontal welds only. Straight polarity works best." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heavy coating containing 50% iron powder for fast deposition rates. Flat and Horizontal welds only. Straight polarity works best."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recubrimiento pesado que contiene 50 % de polvo de hierro para velocidades de deposición rápidas. Solamente soldaduras planas y horizontales. La polaridad directa funciona mejor."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mabigat na patong na naglalaman ng 50% iron powder para sa mabilis na mga rate ng deposition. Flat at Horizontal welds lang. Ang tuwid na polarity ay pinakamahusay na gumagana."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kouch lou ki gen 50% poud fè pou pousantaj depo vit. Soude plat ak orizontal sèlman. Polarite dwat travay pi byen."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revestimento pesado contendo 50% de pó de ferro para taxas de deposição rápidas. Somente soldas planas e horizontais. A polaridade direta funciona melhor."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "含有 50% 铁粉的厚涂层可实现快速沉积速率。仅限平焊和水平焊缝。直极性效果最好。"
+          }
+        }
+      }
+    },
+    "High iron-oxide coating bonded with sodium silicate and a high percentage of iron powder. High X-ray quality can be achieved in the flat and horizontal positions." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High iron-oxide coating bonded with sodium silicate and a high percentage of iron powder. High X-ray quality can be achieved in the flat and horizontal positions."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recubrimiento con alto contenido de óxido de hierro aglutinado con silicato de sodio y un alto porcentaje de polvo de hierro. Se puede lograr una alta calidad de rayos X en las posiciones plana y horizontal."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mataas na iron-oxide coating na pinagbuklod ng sodium silicate at mataas na porsyento ng iron powder. Maaaring makamit ang mataas na kalidad ng X-ray sa mga patag at pahalang na posisyon."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Segondè kouch fè-oksid kole ak silikat sodyòm ak yon gwo pousantaj nan poud fè. Segondè X-ray bon jan kalite ka reyalize nan pozisyon yo plat ak orizontal."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revestimento com alto teor de óxido de ferro ligado com silicato de sódio e alto percentual de pó de ferro. Alta qualidade de raios X pode ser alcançada nas posições plana e horizontal."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高氧化铁涂层与硅酸钠和高比例的铁粉结合。在平面和水平位置均可实现高 X 射线质量"
+          }
+        }
+      }
+    },
     "Home" : {
       "localizations" : {
         "en" : {
@@ -5473,10 +6207,84 @@
       }
     },
     "Material Thickness" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Material Thickness"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Espesor del material"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapal ng Materyal"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Epesè materyèl"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Espessura do material"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "材料厚度"
+          }
+        }
+      }
     },
     "Material Thickness:" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Material Thickness:"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Espesor del material:"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapal ng Materyal:"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Epesè materyèl:"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Espessura do material:"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "材料厚度："
+          }
+        }
+      }
     },
     "Mig Welding" : {
       "localizations" : {
@@ -5519,7 +6327,44 @@
       }
     },
     "Mode of Transfer" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mode of Transfer"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo de transferencia"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paraan ng Paglilipat"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mòd transfè"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo de transferência"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "转让方式"
+          }
+        }
+      }
     },
     "More Info ⬇️" : {
       "localizations" : {
@@ -5842,7 +6687,78 @@
       }
     },
     "Polarity" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polarity"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polaridad"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polarity"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polarite"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polaridade"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "极性"
+          }
+        }
+      }
+    },
+    "Position" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posición"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "posisyon"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pozisyon"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posição"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "位置"
+          }
+        }
+      }
     },
     "Power Source & Machine Type:\n\n    GTAW operates with a Constant Current (CC) power source, much like the Shielded Metal Arc Welding (SMAW) process. This compatibility means that a machine suitable for SMAW can technically be converted to handle GTAW and vice versa. However, it's essential to check for the correct leads and connections, as not all GTAW machines come ready for stick welding. You'll typically find GTAW machines in two categories: Direct Current (DC) only or Alternating Current/Direct Current (AC/DC). Pure AC GTAW machines are exceptionally rare." : {
       "localizations" : {
@@ -6000,6 +6916,47 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "优先事项"
+          }
+        }
+      }
+    },
+    "Pure Tungsten recommended for X-ray quality welds with no radioactive inclusions. They are typically cheaper, have a lower current-carrying capacity, and lower resistance to weld contamination. Used with AC." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pure Tungsten recommended for X-ray quality welds with no radioactive inclusions. They are typically cheaper, have a lower current-carrying capacity, and lower resistance to weld contamination. Used with AC."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tungsteno puro recomendado para soldaduras con calidad de rayos X y sin inclusiones radiactivas. Por lo general, son más baratos, tienen una menor capacidad de transporte de corriente y una menor resistencia a la contaminación de la soldadura. Usado con aire acondicionado."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inirerekomenda ang Purong Tungsten para sa mga welds ng kalidad ng X-ray na walang mga radioactive inclusions. Karaniwang mas mura ang mga ito, may mas mababang kapasidad na nagdadala ng kasalukuyang, at mas mababang resistensya sa kontaminasyon ng weld. Ginamit sa AC."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pi Tungstène rekòmande pou soude bon jan kalite radyografi ki pa gen okenn enklizyon radyo-aktif. Yo tipikman pi bon mache, yo gen yon pi ba kapasite kouran-pote, ak pi ba rezistans nan kontaminasyon soude. Itilize ak AC."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tungstênio puro recomendado para soldas com qualidade de raios X sem inclusões radioativas. Eles são normalmente mais baratos, têm menor capacidade de transporte de corrente e menor resistência à contaminação da solda. Usado com AC."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "建议使用纯钨进行 X 射线质量焊接，不含放射性夹杂物。它们通常更便宜，载流能力较低，并且对焊接污染的抵抗力较低。与交流电一起使用。"
           }
         }
       }
@@ -6605,13 +7562,165 @@
       }
     },
     "Settings" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mga setting"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anviwònman"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configurações"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置"
+          }
+        }
+      }
+    },
+    "Short circuit has a current range of 50 to 200 amps which translates to wire speeds between 70 - 420Ipm and voltage between 14 - 24V. Shielding gas should be Argon + 25% Co2. The ER70s-6 has more silicon than the ER70s-3 which is a preferred choice if the work is slightly contaminated. ER70s-3 is a better choice if welding is to be done on galvanized steels because of its lower silicon content. Both wires also have manganese as deoxidizers." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Short circuit has a current range of 50 to 200 amps which translates to wire speeds between 70 - 420Ipm and voltage between 14 - 24V. Shielding gas should be Argon + 25% Co2. The ER70s-6 has more silicon than the ER70s-3 which is a preferred choice if the work is slightly contaminated. ER70s-3 is a better choice if welding is to be done on galvanized steels because of its lower silicon content. Both wires also have manganese as deoxidizers."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El cortocircuito tiene un rango de corriente de 50 a 200 amperios, lo que se traduce en velocidades de cable de entre 70 y 420 Ipm y un voltaje de entre 14 y 24 V. El gas de protección debe ser Argón + 25% Co2. El ER70s-6 tiene más silicio que el ER70s-3, que es la opción preferida si el trabajo está ligeramente contaminado. ER70s-3 es una mejor opción si se va a soldar aceros galvanizados debido a su menor contenido de silicio. Ambos alambres también tienen manganeso como desoxidantes."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ang short circuit ay may kasalukuyang saklaw na 50 hanggang 200 amps na isinasalin sa mga bilis ng wire sa pagitan ng 70 - 420Ipm at boltahe sa pagitan ng 14 - 24V. Ang shielding gas ay dapat Argon + 25% Co2. Ang ER70s-6 ay may mas maraming silikon kaysa sa ER70s-3 na isang mas gustong pagpipilian kung ang trabaho ay bahagyang kontaminado. Ang ER70s-3 ay isang mas mahusay na pagpipilian kung ang welding ay gagawin sa galvanized steels dahil sa mas mababang nilalaman ng silicon nito. Ang parehong mga wire ay mayroon ding manganese bilang mga deoxidizer."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kout kous gen yon seri aktyèl 50 a 200 ampè ki tradwi vitès fil ant 70 - 420Ipm ak vòltaj ant 14 - 24V. Gaz pwoteksyon yo ta dwe Agon + 25% Co2. ER70s-6 a gen plis Silisyòm pase ER70s-3 ki se yon chwa pi pito si travay la yon ti kras kontamine. ER70s-3 se yon pi bon chwa si soude yo dwe fè sou asye galvanised paske nan pi ba kontni Silisyòm li yo. Tou de fil tou gen Manganèz kòm deoksidan."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O curto-circuito tem uma faixa de corrente de 50 a 200 amperes, o que se traduz em velocidades de fio entre 70 - 420 Ipm e tensão entre 14 - 24 V. O gás de proteção deve ser Argônio + 25% Co2. O ER70s-6 possui mais silício que o ER70s-3, que é a escolha preferida se o trabalho estiver levemente contaminado. O ER70s-3 é a melhor escolha se a soldagem for feita em aços galvanizados devido ao seu menor teor de silício. Ambos os fios também possuem manganês como desoxidantes."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "短路电流范围为 50 至 200 安培，这意味着线速为 70 - 420Ipm，电压为 14 - 24V。保护气体应为氩气+25% Co2。 ER70s-6 比 ER70s-3 含有更多的硅，如果工件受到轻微污染，这是首选。如果要在镀锌钢上进行焊接，ER70s-3 是更好的选择，因为它的硅含量较低。两种金属丝还含有锰作为脱氧剂。"
+          }
+        }
+      }
     },
     "Show all positions" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show all positions"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar todas las posiciones"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ipakita ang lahat ng posisyon"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Montre tout pozisyon yo"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar todas as posições"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示所有职位"
+          }
+        }
+      }
     },
     "Show upcoming positions" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show upcoming positions"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar próximas posiciones"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ipakita ang mga paparating na posisyon"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Montre pozisyon k ap vini yo"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar próximas posições"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示即将到来的职位"
+          }
+        }
+      }
     },
     "SMAW" : {
       "localizations" : {
@@ -6773,6 +7882,47 @@
         }
       }
     },
+    "Spray is dependant on having a high voltage setting to start with so as not get too much spatter. Adjustments should be made to accomodate the thickness of the metal in addition to a shielding gas of Argon +13 - 20% CO2. Limited to Flat and horizontal positions. The ER70s-6 has more silicon than the ER70s-3 which is a preferred choice if the work is slightly contaminated. ER70s-3 is a better choice if welding is to be done on galvanized steels because of its lower silicon content. Both wires also have manganese as deoxidizers." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spray is dependant on having a high voltage setting to start with so as not get too much spatter. Adjustments should be made to accomodate the thickness of the metal in addition to a shielding gas of Argon +13 - 20% CO2. Limited to Flat and horizontal positions. The ER70s-6 has more silicon than the ER70s-3 which is a preferred choice if the work is slightly contaminated. ER70s-3 is a better choice if welding is to be done on galvanized steels because of its lower silicon content. Both wires also have manganese as deoxidizers."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La pulverización depende de tener una configuración de alto voltaje para empezar para no salpicar demasiado. Se deben hacer ajustes para adaptarse al espesor del metal además de un gas protector de Argón +13 - 20% CO2. Limitado a posiciones planas y horizontales. El ER70s-6 tiene más silicio que el ER70s-3, que es la opción preferida si el trabajo está ligeramente contaminado. ER70s-3 es una mejor opción si se va a soldar aceros galvanizados debido a su menor contenido de silicio. Ambos alambres también tienen manganeso como desoxidantes."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ang pag-spray ay nakasalalay sa pagkakaroon ng mataas na boltahe na setting upang magsimula upang hindi makakuha ng masyadong maraming spatter. Ang mga pagsasaayos ay dapat gawin upang matugunan ang kapal ng metal bilang karagdagan sa isang shielding gas ng Argon +13 - 20% CO2. Limitado sa mga Flat at pahalang na posisyon. Ang ER70s-6 ay may mas maraming silikon kaysa sa ER70s-3 na isang mas gustong pagpipilian kung ang trabaho ay bahagyang kontaminado. Ang ER70s-3 ay isang mas mahusay na pagpipilian kung ang welding ay gagawin sa galvanized steels dahil sa mas mababang nilalaman ng silicon nito. Ang parehong mga wire ay mayroon ding manganese bilang mga deoxidizer."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flite depann de gen yon anviwònman vòltaj segondè yo kòmanse ak pou yo pa jwenn twòp sal. Ajisteman yo ta dwe fèt pou akomode epesè metal la anplis yon gaz pwoteksyon Agon +13 - 20% CO2. Limite nan pozisyon plat ak orizontal. ER70s-6 a gen plis Silisyòm pase ER70s-3 ki se yon chwa pi pito si travay la yon ti kras kontamine. ER70s-3 se yon pi bon chwa si soude yo dwe fè sou asye galvanised paske nan pi ba kontni Silisyòm li yo. Tou de fil tou gen Manganèz kòm deoksidan."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A pulverização depende de uma configuração de alta tensão para começar, para não respingar muito. Ajustes devem ser feitos para acomodar a espessura do metal, além de um gás de proteção Argônio +13 - 20% CO2. Limitado a posições planas e horizontais. O ER70s-6 possui mais silício que o ER70s-3, que é a escolha preferida se o trabalho estiver levemente contaminado. O ER70s-3 é a melhor escolha se a soldagem for feita em aços galvanizados devido ao seu menor teor de silício. Ambos os fios também possuem manganês como desoxidantes."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "喷涂取决于开始时的高电压设置，以免飞溅过多。除了氩气+13 - 20% CO2 保护气体外，还应进行调整以适应金属的厚度。仅限于平面和水平位置。 ER70s-6 比 ER70s-3 含有更多的硅，如果工件受到轻微污染，这是首选。如果要在镀锌钢上进行焊接，ER70s-3 是更好的选择，因为它的硅含量较低。两种金属丝还含有锰作为脱氧剂。"
+          }
+        }
+      }
+    },
     "Stick Welding" : {
       "localizations" : {
         "en" : {
@@ -6814,10 +7964,84 @@
       }
     },
     "Suggested Setting:" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suggested Settings:"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configuración sugerida:"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mga Iminungkahing Setting:"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anviwònman Sigjere:"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configurações sugeridas:"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "建议设置："
+          }
+        }
+      }
     },
     "Suggested Settings" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suggested Settings"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configuración sugerida"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mga Iminungkahing Setting"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anviwònman Sigjere"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configurações sugeridas"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "建议设置"
+          }
+        }
+      }
     },
     "Tap on the plus button to create a weld position to track" : {
       "localizations" : {
@@ -6939,6 +8163,88 @@
         }
       }
     },
+    "The last two digits '10' refers to a celulous based flux bonded with sodium silicate and designed for all positions. It is a deep penetration electrode." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The last two digits '10' refers to a celulous based flux bonded with sodium silicate and designed for all positions. It is a deep penetration electrode."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Los dos últimos dígitos '10' se refieren a un fundente de base celulósica unido con silicato de sodio y diseñado para todas las posiciones. Es un electrodo de penetración profunda."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ang huling dalawang digit na '10' ay tumutukoy sa isang celulous based flux na pinagbuklod ng sodium silicate at idinisenyo para sa lahat ng posisyon. Ito ay isang malalim na elektrod ng pagtagos."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De dènye chif '10' yo refere a yon flux ki baze sou selul ki kole ak silikat sodyòm epi ki fèt pou tout pozisyon. Li se yon elektwòd pénétration gwo twou san fon."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Os dois últimos dígitos '10' referem-se a um fluxo de base celulósica ligado com silicato de sódio e projetado para todas as posições. É um eletrodo de penetração profunda."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最后两位数字“10”是指与硅酸钠粘合的纤维素基焊剂，专为所有位置而设计。它是一种深熔电极。"
+          }
+        }
+      }
+    },
+    "These electrodes are alloyed with thorium @2% to produce a higher melting temperature and 50% more current capacity. Thoria is a radioactive material, and all safety measures must be followed precisely, especially when grinding thoriated tungsten electrodes. The red electrode is the most commonly used tungsten option thanks to its longevity and ease of use. Used with DCEN." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "These electrodes are alloyed with thorium @2% to produce a higher melting temperature and 50% more current capacity. Thoria is a radioactive material, and all safety measures must be followed precisely, especially when grinding thoriated tungsten electrodes. The red electrode is the most commonly used tungsten option thanks to its longevity and ease of use. Used with DCEN."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estos electrodos están aleados con torio al 2% para producir una temperatura de fusión más alta y un 50% más de capacidad de corriente. La toria es un material radiactivo y se deben seguir con precisión todas las medidas de seguridad, especialmente al rectificar electrodos de tungsteno toriado. El electrodo rojo es la opción de tungsteno más utilizada gracias a su longevidad y facilidad de uso. Utilizado con DCEN."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ang mga electrodes na ito ay pinaghalo ng thorium @2% upang makagawa ng mas mataas na temperatura ng pagkatunaw at 50% na mas kasalukuyang kapasidad. Ang Thoria ay isang radioactive na materyal, at lahat ng mga hakbang sa kaligtasan ay dapat na sundin nang tumpak, lalo na kapag ang paggiling ng thoriated tungsten electrodes. Ang pulang elektrod ay ang pinakakaraniwang ginagamit na opsyon sa tungsten salamat sa mahabang buhay at kadalian ng paggamit nito. Ginamit sa DCEN."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elektwòd sa yo alyaj ak thorium @ 2% pou pwodwi yon tanperati k ap fonn ki pi wo ak 50% plis kapasite aktyèl. Thoria se yon materyèl radyo-aktif, ak tout mezi sekirite yo dwe swiv jisteman, espesyalman lè fanm k'ap pile elektwòd tengstèn thoriated. Elektwòd wouj la se opsyon ki pi souvan itilize tengstèn gras a lonjevite li yo ak fasilite nan itilize. Itilize ak DCEN."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esses eletrodos são ligados com tório a 2% para produzir uma temperatura de fusão mais alta e 50% mais capacidade de corrente. Thoria é um material radioativo e todas as medidas de segurança devem ser seguidas com precisão, especialmente ao retificar eletrodos de tungstênio toriados. O eletrodo vermelho é a opção de tungstênio mais comumente usada graças à sua longevidade e facilidade de uso. Usado com DCEN."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这些电极与 2% 的钍合金化，可产生更高的熔化温度和 50% 以上的电流容量。钍是一种放射性材料，必须严格遵守所有安全措施，特别是在研磨钍钨电极时。由于其使用寿命长且易于使用，红色电极是最常用的钨电极。与 DCEN 一起使用。"
+          }
+        }
+      }
+    },
     "Third" : {
       "localizations" : {
         "en" : {
@@ -6975,6 +8281,252 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "第三"
+          }
+        }
+      }
+    },
+    "This wire is not used as often but it still offers great performance and minimum weave manipulation." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This wire is not used as often but it still offers great performance and minimum weave manipulation."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este alambre no se usa con tanta frecuencia, pero aun así ofrece un gran rendimiento y una mínima manipulación del tejido."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ang wire na ito ay hindi madalas na ginagamit ngunit nag-aalok pa rin ito ng mahusay na pagganap at pinakamababang pagmamanipula ng paghabi."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fil sa a pa itilize souvan men li toujou ofri gwo pèfòmans ak manipilasyon tise minimòm."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este fio não é usado com tanta frequência, mas ainda oferece ótimo desempenho e mínima manipulação de tecelagem."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这种线不经常使用，但它仍然提供出色的性能和最少的编织操作。"
+          }
+        }
+      }
+    },
+    "This wire is often used when thinner steels are used and greater fusion is required for out of position welding." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This wire is often used when thinner steels are used and greater fusion is required for out of position welding."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este alambre se utiliza a menudo cuando se utilizan aceros más delgados y se requiere una mayor fusión para soldaduras fuera de posición."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ang kawad na ito ay kadalasang ginagamit kapag ang mas manipis na bakal ay ginagamit at ang mas malaking pagsasanib ay kinakailangan para sa wala sa posisyong hinang."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se fil sa a souvan itilize lè asye mens yo itilize epi pi gwo fizyon yo mande pou soti nan pozisyon soude."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este fio é frequentemente usado quando aços mais finos são usados ​​e maior fusão é necessária para soldagem fora de posição."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当使用较薄的钢材并且异位焊接需要更大的熔合度时，通常使用这种焊丝。"
+          }
+        }
+      }
+    },
+    "This wire is stiffer and not as prone to feeding problems as ER4043. The stiffness plus the high magnesium content demands higher voltages and wire speeds than what was used for ER4043. Shielding gas is 100% Argon." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This wire is stiffer and not as prone to feeding problems as ER4043. The stiffness plus the high magnesium content demands higher voltages and wire speeds than what was used for ER4043. Shielding gas is 100% Argon."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este cable es más rígido y no tan propenso a tener problemas de alimentación como el ER4043. La rigidez más el alto contenido de magnesio exigen voltajes y velocidades de alambre más altos que los utilizados para ER4043. El gas de protección es 100% argón."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ang wire na ito ay mas matigas at hindi madaling kapitan ng mga problema sa pagpapakain gaya ng ER4043. Ang higpit at ang mataas na nilalaman ng magnesium ay nangangailangan ng mas mataas na boltahe at bilis ng wire kaysa sa ginamit para sa ER4043. Ang shielding gas ay 100% Argon."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fil sa a pi rèd epi li pa gen tandans fè pwoblèm manje tankou ER4043. Rèd la ak kontni an mayezyòm segondè mande pi wo vòltaj ak vitès fil pase sa ki te itilize pou ER4043. Gaz pwoteksyon se 100% Agon."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este fio é mais rígido e não tão sujeito a problemas de alimentação quanto o ER4043. A rigidez aliada ao alto teor de magnésio exige tensões e velocidades de fio mais altas do que as usadas no ER4043. O gás de proteção é 100% Argônio."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该焊丝更硬，不像 ER4043 那样容易出现馈电问题。刚度加上高镁含量需要比 ER4043 更高的电压和线速度。保护气体为 100% 氩气。"
+          }
+        }
+      }
+    },
+    "This wire is the most common for all-purpose work. It has silicon as its primary alloy. It is a soft wire and prone to burn backing in the contact tip. Important to not let the wire speed get to low as it will cause you a lot of problems. Shielding gas is 100% Argon." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This wire is the most common for all-purpose work. It has silicon as its primary alloy. It is a soft wire and prone to burn backing in the contact tip. Important to not let the wire speed get to low as it will cause you a lot of problems. Shielding gas is 100% Argon."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este cable es el más común para trabajos polivalentes. Tiene silicio como aleación principal. Es un cable blando y propenso a quemarse en la parte posterior de la punta de contacto. Es importante no dejar que la velocidad del cable baje demasiado, ya que esto le causará muchos problemas. El gas de protección es 100% argón."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ang wire na ito ang pinakakaraniwan para sa lahat ng layunin na trabaho. Mayroon itong silikon bilang pangunahing haluang metal nito. Ito ay malambot na wire at madaling masunog ang backing sa tip ng contact. Mahalagang huwag hayaang bumaba ang bilis ng wire dahil magdudulot ito sa iyo ng maraming problema. Ang shielding gas ay 100% Argon."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fil sa a se pi komen pou tout-bi travay. Li gen Silisyòm kòm alyaj prensipal li yo. Li se yon fil mou ak tandans boule fè bak nan pwent kontak la. Enpòtan pou pa kite vitès fil la vin ba paske li pral lakòz ou anpil pwoblèm. Gaz pwoteksyon se 100% Agon."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este fio é o mais comum para trabalhos multifacetados. Possui silício como liga primária. É um fio macio e propenso a queimar o suporte da ponta de contato. Importante não deixar a velocidade do fio ficar muito baixa, pois isso causará muitos problemas. O gás de proteção é 100% Argônio."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这种电线最常用于多用途工作。它以硅为主要合金。它是一根软线，容易烧伤导电嘴的背衬。重要的是不要让线速变低，因为这会导致很多问题。保护气体为 100% 氩气。"
+          }
+        }
+      }
+    },
+    "This wire offers the most practical current range and deposition rate A single pass 3/4in stringer bead can be achieved with no effort." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This wire offers the most practical current range and deposition rate A single pass 3/4in stringer bead can be achieved with no effort."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este cable ofrece el rango de corriente y la tasa de deposición más prácticos. Se puede lograr un cordón de 3/4 de pulgada de una sola pasada sin esfuerzo."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ang wire na ito ay nag-aalok ng pinaka-praktikal na kasalukuyang hanay at deposition rate Isang solong pass 3/4in stringer bead ay maaaring makamit nang walang pagsisikap."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fil sa a ofri ranje aktyèl ki pi pratik ak pousantaj depo Yon sèl pas 3/4in chaplèt stringer ka reyalize san efò."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este fio oferece a faixa de corrente e taxa de deposição mais práticas. Um cordão de longarina de 3/4 pol. de passagem única pode ser obtido sem esforço."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该焊丝提供了最实用的电流范围和沉积速率，可以毫不费力地实现单通道 3/4 英寸纵梁珠。"
+          }
+        }
+      }
+    },
+    "This wire provides unique potential for cost savings. It is simpler to operate, provides greater weld quality and provides three times the rate of weld deposition." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This wire provides unique potential for cost savings. It is simpler to operate, provides greater weld quality and provides three times the rate of weld deposition."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este cable ofrece un potencial único para ahorrar costos. Es más sencillo de operar, proporciona mayor calidad de soldadura y proporciona tres veces la tasa de deposición de soldadura."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ang wire na ito ay nagbibigay ng natatanging potensyal para sa pagtitipid sa gastos. Ito ay mas simple upang patakbuhin, nagbibigay ng mas mataas na kalidad ng weld at nagbibigay ng tatlong beses ang rate ng weld deposition."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fil sa a bay potansyèl inik pou ekonomize pri. Li pi senp pou opere, bay pi gwo kalite soude epi li bay twa fwa pousantaj depo soude."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este fio oferece um potencial único para economia de custos. É mais simples de operar, proporciona maior qualidade de solda e proporciona três vezes a taxa de deposição de solda."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该电线具有节省成本的独特潜力。它操作更简单，提供更高的焊接质量，并提供三倍的焊接熔敷速率。"
           }
         }
       }
@@ -7020,7 +8572,44 @@
       }
     },
     "Tungsten" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tungsten"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tungsteno"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tungsten"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tengstèn"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tungstênio"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tungsten"
+          }
+        }
+      }
     },
     "Tungsten Selection Guide:\n\n1. Pure Tungsten (EWP):\n   * Good for low-amperage welding of aluminum and magnesium using AC; forms a molten ball shape at the tip during AC welding.\n\n2. Thoriated Electrodes (EWTh):\n   * Offer higher current capacity and superior arc stability compared to pure tungsten, especially for DC welding. Not suitable for maintaining a rounded ball shape at the tip.\n\n3. Zirconiated Electrodes (EWZr):\n   * Less sensitive to contamination and superior in current capacity than pure tungsten, used in critical applications.\n\nElectrode Selection Based on Base Metal:\n\n* For carbon, low-alloy, stainless, and nickel steels: Thoriated electrodes with DCEN; use EWZr for thin materials.\n* For aluminum: Zirconium or pure tungsten with AC; thoriated zirconium with DCEP for thin sections.\n* For copper and copper alloys: Thoriated electrodes with DCEN; use EWZr or EWP with AC for thin sections.\n* For magnesium: Zirconium with AC; use DCEP with the same electrode for thin sections.\n* For titanium: Thoriated electrodes with DCEN." : {
       "localizations" : {
@@ -7063,7 +8652,44 @@
       }
     },
     "Tungsten:" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tungsten:"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tungsteno:"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tungsten:"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tengstèn:"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tungstênio:"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "钨："
+          }
+        }
+      }
     },
     "Understand the Elements of Welding Symbols:\n\n   * Reference Line: The basis of the welding symbol.\n   * Arrow: Connects the reference line to the joint.\n   * Basic Weld Symbols: Indicate the type of welding.\n   * Dimensions and Other Data: Provide details like size, length, spacing, etc.\n   * Supplementary Symbols: Convey additional information.\n   * Finish Symbols: Indicate the method of finishing.\n   * Tail and Specification: Used for additional references or processes.\n   * Process or Other Reference: Specifies the welding process or other necessary information." : {
       "localizations" : {
@@ -7186,7 +8812,44 @@
       }
     },
     "Used for:" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Used for:"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usado para:"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ginagamit para sa:"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Itilize pou:"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usado para:"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用于："
+          }
+        }
+      }
     },
     "Visual Criteria" : {
       "localizations" : {
@@ -7229,7 +8892,44 @@
       }
     },
     "Voltage & Wirespeed" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voltage & Wirespeed"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voltaje y velocidad del cable"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boltahe at Wirespeed"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voltage & Wirespeed"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tensão e velocidade do fio"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电压&线速"
+          }
+        }
+      }
     },
     "Welcome to the Weld Handbook" : {
       "localizations" : {
@@ -7273,6 +8973,12 @@
     },
     "Weld Handbook" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weld Handbook"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7546,16 +9252,205 @@
       }
     },
     "Wire Description" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wire Description"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descripción del cable"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paglalarawan ng Kawad"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deskripsyon fil"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descrição do fio"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "线材说明"
+          }
+        }
+      }
     },
     "Wire Diameter" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wire Diameter"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diámetro del cable"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wire Diameter"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dyamèt fil"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diâmetro do fio"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "线径"
+          }
+        }
+      }
     },
     "Wire Selection" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wire Selection"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selección de cables"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pagpili ng Wire"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleksyon fil"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleção de Fio"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "线材选择"
+          }
+        }
+      }
     },
     "Wire Type" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wire Type"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tipo de alambre"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uri ng Kawad"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalite fil"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tipo de fio"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "线材类型"
+          }
+        }
+      }
+    },
+    "Zirconiated Tungsten are practical for critical applications and superior current capacity than pure tungsten. This electrode is very resistant to spatter and handles high amperages with ease. Used with AC." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zirconiated Tungsten are practical for critical applications and superior current capacity than pure tungsten. This electrode is very resistant to spatter and handles high amperages with ease. Used with AC."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El tungsteno circonio es práctico para aplicaciones críticas y tiene una capacidad de corriente superior al tungsteno puro. Este electrodo es muy resistente a las salpicaduras y maneja altos amperajes con facilidad. Usado con aire acondicionado."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ang Zirconiated Tungsten ay praktikal para sa mga kritikal na aplikasyon at superyor na kasalukuyang kapasidad kaysa sa purong tungsten. Ang elektrod na ito ay napaka-lumalaban sa spatter at madaling humahawak ng mataas na amperage. Ginamit sa AC."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zirconiated Tungstène yo pratik pou aplikasyon kritik ak siperyè kapasite aktyèl pase tungstène pi. Elektwòd sa a se trè rezistan nan sal epi okipe gwo amperaj ak fasilite. Itilize ak AC."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O tungstênio zircônico é prático para aplicações críticas e tem capacidade de corrente superior ao do tungstênio puro. Este eletrodo é muito resistente a respingos e suporta facilmente altas amperagens. Usado com AC."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "锆钨适用于关键应用，并且比纯钨具有更高的电流容量。该电极非常耐飞溅，并且可以轻松处理高电流。与交流电一起使用。"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
