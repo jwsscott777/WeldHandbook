@@ -6,7 +6,6 @@
 //
 import SwiftData
 import SwiftUI
-import SwiftUIImageViewer
 import PhotosUI
 import TipKit
 struct EditPositionView: View {
