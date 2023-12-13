@@ -9,13 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("It is weird")
+        NavigationStack {
+            TabView {
+
+                    ForEach(weldcourses) { weldcourse in
+                        NavigationLink(destination: WeldCardDetailView(weldcourse: weldcourse)) {
+                            WeldCardView(weldcourse: weldcourse)
+                        }
+                    }
+               
+             
+                    SetView()
+
+            }
+            .tabViewStyle(.verticalPage)
         }
-        .padding()
     }
 }
 
