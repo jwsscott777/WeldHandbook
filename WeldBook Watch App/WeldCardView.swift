@@ -11,6 +11,8 @@ struct WeldCardView: View {
     var weldcourse: WeldCourse = weldcourses[0]
     var body: some View {
         VStack {
+            Text("Weld Handbook")
+                .font(.caption)
             Image(weldcourse.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)

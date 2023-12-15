@@ -481,6 +481,15 @@
         }
       }
     },
+    "    1. Electrode Selection and Settings for Various Steel Thicknesses:\n\n    * For vertical up welds on steel thicknesses from 1/8 to 3/16 inches and pipe thickness range of 1/4 to 1/2 inches, use a .035-inch diameter E71T-1 electrode.\n\n    * For steel in the range of 1/4 to 3/8 inches thickness, consider a 0.045-inch diameter E71T-1 electrode, or a .062-inch diameter E71T-1 electrode in nonheat-sensitive applications.\n\n    * For steel over 3/8 inches thickness, a .062-inch diameter E71T-1 electrode is recommended.\n\n    * For flat and horizontal welds on steel of 3/8 to 3/4 inches thickness, use a 1/16-inch diameter E70T-X electrode, and for steel over 3/4 inches thickness, a 3/32-inch E70T-X electrode.\n\n    2. Settings for Dual-Shielded, All-Position FCAW Electrodes:\n\n    * For vertical up welding with E71T-1 electrodes (0.045-inch diameter), the recommended current range is approximately 130 to 250 amps.\n\n    * Optimal settings for a vertical up weld with an E71T-1, .035-inch diameter electrode are a wire feed rate of 450 in./min, a welding current of 160 to 170 amps, and a voltage of 27 to 28 volts.\n\n    3. Additional Guidlines:\n\n    * A .035-inch electrode is ideal for welding steel pipe with wall thicknesses less than 1/2 inch.\n\n    * The recommended contact tip recess for FCAW is about 1/2 inch with a minimum electrode extension of 3/4 inch.\n\n    * For .045-inch diameter E71T-1 all-position electrodes, use a wire feed rate of 350 in./min for vertical up welding (200 to 190 amps, 24 to 25 volts) and 560 in./min for flat welding (270 amps, 25 to 27 volts).\n\n    0.052-inch (1.3-mm) Diameter Electrodes:\n\n    * Vertical Up Welding:\n    * Wire Feed Rate: Set to approximately 250 in./min (106 mm/s).\n    * Amperage: Around 200 amps.\n    * Voltage: Set to 25 volts.\n\n    Flat Welding:\n    * Wire Feed Rate: Set  490 to 560 in./min (207 to 237 mm/s).\n    * Amperage: Approximately 300 amps.\n    * Voltage: Set to 28 volts.\n\n    0.062-inch (1.6-mm) Diameter Electrodes:\n    * Vertical Up Welding:\n    * Wire Feed Rate: 190 in./min.\n    * Amperage: 230 to 240 amps.\n    * Voltage: Adjust to 24–25 volts.\n\n    * Flat Welding:\n    * Wire Feed Rate: 300 in./min.\n    * Amperage: 340–350 amps.\n    * Voltage: Set to 29–30 volts.\n\n    Average Deposition Rates for Manual Welding:\n    * Welding for 30 minutes of each hour on steel thicknesses of 1/4 to 3/8 inches with an all-position flux-cored electrode of .062-inch or 0.045-inch diameter typically results in a deposition rate of about 4–5 lb/h." : {
+
+    },
+    "    1. Electrodes commonly used:\n\n    * E6010 - Designed for welding pipe and general structures. Excellent for all-position and vertical down\n    welding. Slag is light and easy to remove. Deep, penetrating arc. Low deposition rates.\n    Polarity DC + (electrode positive).\n\n    * E6011 - Similar to E6010 but modified to allow use of AC. Excellent for welding sheet metal corner\n    joints vertical down. Polarity AC or DC + (electrode positive).\n\n    * E7018 - An iron-powder, low-hydrogen, all-position electrode. Excellent for rigid, highly stressed structures of low- to medium-carbon steel. Can also be used for welding mild and high-strength steels, highcarbon\n             steels, and alloy steels. Polarity AC or DC + reverse polarity.\n\n    * E7024 - An iron-powder electrode with low hydrogen, usable in all positions. Excellent for high-amperage, large, fillet welds in flat and horizontal positions. Polarity AC or DC − (electrode negative).\n\n    2. Amperage Ranges:\n\n    * E6010 - 75–130 / 1/8\" (90 amps) preferred.\n    * E6011 - 75–130 / 1/8\" (90 amps) preferred.\n    * E7018 - 90 / 3/32\"\n    * E7018 - 110–160 / 1/8\" (140 amps) preferred for Flat & Horizontal.\n    (110-115 amps) preferred for Vertical & Overhead.\n    * E7024 - 130–180 / 1/8\"\n\n    3. Polarity:\n    * DCEP = DCRP == Electrode Positive or Reverse Polarity.\n    * DCEN = DCSP == Electrode Negative or Straight Polarity." : {
+
+    },
+    "    1. GMAW Welding of Sheet Steel:\n\n    * Short-Circuit Transfer Mode:\n    * Used for welding carbon steel, low-alloy steel, and stainless steel sheets from 24 gage to 11 gage.\n    * Optimal electrode: 0.035-inch diameter.\n    * Current: 50 to 200 amps.\n    * Voltage: 14 to 22 volts, with 16 to 18 volts being optimum for most applications.\n\n    2. Shielding Gases for GMAW Welding:\n\n    * Carbon and Low-Alloy Steels:\n\n    * For short-circuit welding of thinner metals, argon with 15–25% CO2 is recommended.\n    * For very thin metals (less than 18 gage), argon mixed with 2 to 5% oxygen can be used.\n\n    * Stainless Steels:\n\n    * For thin-gage stainless steel, an argon mixture with 2 to 4% CO2 is practical.\n    * For thicker stainless steels, argon 98% + oxygen 2% is traditionally used.\n\n    3. GMAW Spray Transfer:\n\n    * With a 0.035-inch diameter electrode using argon 75% + CO2 25%, small globular weld droplet formation occurs in the conventional spray transfer range.\n    * Wire Speed: Over 420 ipm.\n    * Voltage: 24-32 volts." : {
+
+    },
     "    1. Self-Shielded Flux Core Wires: Relying entirely on its flux for protection, this type doesn't require an external shielding gas. Primarily used for general-purpose welding, it's ideal for windy or drafty conditions where gas protection might be ineffective. Designed to work with Direct Current Electrode Negative (DCEN) or straight polarity, these wires are commonly available at home improvement and DIY stores. They are typically sold in smaller 1-pound spools, making them ideal for less intensive jobs and lower-output welding machines. A tip-off to recognizing these wires is in their designation: if you come across a wire labeled as E71T-Gxxxxx, it's a solid indicator of a self-shielded variety." : {
       "localizations" : {
         "en" : {
@@ -3122,6 +3131,9 @@
         }
       }
     },
+    "    Tungsten Selection Guide:\n\n    1. Pure Tungsten (EWP):\n    * Good for low-amperage welding of aluminum and magnesium using AC; forms a molten ball shape at the tip during AC welding.\n\n    2. Thoriated Electrodes (EWTh):\n    * Offer higher current capacity and superior arc stability compared to pure tungsten, especially for DC welding. Not suitable for maintaining a rounded ball shape at the tip.\n\n    3. Zirconiated Electrodes (EWZr):\n    * Less sensitive to contamination and superior in current capacity than pure tungsten, used in critical applications.\n\n    Electrode Selection Based on Base Metal:\n\n    * For carbon, low-alloy, stainless, and nickel steels: Thoriated electrodes with DCEN; use EWZr for thin materials.\n    * For aluminum: Zirconium or pure tungsten with AC; thoriated zirconium with DCEP for thin sections.\n    * For copper and copper alloys: Thoriated electrodes with DCEN; use EWZr or EWP with AC for thin sections.\n    * For magnesium: Zirconium with AC; use DCEP with the same electrode for thin sections.\n    * For titanium: Thoriated electrodes with DCEN." : {
+
+    },
     "    Which electrode to use?\n    * E6010/E6011 are good choices if the material is dirty or there are some gaps to fill. On pipe work, E6010 is used for production root pass welding. It works well on galvanized metals because of its ability to penetrate through the galvanized coating.\n    * E7018 is the all around go to electrode for practically every type of job you might encounter. It does not perform well on dirty metal or fit ups that are too wide. The 1/8\" variety is what most people use on structural applications, but the 3/32\" diameter should always be in a welder's posession for all around ease of use.\n    * E7024 is not used that much. It is practical if you have to put down a lot of weld metal on a flat or horizontal joint. It works best in straight polarity.\n\n    Regrettably, even seasoned welders sometimes falter in these theoretical areas. If you, as a reader, find yourself grappling with these concepts, do not yield to the allure of complacency. Embrace curiosity and the pursuit of knowledge. Seek out mentors, engage in discussions, or attend workshops. Ensuring you are well-acquainted with your equipment's ins and outs is not merely a professional asset; it's a safety imperative. In the world of welding, knowledge isn't just power – it's the backbone of precision, safety, and excellence." : {
       "localizations" : {
         "en" : {
@@ -4600,6 +4612,40 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "日期"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tanggalin"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Efase"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Excluir"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除"
           }
         }
       }
@@ -6122,6 +6168,40 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "信息"
+          }
+        }
+      }
+    },
+    "Input here" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Introduzca aquí"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input dito"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antre isit la"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insira aqui"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在此输入"
           }
         }
       }
@@ -8931,6 +9011,40 @@
         }
       }
     },
+    "Volts & Amps" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voltios y amperios"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mga Volt at Amps"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volts & Amps"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volts e Ampères"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "伏特和安培"
+          }
+        }
+      }
+    },
     "Welcome to the Weld Handbook" : {
       "localizations" : {
         "en" : {
@@ -9211,6 +9325,40 @@
         }
       }
     },
+    "Weld Reminders" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recordatorios de soldadura"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mga Paalala sa Weld"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rapèl soude"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lembretes de soldagem"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "焊接提醒"
+          }
+        }
+      }
+    },
     "Weld Symbols" : {
       "localizations" : {
         "en" : {
@@ -9247,6 +9395,40 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "焊接符号"
+          }
+        }
+      }
+    },
+    "Weld Tracker" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rastreador de soldadura"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weld Tracker"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weld Tracker"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rastreador de solda"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "焊接追踪器"
           }
         }
       }

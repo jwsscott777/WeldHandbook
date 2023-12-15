@@ -10,7 +10,7 @@ import SwiftUI
 struct WeldCourse: Identifiable {
     var id = UUID()
     var title: String
-    var description: String
+    var description: LocalizedStringResource
     var image: String
     var color: Color
 }
