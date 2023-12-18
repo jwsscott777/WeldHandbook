@@ -35,7 +35,7 @@ var items = [
             * E7018 - An iron-powder, low-hydrogen, all-position electrode. Excellent for rigid, highly stressed structures of low- to medium-carbon steel. Can also be used for welding mild and high-strength steels, highcarbon
          steels, and alloy steels. Polarity AC or DC + reverse polarity.
 
-            * E7024 - An iron-powder electrode with low hydrogen, usable in all positions. Excellent for high-amperage, large, fillet welds in flat and horizontal positions. Polarity AC or DC − (electrode negative).
+            * E7024 - An iron-powder electrode with low hydrogen, usable in flat and horizontal positions. Excellent for high-amperage, large, fillet welds in flat and horizontal positions. Polarity AC or DC − (electrode negative).
 
          2. Amperage Ranges:
 
