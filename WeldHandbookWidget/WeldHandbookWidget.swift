@@ -20,13 +20,6 @@ struct Provider: TimelineProvider {
     }
 
     func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
-   //     var entries: [SimpleEntry] = []
-
-//        for hourOffset in 0 ..< 5 {
-//            let entryDate = Calendar.current.date(byAdding: .hour, value: hourOffset, to: currentDate)!
-//            let entry = SimpleEntry(date: entryDate)
-//            entries.append(entry)
-//        }
         let currentDate = Date()
         guard let refreshDate = Calendar.current.date(byAdding: .day, value: 1, to: currentDate) else { return  }
         let entry = SimpleEntry(date: currentDate, listModel: lists.randomElement() ?? lists[0])
@@ -50,11 +43,12 @@ struct WeldHandbookWidgetEntryView : View {
         GeometryReader { geometry in
             ZStack {
                 backgroundGradient
+                    .background(.ultraThinMaterial)
                 Image("WeldBook")
                     .resizable()
                     .frame(
-                        width: widgetFamily != .systemSmall ? 56 : 36,
-                        height: widgetFamily != .systemSmall ? 56 : 36
+                        width: widgetFamily != .systemSmall ? 46 : 36,
+                        height: widgetFamily != .systemSmall ? 46 : 36
                     )
                     .clipShape(RoundedRectangle(cornerRadius: 16))
                     .offset(x: (geometry.size.width / 2) - 20, y: (geometry.size.height / -2) + 20)
@@ -76,7 +70,7 @@ struct WeldHandbookWidgetEntryView : View {
                 }// hs
 
                 .offset(y: (geometry.size.height /  2) - 24)
-                HStack() {
+                HStack(spacing: 0) {
                     Image(systemName: entry.listModel.image)
                         .resizable()
                         .scaledToFit()
@@ -88,12 +82,14 @@ struct WeldHandbookWidgetEntryView : View {
                     Text(entry.listModel.title)
                         .foregroundStyle(.white)
                         .fontWeight(.bold)
-                        .font(widgetFamily != .systemSmall ? .title2 : .system(size: 09))
+                        .font(widgetFamily != .systemSmall ? .title3 : .system(size: 09))
                         .multilineTextAlignment(.center)
+
                 } // vs
                 .padding(.bottom)
                 .padding(.top)
             } // zs
+
         } // geo
     }
 }
@@ -106,7 +102,7 @@ struct WeldHandbookWidget: Widget {
             if #available(iOS 17.0, *) {
                 WeldHandbookWidgetEntryView(entry: entry)
                     .containerBackground(for: .widget) {
-                        Color.purple
+                        Color.darkBlue
                     }
             } else {
                 WeldHandbookWidgetEntryView(entry: entry)

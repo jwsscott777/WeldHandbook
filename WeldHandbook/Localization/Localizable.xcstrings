@@ -6370,6 +6370,40 @@
         }
       }
     },
+    "Learn a new word about welding every day!." : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Aprende una nueva palabra sobre soldadura todos los días!."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Matuto ng bagong salita tungkol sa hinang araw-araw!."
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aprann yon nouvo mo sou soude chak jou!."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aprenda uma palavra nova sobre soldagem todos os dias!"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每天学习一个关于焊接的新单词！"
+          }
+        }
+      }
+    },
     "Main Processes" : {
       "localizations" : {
         "en" : {
@@ -9547,6 +9581,74 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "焊接追踪器"
+          }
+        }
+      }
+    },
+    "Weld Word Daily" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palabra de soldadura diaria"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weld Word Daily"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weld Word chak jou"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soldar palavra diariamente"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "焊字日报"
+          }
+        }
+      }
+    },
+    "Welding Handbook" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manual de soldadura"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handbook ng Welding"
+          }
+        },
+        "ht" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manyèl soude"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manual de Soldagem"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "焊接手册"
           }
         }
       }
